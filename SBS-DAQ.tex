@@ -5,12 +5,47 @@
 \begin{document}
 \section{Introduction}
 \subsection{CODA}
+Jefferson Laboratory is using the Cebaf Online Data Acquisition system for data taking.
+CODA is based on a main server interacting with a database in which all the DAQ components update their status . The readout crates host a single board computer running a Read Out Controller (ROC) program which controls and reads out the data from the electronics. The ROCs send the data through a standard network link usually ethernet to a computer running the Event Builder program, which uses the data from the ROC to check synchronization and build the event. Finally the event is sent to the Event Recorder which puts the event into a file on the hard drive of the computer.
+In addition to the software a set of harware components specific to CODA is used in order to keep ensure event synchronization between all the components each crate has a trigger interface ( TI board ) which sends the trigger signal to the ROC program for the read out of the data. All the TI are linked to a trigger supervisor board which takes the triggers and sends them to the TI while monitoring the status of each TI to keep all the crates synchronized.
 \subsection{SuperBigBite}
+The SuperBigBite spectrometer will be use for several experiments in different configuration.
+The Form Factor experiment Gep5
+
+\begin{tabular}{|c|c|c|c|}
+\hline
+Experiment & GEM channels & additional detectors & Trigger rate\\
+Gep5 & &Electromagnetic calorimeter& 3 KHz \\
+GEn& & &Hadron calorimeter\\
+GMn&& Hadron calorimeter\\
+Transversity&&Hadron calorimeter\\
+\hline
+\hline
+
+
+\subsubsection{Detectors}
+
+
 \section{GEM readout}
+The GEM readout is carried out by the APV25 chip. It a pipelined ASICs with 128 channels and pipeline depth of 192 samples sampling at 40 MHz. When a trigger is issued the corresponding cells are frozen until they are readout while the other cells are still being used reducing the dead time.
+For each trigger all the data of 128 channels are transfered at 40 MHz rate in a multiplexed analog format. Adding some header and event informations 141 words are transmitted for each trigger which gives a transfer time of $141x25 ns = 3.6 \mu s $. In case of high background several consecutives time samples can be sent in order to detect pile up, we plan to read 3 samples which gives a transfer time of 10.8 $\mu s$. This allows deadtimeless operation for rates up to 90 KHz. The readout planned to be use the the INFN Multi Purpose Digitizer (MPD), it is a VME board with a 200 MHz FADC and signals to control the APV setup and readout. 
+The card being a standard VME board will 
 
 \section{HCAL trigger and readout}
+The hadron calorimeter
+\section{}
 
 \section{Fastbus setup}
 
-\section{Data acquisition for GeP5 experiment}
+\section{Data acquisition for GEp5 experiment}
+\subsection{Requirements}
+\subsection{Detectors}
+\subsection{Trigger}
+\subsection{Event size and data rates}
+\section{Data acquisition for GEn experiment}
+
+\section{Data acquisition for GMn experiment}
+
+
+\section{Data acquisition for transversity experiment}
 \end{document}
