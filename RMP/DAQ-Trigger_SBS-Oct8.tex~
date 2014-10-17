@@ -1,0 +1,16 @@
+\documentclass {article}
+\title{DAQ and trigger}
+\begin{document}
+\section{GEM readout}
+The SBS Data acquisition is composed of .
+
+This year the SRS system
+
+\section{HCAL trigger}
+The 16 FADCs were ordered
+
+
+\section {BigBite}
+
+
+\end{document}
