@@ -7,20 +7,10 @@
 \subsection{CODA}
 Jefferson Laboratory is using the Cebaf Online Data Acquisition system for data taking.
 CODA is based on a main server interacting with a database in which all the DAQ components update their status . The readout crates host a single board computer running a Read Out Controller (ROC) program which controls and reads out the data from the electronics. The ROCs send the data through a standard network link usually ethernet to a computer running the Event Builder program, which uses the data from the ROC to check synchronization and build the event. Finally the event is sent to the Event Recorder which puts the event into a file on the hard drive of the computer.
-In addition to the software a set of harware components specific to CODA is used in order to keep ensure event synchronization between all the components each crate has a trigger interface ( TI board ) which sends the trigger signal to the ROC program for the read out of the data. All the TI are linked to a trigger supervisor board which takes the triggers and sends them to the TI while monitoring the status of each TI to keep all the crates synchronized.
-\subsection{SuperBigBite}
-The SuperBigBite spectrometer will be use for several experiments in different configuration.
-The Form Factor experiment Gep5
+In addition to the software a set of harware components specific to CODA is used in order to keep ensure event synchronization between all the components each crate has a trigger interface ( TI board ) which sends the trigger signal to the ROC program for the read out of the data. All the TI are linked to a trigger supervisor board which takes the triggers and sends them to the TI while monitoring the status of each TI to keep all the crates synchronized and generates a Level 1 accept and Level 2 accept for the read out modules. The TS also takes as input the front end busy of the modules to inhibit the triggering if one module is not ready insuring synchronization between the modules.
 
-\begin{tabular}{|c|c|c|c|}
-\hline
-Experiment & GEM channels & additional detectors & Trigger rate\\
-Gep5 & &Electromagnetic calorimeter& 3 KHz \\
-GEn& & &Hadron calorimeter\\
-GMn&& Hadron calorimeter\\
-Transversity&&Hadron calorimeter\\
-\hline
-\hline
+\subsection{SuperBigBite}
+The SuperBigBite spectrometer will be use for several experiments in different configuration. The main elements are a large dipole magnet
 
 
 \subsubsection{Detectors}
@@ -35,7 +25,24 @@ The card being a standard VME board will
 The hadron calorimeter
 \section{}
 
+
+
 \section{Fastbus setup}
+
+
+
+The Form Factor experiment Gep5
+
+\begin{tabular}{|c|c|c|c|}
+\hline
+Experiment & GEM channels & additional detectors & Trigger rate\\
+Gep5 & &Electromagnetic calorimeter& 3 KHz \\
+GEn& & &Hadron calorimeter\\
+GMn&& Hadron calorimeter\\
+Transversity&&Hadron calorimeter\\
+\hline
+\hline
+
 
 \section{Data acquisition for GEp5 experiment}
 \subsection{Requirements}
