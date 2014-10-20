@@ -24,15 +24,14 @@ The front-end system includes 122 custom NIM 2x8 amplifier/summers, 60
 Total of 20 NIM crates for the front-end electronics. Total 2050 RG58 500 ns
 cables from the front-end to the DAQ. They would be connected to the 64
 BNC-34 patch panels (32 on the front-end side and the same number on the
-DAQ side). The level one trigger signal is sent to DAQ (ECAL and GEM) via a
-short high speed coaxial cable.
+DAQ side). 
 The DAQ system includes 12 FastBus crates with 4 power supply units, 12 SFI
 modules, 12 CPUs and 12 TI’s, 96 ADCs 1881m and 6 TDCs 1877S.
 
 \subsection{Hadron calorimeter}
 This hadronic calorimeter will be used as proton and neutron trigger.
 It has 24x12 = 288 channels. The readout and trigger will be done using FADCs.
-For the neutron experiment the detector will also give the neutron momentum by measuring the time of flight.
+For the neutron experiment the detector will also give the neutron momentum by measuring the time of flight. In this configuration we plan to split the signal between FADC and discriminator to go to high resolution TDC.
 
 \subsection{Coordinate detector}
 The coordinate detector is an array of 2352 thin planes of scintillators readout by multianode PMTs. They will have a front end electronics based on the NINO chips which will give a discriminated signal for all the channels. The logic signals will be fed to Fastbus TDC 1877S. 
@@ -87,7 +86,7 @@ The GEM readout is carried out by the APV25 chip. It a pipelined ASICs with 128 
 For each trigger all the data of 128 channels are transfered at 40 MHz rate in a multiplexed analog format. Adding some header and event informations 141 words are transmitted for each trigger which gives a transfer time of $141x25 ns = 3.6 \mu s $. In case of high background several consecutives time samples can be sent in order to detect pile up, we plan to read 3 samples which gives a transfer time of 10.8 $\mu s$. This allows deadtimeless operation for rates up to 90 KHz. The readout planned to be use the the INFN Multi Purpose Digitizer (MPD), it is a VME board with a 200 MHz FADC and signals to control the APV setup and readout. 
 
 
-\section{Pipelined electronics}
+\section{Pipelined electronics, HCAL trigger}
 The hadron calorimeter will be read out by the JLAB pipelined electronics.
 The central module for this system is the JLAB FADC250, a 16-channel 12-bit FADC sampling at 250~MHz. The input signals are continuously recorded into the memory with a memory depth up to 8 us. The system is thus dead timeless as long as the trigger is generated before the memory rolls over and the event of interest is overwritten.
 The Flash ADC has two separated data path.
@@ -163,4 +162,14 @@ Transversity&&Hadron calorimeter\\
 
 
 \section{Data acquisition for transversity experiment}
+
+\section{A1n}
+
+\section{Inventory}
+
+\section{Manpower}
+
+\section{Timeline and milestones}
+
+\section{Budget}
 \end{document}
