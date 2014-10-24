@@ -6,7 +6,161 @@
 \author{Alexandre Camsonne}
 
 \begin{document}
-\section{Introduction}
+\section{ Overview of experiments}
+\subsection{Overview of neutron form factor experiments}
+Both neutron form factor experiments measure quasi-free scattering on a nuclear target. The standard Hall~A
+BigBite Spectrometer is used to detect the scattered electrons.  
+Neutrons and protons are detected in
+the hadron calorimeter (HCAL) which is located behind the Super BigBite Spectrometer Magnet. For the
+neutron form factor experiments, the Coordinate Detector (CDET) will be placed in front of the hadron calorimeter.
+In the GEn experiment, the CDET will be used as a charge particle veto. In the GMn experiment,
+the CDET will be used as a proton tagger. The trigger for the experiments will be the standard single arm
+the BigBite spectrometer electron trigger which is discussed in Section~\ref{sec:neutron-trig}.
+
+
+Due to the increase in
+luminosity, in comparison to earlier experiments, the tracking detectors (MWPC) need to be upgraded to
+GEM chambers and the gas Cherenkov detector upgraded to a highly segmented 510 photo-multiplier gas
+Cherenkov detector (known as the GRINCH).   The BigBite detector stack will consist of:
+four GEM chambers (each covering 40x150 cm$^2$), the GRINCH gas cerenkov , one GEM chamber ( 60x200cm$^2$), 
+scintillator paddle array, preshower and shower calorimeter. The scintillator array and preshower/shower
+calorimeter will be unchanged from previous experiments. 
+
+The preshower is 27 columns of two rows of lead glass which is placed perpendicular to the shower blocks.
+The shower calorimeter consist of 27 rows and 7 columns of lead glass blocks. The 243 channels of
+preshower and shower are readout in FASTBUS 1881M 64 channel ADC modules. The standard Bigbite 
+scintillator array consists of one plane of scintillator paddles and can be used for the experiments. 
+For the planned Hall~A $A_{1N}$ experiment, a 90  paddle scintillator array with
+PMTs on both ends and is being built the University of Glasgow. It is probably that it will
+be ready for the SBS neutron form factor experiments, but it is not necessary for the experiments.
+
+The 550 PMTs of the GRINCH gas Cherenkov detector will be input into 16 channel ampliflier/discriminator
+cards based which use the NINO chip. The University of Glasgow has developed the cards and the cards have 
+been bought. The logical output from the cards will be readout in FASTBUS 1877S 96 channel TDC modules.
+
+The front 4 GEM chambers are being built by INFN groups and are part of the total of six that
+will be used as the front tracker for the proton form factor (GEp) experiment. Each chamber consists
+of 3 GEM modules. Each GEM module covers an area of 40x50 cm$^2$. The readout plane is pitched at 400~$\mu$m
+and is readout using 128 channel APV25 chips. Each module is readout by a total of 18 APV25 chips ( 8 along
+the 40~cm and 10 along the 50~cm). So a GEM front chamber has 6912 channels which gives a total of 27648 channels
+for the 4 GEM chambers. The APV25 chips will be readout by a VME64x/VXS Multi-Purpose Digitizer (MPD) that was
+develop by an INFN group. It has been used in previous experiments. Details are given in Section.
+
+The rear GEM chamber is being built by the University of Virginia and is part of the toal of 10 GEM chambers
+that will be used as the rear tracker for the GEp experiment. Each chamber consist of 4 GEM modules.
+ Each GEM module covers an area of 60x50 cm$^2$ and are combined into a chamber with an area
+of 60x200 cm$^2$. The readout plane is pitched at 400~$\mu$m and two strips are combined to reduce
+the number of readout channels. Readout is done using 128 channel APV25 chips. Each module is readout 
+by a total of  12 APV25 chips (  6 along the 60~cm and 6 along the 50~cm). So a GEM rear chamber has  
+6244 channels which gives a total of 61,440 channels for the 10 GEM chambers. The readout of the GEM
+rear chamber APV25 chips will use the same electonics as the front GEM chambers.  
+ 
+The hadron calorimeter, HCAL, is a 12x24 block array which will be readout by JLab FADC250, a 16-channel 12-bit Flash 
+ADC sampling at 250 MHz. For the neutron form factor experiments, the HCAL is not part of the trigger. For the
+neutron form factor experiments, timing resolution is important at the 500ps level and the JLab FADC250 have 
+demonstrate sub 300ps timing resolution. The FADC250 is a readout through the VXS pipelined electronics
+which is explained in Section~\ref{}.
+
+The Coordinate Detector is  two planes of scintillator. Each plane consist of 1176 scintillator bars. 
+Each scintillator bar is readout by a wavelength shifting fiber. Fourteen of the WLS  will be coupled to
+a 16 channel multianode PMT. Each analog output of the PMT will be input to a 16 channel amplifier/discriminator
+card base on the NINO chip. The logic signals from the NINO chip will go to FASTBUS 1877s 96 channel TDC modules.
+Since the CDET is using only 14/16 channels , space is need for 2688 TDC channels ( 16/14*2352).
+ 
+
+
+\subsection{Overview of proton form factor experiments}
+The proton form factor, GEp, experiment measures elastic electron-proton scattering. For electron
+detection, a large lead glass calorimeter, ECAL,  will be used with the Coordinate Detector, CDET, placed in front
+of ECAL. The CDET is the same as used in the neutron form factor experiments except
+that it will be arranged with one scintillator plane behind the other. The CDET is primarily used
+to make a high precision measurement of the electron out-of-plane angle. The proton will be
+detected in the SBS spectrometer which consist of front tracker INFN GEMs, a polarimeter and the HCAL.
+The front tracker will consist of 6 INFN GEM chambers ( each GEM INFN chamber is 3 GEM modules of 40x50cm$^2$).
+The polarimeter consists of two groups of 5 University of Virginia GEM chambers (each UVa GEM chamber
+is 4 GEM modules of 60x50cm$^2$). The trigger will be a coincidence between the ECAL and HCAL.
+
+ECAL is a large array of 1920 lead glass bars. In a previous proton form factor experiment, 1784 lead bars
+were used in a calorimeter. The electronics and cabling from that experiment will be re-used. The 1920
+lead glass bars will be readout out by  FASTBUS 1881M 64 channel ADC modules. The electron arm
+singles rate is expect to be around 200~KHz. The electron arm trigger is discussed in Section. To reduce
+the DAQ deadtime, the 
+
+\subsection{Detector configuration summary}
+\begin{tabular}{|c|c|c|c|}
+\hline
+GEp Detectors & Channels& Readout & Type \\
+\hline
+\underline{SBS Proton arm} & & & \\
+Front tracker (6 GEM chambers) & 41,472 & APV25 MPD& VME\\
+Rear tracker (10 GEM chambers) & 61,440& APV25 MPD& VME\\
+HCAL & 288 & FADC 250 &VME\\
+\hline
+\underline{Electron arm} & & & \\
+ECAL & 1920 & ADCs 1881M &Fastbus\\
+ECAL sums& 248 & TDCs 1877S &Fastbus\\
+CDET & 2688 & TDCs 1877S &Fastbus \\
+\hline
+\hline
+GEn/GMn Detectors & Channels& Readout & Type \\
+\hline
+\underline{SBS Proton arm} & & & \\
+HCAL & 288 & FADC 250 &VME\\
+CDet & 2688 & ADCs 1877S&Fastbus\\
+\hline
+\underline{BigBite Electron arm} & & & \\
+PreShower/Shower & 243 & ADCs 1881M&Fastbus\\
+Scintillator & 180& ADCs 1877S&Fastbus\\
+Gas Cerenkov & 550& ADCs 1877S&Fastbus\\
+Front Tracker (4 GEM chambers) & 27648 & APV25 MPD &VME\\
+Rear Tracker (1 GEM chamber) & 6144& APV25 MPD &VME\\
+\hline
+\end{tabular}
+
+\section{Trigger}
+\subsection{Neutron form factor experiments}
+\label{sec:neutron-trig}
+The shower calorimeter consist of an 7x27 array of  lead glass blocks. A preshower layer of 2x27 is placed in front of the shower
+An analog sum of 7 blocks is made. This sums are further added using 4 channels linear fan module.
+A preshower layer 2x27 is placed in front of the shower but is usually used off line for pion electron identification. 
+This make a total of 189 + 54 = 243 lead glass blocks to be readout.
+The readout of the detector will be done using fastbus using ADCs 1881M.
+ The trigger for the neutron form factor experiments will use the 
+standard electron trigger using the preshower and shower calorimeter which was developed for previous experiments. 
+For the quasi-free kinematics of the experiments, the trigger provides sufficient pion rejection to keep the
+trigger rate below 5 KHz. There is a side project to include the gas cerenkov in the trigger, but this
+is not necessary for the experiments and the main focus is for the A$_{1N}$ experiment .
+
+\subsection{Proton form factor experiments}
+
+We assume a L1 trigger rate of 200 KHz. 
+
+There are 248 groups
+of eight when I assume that all blocks are 4x4cm. In reality a mixture
+of block size with frontal areas of 3.8x3.8, 4.0x4.0 and 4.2x4.2 will be
+used. In the left figure, the groups of 32 blocks are indicated connecting
+group of 8 blocks by different colored squares. The group of 32 blocks overlap
+by two groups of 8 in both horizontal and vertical directions. So most of the
+groups of 8 have to go to 4 groups of 32. At the edges the groups of 8 feed into
+two groups of 32. There are 228  groups of 32 are sums of 4 groups of 8 using
+a 4 input channel linear FI/FO. The 228 groups of 32 would have to
+go into discriminators.
+
+The L1 will be used to trigger the  electronics.
+
+\begin{figure}
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=\textwidth]{figs/cfpa.pdf}\\
+  \caption{ECAL analog trigger }\label{fig:ECALTrig}
+\end{figure}
+
+In parallel the Hadron calorimeter is readout and a proton single trigger will be generated.
+The rates expected in the calorimeter
+
+\newpage
+
+\section{DAQ Details}
 \subsection{CODA}
 \subsubsection{Introduction}
 Jefferson Laboratory is using the Cebaf Online Data Acquisition system for data taking.
@@ -61,7 +215,7 @@ A sum over 1 central block and 6 surrounding blocks can be implemented in the sa
 \begin{figure}
   \centering
   % Requires \usepackage{graphicx}
- \includegraphics[width=\textwidth]{figs/HCALSum.pdf}
+ %\includegraphics[width=\textwidth]{figs/HCALSum.pdf}
   \caption{All sum of 4x4 are computed, if one is above threshold L2 is generated }
 \end{figure}
 
@@ -88,160 +242,21 @@ The Struck Fastbus Interface is a Fastbus Master is controlled by a standard VME
 
 
 
-\section{Detectors}
-\subsection{SuperBigBite}
-The SuperBigBite spectrometer will be use for several experiments in different configuration. The main elements are a large dipole magnet associated with large GEM trackers to provide the postion of the particles allowing to determine their momentum.
-In addtion to the SuperBigBite spectrometer several additionnal detectors will be used.
-\subsection{Electron electromagnetic}
-The Electromagnetic Calorimeter will have 1920 lead glass blocks arranged in a matrix 60x32 ?. The electromagnetic calorimeter trigger is done by analog summing. 
-The front-end system includes 122 custom NIM 2x8 amplifier/summers, 60
-4x4 NIM summers, 8 16 chan. NIM discriminators, 9 16 chan. NIM logical OR.
-Total of 20 NIM crates for the front-end electronics. Total 2050 RG58 500 ns
-cables from the front-end to the DAQ. They would be connected to the 64
-BNC-34 patch panels (32 on the front-end side and the same number on the
-DAQ side). 
-All
-The DAQ system includes 12 FastBus crates with 4 power supply units, 12 SFI
-modules, 12 CPUs and 12 TI’s, 96 ADCs 1881m and 6 TDCs 1877S.
-\subsection{Hadron calorimeter}
-This hadronic calorimeter will be used as proton and neutron trigger.
-It has 24x12 = 288 channels. The readout and trigger will be done using FADCs.
-For the neutron experiment the detector will also give the neutron momentum by measuring the time of flight. In this configuration we plan to split the signal between FADC and discriminator to go to high resolution TDC.
-\subsection{Coordinate detector}
-The coordinate detector is an array of 2352 thin planes of scintillators readout by multianode PMTs. They will have a front end electronics based on the NINO chips which will give a discriminated signal for all the channels. The logic signals will be fed to Fastbus TDC 1877S. 
-\subsection{Big Bite Spectrometer}
-The Big Bite spectrometer is part of standard Hall A equipment it is a smaller dipole with a detector stack. 
-For the SBS experiment the electron detector stacj will be used.
-\subsubsection{Electromagnetic calorimeter}
-The main electron trigger is the shower detector. The shower is 7x27 lead glass blocks. An analog sum of 7 blocks is made. This sums are further added using 4 channels linear fan module.
-A preshower layer 2x27 is placed in front of the shower but is usually used off line for pion electron identification. This make a total of 189 + 54 = 243 lead glass blocks to be readout.
-The readout of the detector will be done using fastbus using ADCs 1881M.
-\subsubsection{Scintillator array}
-For timing measurement a 90 paddles scintillator array is being build by the Glasgow group, they will be readout by both sides giving 180 channels to be readout. The paddles will be readout using a front end with the NINO chip and send to Fastbus TDC 1877S..
-\subsubsection{Gas Cerenkov detector GRINCH}
-For the BigBite detector a new highly segment Gas Cerenkov is being built by William and Mary and A\&T University. It will have 550 PMTs channels readout using the NINO front end.
-\subsubsection{GEM trackers}
-The front trackers of the GeP5 will be fitted to Big Bite to be used as main tracking device improving the rate capablility. It will use the same APV25 with INFN MPD VME readout.
-\subsubsection{BigBite electron trigger}
-The BigBite electron trigger is based on analog summing usimg sum of 7 blocks
+
+
 \newpage
 \begin{figure}
 \includegraphics[scale=0.9,angle=270]{figs/Sh-PS_logic_v2A.pdf}\\
 \caption {BigBite electron shower analog sum trigger \label{BBEtrig}}
 \end{figure}
 \newpage
-\subsection{HERMES RICH detector}
-The INFN HERMES RICH detector was loaned to University of Connecticut for
-the transversity experiment. It is a dual radiator RICH
-readout with an array of 1934 PMTs. The readout will be done with the NINO chips and 1877S TDCs. 
-
-\subsection{Detector configuration summary}
-%\begin{tabular}{|c|c|c|c|c|c|c|}
-%\hline
-%Experiment&Trigger & Detectors & Subdetectors & Channels& Readout & Type \\
-%&rate&&&&&\\
-%\hline
-%GEp5& 3 KHz  & SBS & Front tracker & 60,000 & APV25 MPD& VME\\ 
-% && & Back tracker & 64,000& APV25 MPD& VME\\
-% && & HCAL & 288 & FADC 250 &VME\\
-% & & Electron arm& ECAL & 1920 & ADCs 1881M&Fastbus\\ 
-% &&              & CDET & 2352 & ADCs 1877S &Fastbus \\ 
-%\hline
-%GEn& 5KHz & SBS & HCAL & 288 & FADC 250 &VME\\ 
-% &    &   & CDet & 2352 & ADCs 1877S&Fastbus\\ 
-% && BigBite& Shower & 243 & ADCs 1881M&Fastbus\\ 
-% && & Scintillator & 180& ADCs 1877S&Fastbus\\ 
-% && & Gas Cerenkov & 550& ADCs 1877S&Fastbus\\ 
-% && & Front Tracker & 60,000& APV25 MPD &VME\\ 
-%\hline
-%GMn& 5KHz & SBS & HCAL & 288 & FADC 250 &VME\\ 
-%   &  &   & CDet & 2352 & ADCs 1877&Fastbus\\ 
-% && BigBite& Shower & 243 & ADCs 1881M&Fastbus\\ 
-% && & Scintillator & 180 & ADCs 1877S&Fastbus\\ 
-% &&& Gas Cerenkov & 550 & ADCs 1877S&Fastbus\\ 
-% &&& Front tracker & 60,000 &APV25 MPD& VME\\ 
-%\hline
-%Transversity &5KHz& SBS & Back tracker &64,000&APV25 MPD& VME\\
-% &&  & RICH & 1934 & ADCs 1877S&Fastbus\\
-% &&  & HCAL & 288 & FADC 250 &VME\\ 
-% && Big Bite & GRINCH&550 &  ADCs 1877S&Fastbus\\
-% &&  & Front tracker & 60,000& APV25 MPD &VME\\
-%\hline
-%\end{tabular}
-
-%% New table from Mark
-\subsection{Detector configuration summary}
-\begin{tabular}{|c|c|c|c|}
-\hline
-GEp Detectors & Channels& Readout & Type \\
-\hline
-\underline{SBS Proton arm} & & & \\
-Front tracker (6 GEM chambers) & 60,000 & APV25 MPD& VME\\
-Rear tracker (10 GEM chambers) & 64,000& APV25 MPD& VME\\
-HCAL & 288 & FADC 250 &VME\\
-\hline
-\underline{Electron arm} & & & \\
-ECAL & 1920 & ADCs 1881M&Fastbus\\
-CDET & 2352 & ADCs 1877S &Fastbus \\
-\hline
-\hline
-GEn/GMn Detectors & Channels& Readout & Type \\
-\hline
-\underline{SBS Proton arm} & & & \\
-HCAL & 288 & FADC 250 &VME\\
-CDet & 2352 & ADCs 1877S&Fastbus\\
-\hline
-\underline{BigBite Electron arm} & & & \\
-PreShower/Shower & 243 & ADCs 1881M&Fastbus\\
-Scintillator & 180& ADCs 1877S&Fastbus\\
-Gas Cerenkov & 550& ADCs 1877S&Fastbus\\
-Front Tracker (4 GEM chambers) & 40000& APV25 MPD &VME\\
-Rear Tracker (1 GEM chamber) & 40000& APV25 MPD &VME\\
-\hline
-\end{tabular}
 
 
 
 
-\section{Data acquisition for GEp5 experiment}
-\subsection{Requirements}
-The main trigger is the electron trigger generated by the calorimeter.
-Depending on the threshold we 
-\begin{tabular}{|c|c|}
-Threshold & Rates\\
-\end{tabular}
-
-
-\subsection{Detectors}
 
 
 
-\subsection{Trigger}
-
-We assume a L1 trigger rate of 200 KHz. 
-
-There are 248 groups
-of eight when I assume that all blocks are 4x4cm. In reality a mixture
-of block size with frontal areas of 3.8x3.8, 4.0x4.0 and 4.2x4.2 will be
-used. In the left figure, the groups of 32 blocks are indicated connecting
-group of 8 blocks by different colored squares. The group of 32 blocks overlap
-by two groups of 8 in both horizontal and vertical directions. So most of the
-groups of 8 have to go to 4 groups of 32. At the edges the groups of 8 feed into
-two groups of 32. There are 228  groups of 32 are sums of 4 groups of 8 using
-a 4 input channel linear FI/FO. The 228 groups of 32 would have to
-go into discriminators.
-
-The L1 will be used to trigger the  electronics.
-
-\begin{figure}
-  \centering
-  % Requires \usepackage{graphicx}
-  \includegraphics[width=\textwidth]{figs/cfpa.pdf}\\
-  \caption{ECAL analog trigger }\label{fig:ECALTrig}
-\end{figure}
-
-In parallel the Hadron calorimeter is readout and a proton single trigger will be generated.
-The rates expected in the calorimeter
 
 
 \subsection{Readout}
@@ -292,82 +307,6 @@ The configuration is similar to the GEn experiment except for calibration run us
 
 \subsection{Event size and data rates}
 
-\section{Data acquisition for transversity experiment}
-\subsection{Requirements}
-This experiment
-Beam current of 40 μA
-3He target 50 cm long with 11.5 atm pressure, 65\% 3He transverse polarization with
-86\% effective neutron polarization
-
-At the proposed luminosity, the upper limit for the hit rate in the Super BigBite tracker
-was estimated as 60 kHz/cm2. This is three times higher than the 20 kHz/cm2 obtained
-from the MC simulation using code developed for the GEP5 experiment with just the 3He
-target cell. We used the factor of 3 to allow for differences with the optimized GEP5 setup
-and possible problems in the optimization of the more complicated polarized target setup.
-The rate of 60 kHz/cm2 presents no problem for the GEM operation. The expected hit rate
-will be about 100 MHz through the whole area of the tracker.
-The resulting
-rate per PMT will be about 700 kHz. With a 50 ns window time interval relative to the
-hadron calorimeter time signal, this rate leads to less than a 5% occupancy in the RICH,
-which is a good operational condition. The dead time of the electronics at this rate could
-lead to a loss of some of the hits in PMT. It was estimated to be of 7%.
-The calorimeter counting rate vs the threshold energy is presented in Fig. 3.8 obtained
-from the ”Wiser” code [19]. The counting rate for the threshold of 2 GeV is about 3 MHz,
-which means the probability of a second hit in 50 ns time window relative to the electron
-time signal will be 15%. The corresponding false tracks will be rejected after a check of the
-correlation of its vertex at the target with the electron arm track vertex at the target.
-
-
-At projected luminosity, the expected hit rate in the BigBite tracker will be less than
-30 kHz/cm2. This estimate was obtained by using the observed experimental rate of MWDCs
-and a MC prediction for the photon flux at higher beam energy. Such a rate is comfortable
-for the GEM tracker which could operate at rate up to 50 MHz/cm2.
-The operation of the shower detector is also well understood from our previous experiment
-with the BigBite spectrometer. The counting rate of the calorimeter expected in the proposed
-experiment is shown in Fig. 3.10. The threshold level of 1 GeV, which is required in this
-experiment for lowest x bin, will result in 200 kHz counting rate. The recently constructed
-Gas Cherenkov counter will be used for suppression events with non-electron induced trigger
-rate . Expected rate of the whole Cherenkov counter due to high energy electrons is of 5 kHz.
-The background counting rate of the Gas Cherenkov counter will be suppressed by using a
-threshold of 5-6 photo-electrons. Because average number of photo-electrons for good events
-expected to be about 18 the efficiency of the counter will be above 98% even for the proposed
-high threshold.
-
-
-\subsection{Detectors}
-
-
-\subsection{Trigger}
-The trigger of the hadron arm will use the signal from the hadron calorimeter with 1.5 GeV
-threshold to insure efficient registration of the hadron with momentum above 2 GeV. The
-corresponding trigger rate is about 3 MHz, mainly due to hits by the high energy pions.
-We will use the trigger of the electron arm, which rate is about 5 kHz, as a DAQ trigger
-without on-line coincidence with the hadron arm. If the actual rate of the electron arm
-presents problem for DAQ, an additional reduction factor of 6 is possible by requiring a
-50 ns coincidence time between the trigger signals of two arms.
-
-
-\subsection{Readout}
-
-\subsection{Event size and data rates}
-\section{A1n}
-This experiment is not a SBS experiment but will be the first experiment using BigBite in the
-same configuration as for the SBS experiment.
-
-\subsection{Requirements}
-\subsection{Detectors}
-\subsection{Trigger}
-
-\subsection{Readout}
-
-\subsection{Event size and data rates}
-\section{Inventory}
-
-\section{Manpower}
-
-\section{Timeline and milestones}
-
-\section{Budget}
 \begin{thebibliography}{9}
 \bibitem{GEnProp} PR
 \bibitem{GEpProp} PR
