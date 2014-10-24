@@ -11,11 +11,11 @@
 Both neutron form factor experiments measure quasi-free scattering on a nuclear target. The standard Hall~A
 BigBite Spectrometer is used to detect the scattered electrons.  
 Neutrons and protons are detected in
-the hadron calorimeter (HCAL) which is located behind the Super BigBite Spectrometer Magnet. For the
-neutron form factor experiments, the Coordinate Detector (CDET) will be placed in front of the hadron calorimeter.
+the hadron calorimeter (HCAL) which is located behind the Super BigBite Spectrometer Magnet. 
+The Coordinate Detector (CDET) will be placed in front of the hadron calorimeter.
 In the GEn experiment, the CDET will be used as a charge particle veto. In the GMn experiment,
-the CDET will be used as a proton tagger. The trigger for the experiments will be the standard single arm
-the BigBite spectrometer electron trigger which is discussed in Section~\ref{sec:neutron-trig}.
+the CDET will be used as a proton tagger. The trigger for the experiments will be the BigBite spectrometer 
+signel arm electron trigger which is discussed in Section~\ref{sec:neutron-trig}.
 
 
 Due to the increase in
@@ -31,14 +31,14 @@ The shower calorimeter consist of 27 rows and 7 columns of lead glass blocks. Th
 preshower and shower are readout in FASTBUS 1881M 64 channel ADC modules. The standard Bigbite 
 scintillator array consists of one plane of scintillator paddles and can be used for the experiments. 
 For the planned Hall~A $A_{1N}$ experiment, a 90  paddle scintillator array with
-PMTs on both ends and is being built the University of Glasgow. It is probably that it will
+PMTs on both ends is being built the University of Glasgow. It is probable that it will
 be ready for the SBS neutron form factor experiments, but it is not necessary for the experiments.
 
 The 550 PMTs of the GRINCH gas Cherenkov detector will be input into 16 channel ampliflier/discriminator
 cards based which use the NINO chip. The University of Glasgow has developed the cards and the cards have 
 been bought. The logical output from the cards will be readout in FASTBUS 1877S 96 channel TDC modules.
 
-The front 4 GEM chambers are being built by INFN groups and are part of the total of six that
+The front 4 GEM chambers are being built by INFN group and are part of the total of six that
 will be used as the front tracker for the proton form factor (GEp) experiment. Each chamber consists
 of 3 GEM modules. Each GEM module covers an area of 40x50 cm$^2$. The readout plane is pitched at 400~$\mu$m
 and is readout using 128 channel APV25 chips. Each module is readout by a total of 18 APV25 chips ( 8 along
@@ -52,14 +52,15 @@ that will be used as the rear tracker for the GEp experiment. Each chamber consi
 of 60x200 cm$^2$. The readout plane is pitched at 400~$\mu$m and two strips are combined to reduce
 the number of readout channels. Readout is done using 128 channel APV25 chips. Each module is readout 
 by a total of  12 APV25 chips (  6 along the 60~cm and 6 along the 50~cm). So a GEM rear chamber has  
-6244 channels which gives a total of 61,440 channels for the 10 GEM chambers. The readout of the GEM
+6144 channels which gives a total of 61,440 channels for the 10 GEM chambers. The readout of the GEM
 rear chamber APV25 chips will use the same electonics as the front GEM chambers.  
  
 The hadron calorimeter, HCAL, is a 12x24 block array which will be readout by JLab FADC250, a 16-channel 12-bit Flash 
 ADC sampling at 250 MHz. For the neutron form factor experiments, the HCAL is not part of the trigger. For the
 neutron form factor experiments, timing resolution is important at the 500ps level and the JLab FADC250 have 
 demonstrate sub 300ps timing resolution. The FADC250 is a readout through the VXS pipelined electronics
-which is explained in Section~\ref{}.
+which is explained in Section~\ref{sec:hcal-vxs}.
+
 
 The Coordinate Detector is  two planes of scintillator. Each plane consist of 1176 scintillator bars. 
 Each scintillator bar is readout by a wavelength shifting fiber. Fourteen of the WLS  will be coupled to
@@ -80,9 +81,16 @@ The front tracker will consist of 6 INFN GEM chambers ( each GEM INFN chamber is
 The polarimeter consists of two groups of 5 University of Virginia GEM chambers (each UVa GEM chamber
 is 4 GEM modules of 60x50cm$^2$). The trigger will be a coincidence between the ECAL and HCAL.
 
-ECAL is a large array of 1920 lead glass bars. In a previous proton form factor experiment, 1784 lead bars
+ECAL is a large array of 1920 lead glass bars. In a previous proton form factor, GEp3,  experiment, 1784 lead bars
 were used in a calorimeter. The electronics and cabling from that experiment will be re-used. The 1920
-lead glass bars will be readout out by  FASTBUS 1881M 64 channel ADC modules. The electron arm
+lead glass bars will be readout out by  FASTBUS 1881M 64 channel ADC modules. As done in the GEp3 experiment,
+the analog signals from 8 blocks will be summed together in groups of 2x4 using custom built ``summing'' modules.
+The ``summing'' modules have two sets of eight inputs. Each set of eight inputs is summed together
+and six summed analog outputs for each group of eight. In addition the ``summing'' module produce the 16 individual
+analogs signal with a amplification of 4.2 that can be sent to an ADC.
+
+ 
+The electron arm
 singles rate is expect to be around 200~KHz. The electron arm trigger is discussed in Section. To reduce
 the DAQ deadtime, the 
 
@@ -106,7 +114,7 @@ GEn/GMn Detectors & Channels& Readout & Type \\
 \hline
 \underline{SBS Proton arm} & & & \\
 HCAL & 288 & FADC 250 &VME\\
-CDet & 2688 & ADCs 1877S&Fastbus\\
+CDet & 2688 & TDCs 1877S&Fastbus\\
 \hline
 \underline{BigBite Electron arm} & & & \\
 PreShower/Shower & 243 & ADCs 1881M&Fastbus\\
@@ -132,9 +140,12 @@ trigger rate below 5 KHz. There is a side project to include the gas cerenkov in
 is not necessary for the experiments and the main focus is for the A$_{1N}$ experiment .
 
 \subsection{Proton form factor experiments}
+The trigger is a coincidence between the electron calorimeter, ECAL,  and the hadron calorimeter, HCAL.
+Both ECAL and HCAL each form a trigger separately. Then a coincidence between the two is made which
+takes into account the elastic angular correlation to reduce backgrounds.
 
-We assume a L1 trigger rate of 200 KHz. 
-
+\subsubsection{ECAL trigger}
+\label{sec:ecal-trig}
 There are 248 groups
 of eight when I assume that all blocks are 4x4cm. In reality a mixture
 of block size with frontal areas of 3.8x3.8, 4.0x4.0 and 4.2x4.2 will be
@@ -154,6 +165,9 @@ The L1 will be used to trigger the  electronics.
   \includegraphics[width=\textwidth]{figs/cfpa.pdf}\\
   \caption{ECAL analog trigger }\label{fig:ECALTrig}
 \end{figure}
+
+\subsubsection{HCAL trigger}
+\label{sec:hcal-trig}
 
 In parallel the Hadron calorimeter is readout and a proton single trigger will be generated.
 The rates expected in the calorimeter
@@ -178,6 +192,7 @@ For each trigger all the data of 128 channels are transfered at 40 MHz rate in a
 
 
 \section{Pipelined electronics, HCAL trigger}
+\label{sec:hcal-vxs}
 The hadron calorimeter will be read out by the JLAB pipelined electronics.
 The central module for this system is the JLAB FADC250, a 16-channel 12-bit FADC sampling at 250~MHz. The input signals are continuously recorded into the memory with a memory depth up to 8 us. The system is thus dead timeless as long as the trigger is generated before the memory rolls over and the event of interest is overwritten.
 The Flash ADC has two separated data path.
