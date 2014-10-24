@@ -14,6 +14,7 @@ CODA is based on a main server interacting with a database in which all the DAQ 
 \subsubsection{CODA Hardware}
 In addition to the software a set of harware components specific to CODA is used in order to keep ensure event synchronization between all the components each crate has a trigger interface ( TI board ) which sends the trigger signal to the ROC program for the read out of the data. All the TI are linked to a trigger supervisor board which takes the triggers and sends them to the TI while monitoring the status of each TI to keep all the crates synchronized and generates a Level 1 accept and Level 2 accept for the read out modules. The TS also takes as input the front end busy of the modules to inhibit the triggering if one module is not ready insuring synchronization between the modules.
 This allows the TS module to buffering if the front-end has the capability. The triggers and read out are then decorrelated which improve the deadtime since a module can take triggers while being readout asynchronously. The TS has a setting of the maximum of events which can be in the buffer it is set to the smallest buffer available on the electronics ( usually 5 for fastbus ). Since in this mode modules can potentially get out of synchronization, a synchronization event is set so that when a certain number of triggers is processed, the TS will disable the triggers to empty the FIFO. If there any remaining events in the FIFO a warning issue would be issued and the FIFOs would be cleared resynchronizing the modules.
+\includegraphics[scale=0.55]{figs/TS.pdf}\\
   
 
 \section{Electronics}
@@ -55,6 +56,13 @@ A sum over 1 central block and 6 surrounding blocks can be implemented in the sa
   % Requires \usepackage{graphicx}
  \includegraphics[width=\textwidth]{figs/CaloTrigger.pdf}
   \caption{Calorimeter clustering scheme using the HPS algorithm. All calorimeter signals are sent to the FADC. }\label{fig:ClustHPS}
+\end{figure}
+
+\begin{figure}
+  \centering
+  % Requires \usepackage{graphicx}
+ \includegraphics[width=\textwidth]{figs/HCALSum.pdf}
+  \caption{All sum of 4x4 are computed, if one is above threshold L2 is generated }
 \end{figure}
 
 \begin{figure}
@@ -124,40 +132,71 @@ The BigBite electron trigger is based on analog summing usimg sum of 7 blocks
 \newpage
 \subsection{HERMES RICH detector}
 The INFN HERMES RICH detector was loaned to University of Connecticut for
-the transversity experiment. It is a dual radiator RICH ( aerogel and CF4O )
-readout with an array of PMTs. 
+the transversity experiment. It is a dual radiator RICH
+readout with an array of 1934 PMTs. The readout will be done with the NINO chips and 1877S TDCs. 
 
 \subsection{Detector configuration summary}
-\begin{tabular}{|c|c|c|c|c|c|c|}
+%\begin{tabular}{|c|c|c|c|c|c|c|}
+%\hline
+%Experiment&Trigger & Detectors & Subdetectors & Channels& Readout & Type \\
+%&rate&&&&&\\
+%\hline
+%GEp5& 3 KHz  & SBS & Front tracker & 60,000 & APV25 MPD& VME\\ 
+% && & Back tracker & 64,000& APV25 MPD& VME\\
+% && & HCAL & 288 & FADC 250 &VME\\
+% & & Electron arm& ECAL & 1920 & ADCs 1881M&Fastbus\\ 
+% &&              & CDET & 2352 & ADCs 1877S &Fastbus \\ 
+%\hline
+%GEn& 5KHz & SBS & HCAL & 288 & FADC 250 &VME\\ 
+% &    &   & CDet & 2352 & ADCs 1877S&Fastbus\\ 
+% && BigBite& Shower & 243 & ADCs 1881M&Fastbus\\ 
+% && & Scintillator & 180& ADCs 1877S&Fastbus\\ 
+% && & Gas Cerenkov & 550& ADCs 1877S&Fastbus\\ 
+% && & Front Tracker & 60,000& APV25 MPD &VME\\ 
+%\hline
+%GMn& 5KHz & SBS & HCAL & 288 & FADC 250 &VME\\ 
+%   &  &   & CDet & 2352 & ADCs 1877&Fastbus\\ 
+% && BigBite& Shower & 243 & ADCs 1881M&Fastbus\\ 
+% && & Scintillator & 180 & ADCs 1877S&Fastbus\\ 
+% &&& Gas Cerenkov & 550 & ADCs 1877S&Fastbus\\ 
+% &&& Front tracker & 60,000 &APV25 MPD& VME\\ 
+%\hline
+%Transversity &5KHz& SBS & Back tracker &64,000&APV25 MPD& VME\\
+% &&  & RICH & 1934 & ADCs 1877S&Fastbus\\
+% &&  & HCAL & 288 & FADC 250 &VME\\ 
+% && Big Bite & GRINCH&550 &  ADCs 1877S&Fastbus\\
+% &&  & Front tracker & 60,000& APV25 MPD &VME\\
+%\hline
+%\end{tabular}
+
+%% New table from Mark
+\subsection{Detector configuration summary}
+\begin{tabular}{|c|c|c|c|}
 \hline
-Experiment&Trigger & Detectors & Subdetectors & Channels& Readout & Type \\
-&rate&&&&&\\
+GEp Detectors & Channels& Readout & Type \\
 \hline
-GEp5& 3 KHz  & SBS & Front tracker & 60,000 & APV25 MPD& VME\\ 
- && & Back tracker & 64,000& APV25 MPD& VME\\
- && & HCAL & 288 & FADC 250 &VME\\
- & & Electron arm& ECAL & 1920 & ADCs 1881M&Fastbus\\ 
- &&              & CDET & 2352 & ADCs 1877S &Fastbus \\ 
+\underline{SBS Proton arm} & & & \\
+Front tracker (6 GEM chambers) & 60,000 & APV25 MPD& VME\\
+Rear tracker (10 GEM chambers) & 64,000& APV25 MPD& VME\\
+HCAL & 288 & FADC 250 &VME\\
 \hline
-GEn& 5KHz & SBS & HCAL & 288 & FADC 250 &VME\\ 
- &    &   & CDet & 2352 & ADCs 1877S&Fastbus\\ 
- && BigBite& Shower & 243 & ADCs 1881M&Fastbus\\ 
- && & Scintillator & 180& ADCs 1877S&Fastbus\\ 
- && & Gas Cerenkov & 550& ADCs 1877S&Fastbus\\ 
- && & Front Tracker & 60000& APV25 MPD &VME\\ 
+\underline{Electron arm} & & & \\
+ECAL & 1920 & ADCs 1881M&Fastbus\\
+CDET & 2352 & ADCs 1877S &Fastbus \\
 \hline
-GMn& 5KHz & SBS & HCAL & 288 & FADC 250 &VME\\ 
-   &  &   & CDet & 2352 & ADCs 1877&Fastbus\\ 
- && BigBite& Shower & 243 & ADCs 1881M&Fastbus\\ 
- && & Scintillator & 180 & ADCs 1877S&Fastbus\\ 
- &&& Gas Cerenkov & 550 & ADCs 1877S&Fastbus\\ 
- &&& Front tracker & 60,000 &APV25 MPD& VME\\ 
 \hline
-Transversity &5KHz& SBS & Back tracker &64,000&APV25 MPD& VME\\
- &&  & RICH & & ADCs 1877S&Fastbus\\
- &&  & HCAL & 288 & FADC 250 &VME\\ 
- && Big Bite & GRINCH&550 &  ADCs 1877S&Fastbus\\
- &&  & Front tracker & 60,000& APV25 MPD &VME\\
+GEn/GMn Detectors & Channels& Readout & Type \\
+\hline
+\underline{SBS Proton arm} & & & \\
+HCAL & 288 & FADC 250 &VME\\
+CDet & 2352 & ADCs 1877S&Fastbus\\
+\hline
+\underline{BigBite Electron arm} & & & \\
+PreShower/Shower & 243 & ADCs 1881M&Fastbus\\
+Scintillator & 180& ADCs 1877S&Fastbus\\
+Gas Cerenkov & 550& ADCs 1877S&Fastbus\\
+Front Tracker (4 GEM chambers) & 40000& APV25 MPD &VME\\
+Rear Tracker (1 GEM chamber) & 40000& APV25 MPD &VME\\
 \hline
 \end{tabular}
 
@@ -194,11 +233,21 @@ go into discriminators.
 
 The L1 will be used to trigger the  electronics.
 
+\begin{figure}
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=\textwidth]{figs/cfpa.pdf}\\
+  \caption{ECAL analog trigger }\label{fig:ECALTrig}
+\end{figure}
+
 In parallel the Hadron calorimeter is readout and a proton single trigger will be generated.
 The rates expected in the calorimeter
-In addition to the FADC data
+
 
 \subsection{Readout}
+
+\includegraphics[scale=0.55]{figs/SBSlayoutOld.pdf}\\
+
 
 \subsection{Event size and data rates}
 \section{Data acquisition for GEn experiment}
