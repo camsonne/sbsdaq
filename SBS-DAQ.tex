@@ -53,12 +53,13 @@ of 60x200 cm$^2$. The readout plane is pitched at 400~$\mu$m and two strips are 
 the number of readout channels. Readout is done using 128 channel APV25 chips. Each module is readout 
 by a total of  12 APV25 chips (  6 along the 60~cm and 6 along the 50~cm). So a GEM rear chamber has  
 6144 channels which gives a total of 61,440 channels for the 10 GEM chambers. The readout of the GEM
-rear chamber APV25 chips will use the same electonics as the front GEM chambers.  
+rear chamber APV25 chips will use the same INFN MPD electonics as the front GEM chambers.  
  
-The hadron calorimeter, HCAL, is a 12x24 block array which will be readout by JLab FADC250, a 16-channel 12-bit Flash 
+The hadron calorimeter, HCAL, is a 12x24 block array which will be readout 
+by a JLab FADC250, a 16-channel 12-bit Flash 
 ADC sampling at 250 MHz. For the neutron form factor experiments, the HCAL is not part of the trigger. For the
-neutron form factor experiments, timing resolution is important at the 500ps level and the JLab FADC250 have 
-demonstrate sub 300ps timing resolution. The FADC250 is a readout through the VXS pipelined electronics
+neutron form factor experiments, timing resolution is important at the 500ps level and the JLab FADC250 has 
+demonstrated sub 300ps timing resolution. The FADC250 is readout through the VXS pipelined electronics
 which is explained in Section~\ref{sec:hcal-vxs}.
 
 
@@ -71,6 +72,7 @@ Since the CDET is using only 14/16 channels , space is need for 2688 TDC channel
 
 
 \subsection{Overview of proton form factor experiments}
+\label{sec:over-pff}
 The proton form factor, GEp, experiment measures elastic electron-proton scattering. For electron
 detection, a large lead glass calorimeter, ECAL,  will be used with the Coordinate Detector, CDET, placed in front
 of ECAL. The CDET is the same as used in the neutron form factor experiments except
@@ -81,18 +83,28 @@ The front tracker will consist of 6 INFN GEM chambers ( each GEM INFN chamber is
 The polarimeter consists of two groups of 5 University of Virginia GEM chambers (each UVa GEM chamber
 is 4 GEM modules of 60x50cm$^2$). The trigger will be a coincidence between the ECAL and HCAL.
 
-ECAL is a large array of 1920 lead glass bars. In a previous proton form factor, GEp3,  experiment, 1784 lead bars
-were used in a calorimeter. The electronics and cabling from that experiment will be re-used. The 1920
+The electronics for the front and rear GEM trackers will be the same as used in the neutron form factor 
+experiments. The CDET electronics will be the same. The HCAL electronics will be still use the FADC250, but it will be part of the trigger. Details of the trigger are discussed in Section~\ref{sec:hcal-trig}.
+
+ECAL is a large array of lead glass bars. In a previous proton form factor, GEp3,  experiment, 1784 lead bars
+were used in a calorimeter which was a mixture of 1024 blocks with 3.8x3.8~cm$^2$ cross sectional area and
+760 blocks with 4x4~cm$^2$ cross sectional area. A larger pool of the same size lead glass bars is 
+available at Jefferson Lab.
+The electronics and cabling from that experiment will be re-used. The 
 lead glass bars will be readout out by  FASTBUS 1881M 64 channel ADC modules. As done in the GEp3 experiment,
 the analog signals from 8 blocks will be summed together in groups of 2x4 using custom built ``summing'' modules.
 The ``summing'' modules have two sets of eight inputs. Each set of eight inputs is summed together
-and six summed analog outputs for each group of eight. In addition the ``summing'' module produce the 16 individual
-analogs signal with a amplification of 4.2 that can be sent to an ADC.
+and six summed analog outputs for each group of eight are available. In addition the ``summing'' module 
+produces the 16 individual
+analogs signal with an amplification of 4.2 that can be sent to an ADC. The amount of electronics is
+estimated assuming a block size of 4x4~cm$^2$. Under this assumption, one needs 1776 blocks and would 
+have 214 ``group of 8'' sums. One of   ``group of 8'' analog signals would be sent to a discriminator 
+and then a FASTBUS 1877S TDC. Other analog outputs from the  ``group of 8'' would be sent to additional
+FI/FO units to form summed analog signal from a group of 32 blocks to be used in the ECAL trigger as
+explained in Section~\ref{sec:ecal-trig}.
 
  
-The electron arm
-singles rate is expect to be around 200~KHz. The electron arm trigger is discussed in Section. To reduce
-the DAQ deadtime, the 
+
 
 \subsection{Detector configuration summary}
 \begin{tabular}{|c|c|c|c|}
@@ -105,8 +117,8 @@ Rear tracker (10 GEM chambers) & 61,440& APV25 MPD& VME\\
 HCAL & 288 & FADC 250 &VME\\
 \hline
 \underline{Electron arm} & & & \\
-ECAL & 1920 & ADCs 1881M &Fastbus\\
-ECAL sums& 248 & TDCs 1877S &Fastbus\\
+ECAL & 1776 & ADCs 1881M &Fastbus\\
+ECAL sums& 214 & TDCs 1877S &Fastbus\\
 CDET & 2688 & TDCs 1877S &Fastbus \\
 \hline
 \hline
@@ -128,9 +140,11 @@ Rear Tracker (1 GEM chamber) & 6144& APV25 MPD &VME\\
 \section{Trigger}
 \subsection{Neutron form factor experiments}
 \label{sec:neutron-trig}
-The shower calorimeter consist of an 7x27 array of  lead glass blocks. A preshower layer of 2x27 is placed in front of the shower
+The shower calorimeter consist of an 7x27 array of  lead glass blocks. A preshower
+ layer of 2x27 is placed in front of the shower
 An analog sum of 7 blocks is made. This sums are further added using 4 channels linear fan module.
-A preshower layer 2x27 is placed in front of the shower but is usually used off line for pion electron identification. 
+A preshower layer 2x27 is placed in front of the shower but is usually 
+used off line for pion electron identification. 
 This make a total of 189 + 54 = 243 lead glass blocks to be readout.
 The readout of the detector will be done using fastbus using ADCs 1881M.
  The trigger for the neutron form factor experiments will use the 
@@ -146,10 +160,7 @@ takes into account the elastic angular correlation to reduce backgrounds.
 
 \subsubsection{ECAL trigger}
 \label{sec:ecal-trig}
-There are 248 groups
-of eight when I assume that all blocks are 4x4cm. In reality a mixture
-of block size with frontal areas of 3.8x3.8, 4.0x4.0 and 4.2x4.2 will be
-used. In the left figure, the groups of 32 blocks are indicated connecting
+ In the right   figure, the groups of 32 blocks are indicated connecting
 group of 8 blocks by different colored squares. The group of 32 blocks overlap
 by two groups of 8 in both horizontal and vertical directions. So most of the
 groups of 8 have to go to 4 groups of 32. At the edges the groups of 8 feed into
@@ -157,13 +168,15 @@ two groups of 32. There are 228  groups of 32 are sums of 4 groups of 8 using
 a 4 input channel linear FI/FO. The 228 groups of 32 would have to
 go into discriminators.
 
-The L1 will be used to trigger the  electronics.
 
 \begin{figure}
   \centering
   % Requires \usepackage{graphicx}
   \includegraphics[width=\textwidth]{figs/cfpa.pdf}\\
-  \caption{ECAL analog trigger }\label{fig:ECALTrig}
+  \caption{The left plot is the distribution of elastic electrons in ECAL with the black rectangles representing
+groups of 2x4 lead glass blocks. The right plot demonstrates
+the scheme for make overlapping groups of 32 lead glass blocks to be used in the ECAL trigger with
+details explained in text.  }\label{fig:ECALTrig}
 \end{figure}
 
 \subsubsection{HCAL trigger}
