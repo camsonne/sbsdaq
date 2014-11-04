@@ -30,11 +30,11 @@ The preshower is 27 columns of two rows of lead glass which is placed perpendicu
 The shower calorimeter consist of 27 rows and 7 columns of lead glass blocks. The 243 channels of
 preshower and shower are readout in FASTBUS 1881M 64 channel ADC modules. The standard Bigbite 
 scintillator array consists of one plane of scintillator paddles and can be used for the experiments. 
-For the planned Hall~A $A_{1N}$ experiment, a 90  paddle scintillator array with
+For the planned Hall~A $A_{1N}$ experiment, a 90  paddles scintillator array with
 PMTs on both ends is being built the University of Glasgow. It is probable that it will
 be ready for the SBS neutron form factor experiments, but it is not necessary for the experiments.
 
-The 550 PMTs of the GRINCH gas Cherenkov detector will be input into 16 channel ampliflier/discriminator
+The 510 PMTs of the GRINCH gas Cherenkov detector will be input into 16 channel ampliflier/discriminator
 cards based which use the NINO chip. The University of Glasgow has developed the cards and the cards have 
 been bought. The logical output from the cards will be readout in FASTBUS 1877S 96 channel TDC modules.
 
@@ -98,7 +98,7 @@ and six summed analog outputs for each group of eight are available. In addition
 produces the 16 individual
 analogs signal with an amplification of 4.2 that can be sent to an ADC. The amount of electronics is
 estimated assuming a block size of 4x4~cm$^2$. Under this assumption, one needs 1776 blocks and would 
-have 214 ``group of 8'' sums. One of   ``group of 8'' analog signals would be sent to a discriminator 
+have 204 ``group of 8'' sums. One of   ``group of 8'' analog signals would be sent to a discriminator 
 and then a FASTBUS 1877S TDC. Other analog outputs from the  ``group of 8'' would be sent to additional
 FI/FO units to form summed analog signal from a group of 32 blocks to be used in the ECAL trigger as
 explained in Section~\ref{sec:ecal-trig}.
@@ -117,9 +117,9 @@ Rear tracker (10 GEM chambers) & 61,440& APV25 MPD& VME\\
 HCAL & 288 & FADC 250 &VME\\
 \hline
 \underline{Electron arm} & & & \\
-ECAL & 1776 & ADCs 1881M &Fastbus\\
-ECAL sums& 214 & TDCs 1877S &Fastbus\\
-CDET & 2688 & TDCs 1877S &Fastbus \\
+ECAL & 1,776 & ADCs 1881M &Fastbus\\
+ECAL sums& 204 & TDCs 1877S &Fastbus\\
+CDET & 2,688 & TDCs 1877S &Fastbus \\
 \hline
 \hline
 GEn/GMn Detectors & Channels& Readout & Type \\
@@ -131,9 +131,9 @@ CDet & 2688 & TDCs 1877S&Fastbus\\
 \underline{BigBite Electron arm} & & & \\
 PreShower/Shower & 243 & ADCs 1881M&Fastbus\\
 Scintillator & 180& ADCs 1877S&Fastbus\\
-Gas Cerenkov & 550& ADCs 1877S&Fastbus\\
-Front Tracker (4 GEM chambers) & 27648 & APV25 MPD &VME\\
-Rear Tracker (1 GEM chamber) & 6144& APV25 MPD &VME\\
+Gas Cerenkov & 510& ADCs 1877S&Fastbus\\
+Front Tracker (4 GEM chambers) & 27,648 & APV25 MPD &VME\\
+Rear Tracker (1 GEM chamber) & 6,144& APV25 MPD &VME\\
 \hline
 \end{tabular}
 
@@ -142,16 +142,17 @@ Rear Tracker (1 GEM chamber) & 6144& APV25 MPD &VME\\
 \label{sec:neutron-trig}
 The shower calorimeter consist of an 7x27 array of  lead glass blocks. A preshower
  layer of 2x27 is placed in front of the shower
-An analog sum of 7 blocks is made. This sums are further added using 4 channels linear fan module.
-A preshower layer 2x27 is placed in front of the shower but is usually 
-used off line for pion electron identification. 
+An analog sum of 7 blocks is made. 
+A preshower layer 2x27 is placed in front of the shower.
+Overlapping group of 2 shower rows and preshower rows are summed together. 
+The electron trigger is generated when one of this sum is above threshold.
 This make a total of 189 + 54 = 243 lead glass blocks to be readout.
 The readout of the detector will be done using fastbus using ADCs 1881M.
  The trigger for the neutron form factor experiments will use the 
 standard electron trigger using the preshower and shower calorimeter which was developed for previous experiments. 
 For the quasi-free kinematics of the experiments, the trigger provides sufficient pion rejection to keep the
 trigger rate below 5 KHz. There is a side project to include the gas cerenkov in the trigger, but this
-is not necessary for the experiments and the main focus is for the A$_{1N}$ experiment .
+is not necessary for the experiments and the main focus is for the A$_{1N}$ experiment.
 
 \subsection{Proton form factor experiments}
 The trigger is a coincidence between the electron calorimeter, ECAL,  and the hadron calorimeter, HCAL.
@@ -164,7 +165,7 @@ takes into account the elastic angular correlation to reduce backgrounds.
 group of 8 blocks by different colored squares. The group of 32 blocks overlap
 by two groups of 8 in both horizontal and vertical directions. So most of the
 groups of 8 have to go to 4 groups of 32. At the edges the groups of 8 feed into
-two groups of 32. There are 228  groups of 32 are sums of 4 groups of 8 using
+two groups of 32. There are 204  groups of 32 are sums of 4 groups of 8 using
 a 4 input channel linear FI/FO. The 228 groups of 32 would have to
 go into discriminators.
 
@@ -179,29 +180,140 @@ the scheme for make overlapping groups of 32 lead glass blocks to be used in the
 details explained in text.  }\label{fig:ECALTrig}
 \end{figure}
 
-\subsubsection{HCAL trigger}
-\label{sec:hcal-trig}
 
-In parallel the Hadron calorimeter is readout and a proton single trigger will be generated.
-The rates expected in the calorimeter
-
-\newpage
 
 \section{DAQ Details}
 \subsection{CODA}
 \subsubsection{Introduction}
 Jefferson Laboratory is using the Cebaf Online Data Acquisition system for data taking.
-CODA is based on a main server interacting with a database in which all the DAQ components update their status . The readout crates host a single board computer running a Read Out Controller (ROC) program which controls and reads out the data from the electronics. The ROCs send the data through a standard network link usually ethernet to a computer running the Event Builder program, which uses the data from the ROC to check synchronization and build the event. Finally the event is sent to the Event Recorder which puts the event into a file on the hard drive of the computer.
+CODA is based on a main server interacting with a database in which all the DAQ components update their status . The readout crates host a single board computer running a Read Out Controller (ROC) program which controls and reads out the data from the electronics. The ROCs send the data through a standard network link usually ethernet to a computer running the Event Builder program, which uses the data from the ROC to check synchronization and build the event. Finally the event is sent to the Event Recorder which puts the event into a file on the hard drive of the computer. 
 \subsubsection{CODA Hardware}
 In addition to the software a set of harware components specific to CODA is used in order to keep ensure event synchronization between all the components each crate has a trigger interface ( TI board ) which sends the trigger signal to the ROC program for the read out of the data. All the TI are linked to a trigger supervisor board which takes the triggers and sends them to the TI while monitoring the status of each TI to keep all the crates synchronized and generates a Level 1 accept and Level 2 accept for the read out modules. The TS also takes as input the front end busy of the modules to inhibit the triggering if one module is not ready insuring synchronization between the modules.
 This allows the TS module to buffering if the front-end has the capability. The triggers and read out are then decorrelated which improve the deadtime since a module can take triggers while being readout asynchronously. The TS has a setting of the maximum of events which can be in the buffer it is set to the smallest buffer available on the electronics ( usually 5 for fastbus ). Since in this mode modules can potentially get out of synchronization, a synchronization event is set so that when a certain number of triggers is processed, the TS will disable the triggers to empty the FIFO. If there any remaining events in the FIFO a warning issue would be issued and the FIFOs would be cleared resynchronizing the modules.
 \includegraphics[scale=0.55]{figs/TS.pdf}\\
-  
+
 
 \section{Electronics}
+\section{NINO amplifier discriminator boards }
+The discriminator card (Fig. \ref{fig:nino-schematic}) is based on
+the NINO chip \cite{NINO}, shown schematically in the blue-shaded
+box of Fig\ref{fig:nino-schematic}. NINO was designed originally
+for time of flight systems at the ALICE experiment. It is an 8-channel
+CMOS ASIC which accepts differential input signals and provides LVDS
+output signals for timing. The output width is dependent on the charge
+of the input signal and may be stretched by an amount, dependent on
+the voltage applied to pin 9. This is currently 1.25~V, which stretches
+by 10~ns. The threshold is set by applying a differential DC voltage
+to pins 47 and 49. Pin 47 is fixed at 1.25~V and 49 is varied between
+1.25~V (zero threshold) and 1.90~V (maximum). Ref. \cite{NINO}
+specifies that the threshold range is 10-100~fC and for the present
+application this translates to a voltage levels in the few-mV range.
+\begin{figure}[h]
+\includegraphics[width=1\columnwidth]{NINO/ReportJan14/CherenkovNINO-4}
+
+\protect\caption{\label{fig:nino-schematic}Circuit diagram of the discriminator card.
+A schematic diagram of the NINO chip is shown in the area shaded blue.}
+
+
+\end{figure}
+For Hall-A/SBS experiments, the discriminator card will be used with
+PMT so that a front-end circuit is required to convert the input signal
+from single ended to differential. This is implemented using the MAXIM
+9626, which is a unity-gain, low-noise, low-distortion, fully-differential
+amplifier, with a bandwidth of 1.35~GHz. Resistors R1 allow the input
+impedance to be tuned to the input transmission line and for 50~$\Omega$
+coaxial cable R1 = 0~$\Omega.$ The differential output from the
+MAXIM 9626 feeds to the NINO input via capacitors which block the
+common-mode voltage offset applied to the input circuit. Resistors
+R2 can potentially be used to provide some attenuation of the pulse
+(to vary the threshold range), but for GRINCH R2 = 0~$\Omega.$ Resistor
+R3 sets the input impedance of NINO and the current value of 50~$\Omega$
+sets the impedance to 100~$\Omega.$
+
+The front end also provides a buffer amplifier, suitable to drive
+charge digitizing hardware. This is required to calibrate the non-linear
+relation between time-over-threshold and pulse amplitude. It is implemented
+using the MAXIM 4412 operational amplifier, which is moderately fast
+and relatively inexpensive. The gain is $(1+R4/R5)$, nominally a
+factor 5.7.
+
+Fig.\ref{fig:nino-photo} is a photograph of the Mk-IV prototype card.
+Components are mounted on a 5-layer PCB, designed and manufactured
+by ZOT Integrated Manufacturing based
+in Musselburgh, Scotland. Components are surface mounted, but for
+the NINO chips standard solder masking techniques did not give a reliable
+connection to the PCB, due to the fine pitch of the pads. The ``balling''
+technique, whereby precise quantities of solder are deposited on the
+pads, solved this problem. The card is designed for stand-alone operation
+(i.e. it does not reside in an electronics crate), so that it can
+be mounted close to the detector using the four mounting points at
+the corners of the card. The printed circuit board houses 2 Mk1 (8-channel)
+NINO chips, associated front-end amplifier circuitry, connectors for
+input signals and connectors for output analogue and LVDS logic signals.
+Input cables can be connected, either by the $16\times2$-pin arrangement
+shown in Fig.\ref{fig:nino-photo}, or alternatively hard soldered
+to the card. Provision of a connector to allow cables to be routed
+parallel to the plane of the card is to be implemented on future production
+versions of the card. The output connectors are standard 17-pair,
+0.1'' pitch IDC, commonly used with ECL logic.
+
+\begin{figure}[h]
+\includegraphics[width=1\columnwidth]{NINO/ReportJan14/NinoCardPhoto}
+
+\protect\caption{\label{fig:nino-photo}The NINO-based amplifier-discriminator card.
+Dimensions are in mm. Displayed is a prototype board. GRINCH and hodoscope
+cards will have type-MCX coaxial connectors.}
+\end{figure}
+
+
+The card operates from a single +5V supply which powers the operational
+amplifiers and a voltage regulator which supplies 2.5~V to the NINO
+chips. The amount of current drawn on the 5~V line is 1.25~A. Discriminator
+thresholds can be adjusted by on-board potentiometers, or alternatively
+from an external voltage source. This is chosen by the position of
+the jumpers on the ``Link Ext Thr'' pins attached at the bottom
+left and right of the PCB. As shown, the PCB has been configured to
+operate with external voltage thresholds, supplied via the ``Thr1''
+and ``Thr2'' connectors at the bottom of the card. When mounted,
+the card will be covered by a metal sheet to shield from electromagnetic
+disturbance and will include attachments to clamp input and output
+cables in place.
+
 \section{GEM readout}
-The GEM readout is carried out by the APV25 chip. It a pipelined ASICs with 128 channels and pipeline depth of 192 samples sampling at 40 MHz. When a trigger is issued the corresponding cells are frozen until they are readout while the other cells are still being used reducing the dead time.
-For each trigger all the data of 128 channels are transfered at 40 MHz rate in a multiplexed analog format. Adding some header and event informations 141 words are transmitted for each trigger which gives a transfer time of $141x25 ns = 3.6 \mu s $. In case of high background several consecutives time samples can be sent in order to detect pile up, we plan to read 3 samples which gives a transfer time of 10.8 $\mu s$. This allows deadtimeless operation for rates up to 90 KHz. The readout planned to be use the the INFN Multi Purpose Digitizer (MPD), it is a VME board with a 200 MHz FADC and signals to control the APV setup and readout. 
+\subsection{APV25}
+The GEM readout is carried out by the APV25 chip. It is a 128 channels ASICs with pipeline depth of 192 samples sampling at 40 MHz giving a pipeline depth of 4.8 $\mu s$ ( limited to 4 $\mu s$ for the hardware to perform correctly) . When a trigger is issued the corresponding cells are frozen until they are readout while the other cells are still being used reducing the dead time.
+For each trigger all the data of 128 channels are transfered at 40 MHz rate in a multiplexed analog format. Adding some header and event informations 141 words are transmitted for each trigger which gives a transfer time of $141x25 ns = 3.6 \mu s $. In case of high background several consecutives time samples can be sent in order to detect pile up, we plan to read 3 samples which gives a transfer time of 10.8 $\mu s$. If the we assume the controls words are recorded on 32 bits and each sample is recorded on 16 bit this gives a raw event size of (141-128)*4+(128*2)*3 = 820 bytes per APV. This allows deadtimeless operation for rates up to 90 KHz.
+
+\subsection {Multi Purpose Digitizer (MPD)}
+ The readout planned to be use the the INFN Multi Purpose Digitizer (MPD), it is a VME board with a 200 MHz FADC and signals to control the APV setup and readout. It has 2 ports which can read up to 8 APVs each for a total of 16 APVs giving 2048 channels. 
+For the GEp trackers 14 APVs will be read per MPDs, the APV data is 130 24 bit words so the event size to be transferred for 3 samples is then :
+
+$130 ( words per APV ) * 3 (samples ) * 14 (APV ) * 3 (bytes ) = 16.38 KB $
+
+Several readout schemes are possible with the MPD.  The board could also transfer the data through VXS port or through the optical link. The board complies with the VME64X standard and can transfer up to 200 MB/s in sustained rate using the VME320 protocol on the VME64X backplane. 
+
+\begin{figure}
+\includegraphics[scale=0.55]{figs/OldMPD.pdf}\\
+\end{figure}
+Though taking into account overhead of the transaction, we assume we can transfer a sustained rate of about 100 MB/s.
+
+At the assumed maximum rate of 5 KHz ( expected is 3 KHz ), that gives a raw data rate of 81.9 MB/s going into the MPD from the APVs.
+
+
+In the case of the GEp5, it was estimated that occupancy was around 60\% which would corresponds then to 49.2 MB/s per MPD after zero suppression which would give 2 MPDs per crates. 
+
+To reduce the data the deconvolution algorithm will be implemented on the MPD to improve the timing resolution and reduce the occupancy by effectively shortening the pulse, we expect a factor of 3 reduction of the accidental background.
+
+In order to further reduce the cost and amount of data recorded on tape a new readout scheme was proposed taking advantage of the JLAB electronics and optical link feature of the MPD.
+
+\includegraphics[scale=0.55]{figs/NewMPD.pdf}\\
+
+\includegraphics[scale=0.55]{figs/NewMPDDetailed.pdf}\\
+
+\includegraphics[scale=0.55]{figs/MPD4_UserManual.pdf}\\
+
+The MPD has 1 input for a 40 MHz external clock which will be derived from the main 250 MHz clock by dividing in by 6. The trigger signal will be coming from the signal distribution board which has already been designed for TDCs which will forward the trigger for the MPD from the trigger supervisor to the MPD. The busy output from the MPDs will be ored and sent to the trigger supervisor. Since the MPDs only uses 5V, they will be placed in standard VME crates that we already have saving on the cost of VXS crates.
+The MPDs would be linked to a JLAB SSP. Each SSP optical port could read 4 MPDs, and each optical link could transfer up to 200 MB/s allowing a readout of all the modules in parallel using 2 SSPs. One SSP having 8 optical ports could read up to 32 MPDs. So 2 SSPs will be needed to readout all the GEMs. The SSPs being place in the HCAL trigger crate will also have access to the ECAL and HCAL clusters position to reduce the region of interest to be recorded. Using this geometrical correlation we expect an additionnal reduction factor of 3. This gives a reasonable rate of 5.4 MB/s per MPD. The FT will need 24 MPDs and the 36 RT for the rear tracker for a total data rate 324 MB/s. We expect to have an additionnal reduction factor of 3 by doing clustering and looking at correlation between planes and also amplitude correlation of the X and Y coordinate from the GEMs. The final data reduction will be determined after the algorithm are implemented and tested on simulated data. The SSPs will be readout using the standard VME64X backplane.
 
 
 \section{Pipelined electronics, HCAL trigger}
@@ -219,7 +331,7 @@ All the SSP boards send their processed information to a Global Trigger Processo
 The GTP sends the trigger to the Trigger Supervisor (TS) which makes sure the system is ready to accept a trigger and sends the accepted signal to the Trigger Distribution boards in the VXS crates which are linked to the Trigger Interface boards in each crates via optical link as represented in Fig.\ref{fig:pipeline_daq}.
 The trigger and synchronization clock signals will then be sent back to individual crates and payload modules through Trigger Interface/Distribution (TID) boards and Signal Distribution (SD) boards which distributes the signals to the electronics such as the FADC.
 Once a trigger is generated, the full resolution data which is still in the pipeline is readout out using the VME320 protocol at an average data rate of 200 MB/s.
-The Flash ADC can run in different modes, it can either transfer all the samples of the waveform which can be useful to study pileup effect and background or process the data to give an integral over the length of the pulse.
+The Flash ADC can run in different modes, it can either transfer all the samples of the waveform which can be useful to study pileup effect and background or process the data to give an integral over the length of the pulse. In both mode, a threshold can be put on each individual channel to reduce the data.
 
 \begin{figure}
   \centering
@@ -228,10 +340,10 @@ The Flash ADC can run in different modes, it can either transfer all the samples
   \caption{Standard Triggering scheme using the JLAB pipeline electronics}\label{fig:pipeline_daq}
 \end{figure}
 
-The CTP having all the amplitude of all the calorimeter, it can compute all the sums of adjacent blocks.
-A sum of 3$\times$3 blocks was implemented.
+The GTP having all the amplitude of all the calorimeter, it can compute all the sums of adjacent blocks.
+A sum of 3$\times$3 blocks was implemented for the heavy photon search experiment (HPS).
 In order to reduce the number of triggers coming from the background this summing approach is chosen to improve the online pion rejection.
-A sum over 1 central block and 6 surrounding blocks can be implemented in the same way as the HPS scheme.
+A sum over 4x4 adjacent blocks can be implemented in the same way as the HPS scheme. 
 
 \begin{figure}
   \centering
@@ -243,7 +355,7 @@ A sum over 1 central block and 6 surrounding blocks can be implemented in the sa
 \begin{figure}
   \centering
   % Requires \usepackage{graphicx}
- %\includegraphics[width=\textwidth]{figs/HCALSum.pdf}
+ \includegraphics[width=\textwidth]{figs/HCALSum.pdf}
   \caption{All sum of 4x4 are computed, if one is above threshold L2 is generated }
 \end{figure}
 
@@ -254,23 +366,21 @@ A sum over 1 central block and 6 surrounding blocks can be implemented in the sa
   \caption{HCAL crate layout }\label{fig:HCALFADC}
 \end{figure}
 
+Since we have 288 channels for the HCAL, 18 FADCs will be used using two VXS crates. The crate with all 16 FADCs will send its data ti theother CTP through the SSP using the 10 Gb/s optical link. The second crate will hold the two additionnal FADCs and a pipelined input register called VETROC which can have up to 208 logic inputs which a 1 ns timing resolution, to send the sums firing in the ECAL to the GTP to generate the L2 using the geometrical matching of the HCAL with the ECAL. The total process will not take more than 1 $\mu s$ which is sufficiently fast for the APVs which have a look back of 4 $\mu s$.
+
 \section{Fastbus}
-Fastbus is an electronics standard . It can transfer up to 10 Megawords per second with a 32 bit width which gives a maximum theoretical throughput of 40 MB/s which translates in usual sustained rate of 15 MB/s.
-Since we have a lot of Fastbus equipment on hand. It will be used in order to save money for the large number of detectors channels. The main readout is the Lecroy ADC 1881M a 13 bit ADC, with a 9 $\mu$s encoding time in 12 bit resolution and 12  $\mu$s. The 1881M features a fast clear and is ready to tahe another event after 1 $\mu$s. For signal requiring time measurement 1877S TDC will be used, they have 96 channels per module. It is multihit with an event buffer of 8 events. It has an encoding time  1.7 $\mu$s plus 50 ns per hit per channel giving a maximum encoding time of 78 $\mu$. 
-The Struck Fastbus Interface is a Fastbus Master is controlled by a standard VME controller which allows to control the Fastbus modules through any VME CPU. It is needed in each Fastbus bin to control the Fastbus modules.
+\subsection{Introduction}
+Fastbus is an electronics standard. It can transfer up to 10 Megawords per second with a 32 bit width which gives a maximum theoretical throughput of 40 MB/s which translates in usual sustained rate of 15 MB/s. If the amount of data is greater than 15 MB/s, the modules will be split between several crates allowing readout in parallel.
 
-\begin{tabular}{|c|c|}
-\hline
-&\\
-\hline
-&\\
-\hline
-\end{tabular}
+Since we have a lot of Fastbus equipment on hand. It will be used in order to save money for the large number of detectors channels. The main readout is the Lecroy ADC 1881M a 13 bit ADC, with a 9 $\mu$s encoding time in 12 bit resolution and 12  $\mu$s in 13 bit resolution. The 1881M features a fast clear and is ready to tahe another event after 1 $\mu$s. For signal requiring time measurement 1877S TDC will be used, they have 96 channels per module. It is multihit up to 16 hits with an event buffer of 8 events. It has an encoding time  1.7 $\mu$s plus 50 ns per hit per channel giving a maximum encoding time of 78 $\mu$. 
+The Struck Fastbus Interface (SFI) is a Fastbus Master is controlled by a standard VME controller which allows to control the Fastbus modules through any VME CPU. It is needed in each Fastbus bin to control the Fastbus modules.
+
+The L2 trigger will take 1 $\mu s$ to be generated and with the fastclear time we expect a L1 front end deadtime to be 2 $\mu s$.
 
 
 
 
-
+In the case of the experiments using the BigBite spectrometer, ECAL will be simply replaced by the BigBite shower.
 
 \newpage
 \begin{figure}
@@ -280,37 +390,118 @@ The Struck Fastbus Interface is a Fastbus Master is controlled by a standard VME
 \newpage
 
 
+Each SFI can hold 2 VME boards, one slot is used for the VME CPU and the VME TI will be placed in the second slot.
 
+\subsection{Module flipping}
+In order to improve the data transfer rate a large number of fastbus crate is going to be used.
+Right now we are planning to use 12 crates for the ECal and 9 crates for the Coordinate Detector.
 
+One main challenge for the standard Fastbus electronics is the GEp5 experiment where the L1A rate is going to be of the order of 200 KHz. The calorimeter trigger is expected to be generated in less than 1 $\mu$s and the ADCs requires 1 $\mu$s giving a front end deadtime of about 40 \% at 200 KHz which is not acceptable. In order to reduce the front end dead time, the signal will be passively split between 2 or 3 fastbus modules, so that when a module is busy encoding the next one is triggered eliminating the front end busy from the Fastbus.
+In order to do that a slightly modified scheme is used.
+The main trigger coming from the ECAL, is sent to the main TS at around 200 KHz rate, the TS produce a prompt level 1 accept trigger which will be used to trigger the non pipelined electronics. The L1A is processed by a V1495 FPGA board programmed as a prescaler, which take one signal input and split the signal between 2 or more output ( number programmable up to 8 and in our case 2 or 3 ).
+\includegraphics[scale=0.55]{figs/FPGAFlip.pdf}\\
+The board is programmed to cycle through its output. 
+Three independent Fastbus setup will be in place with their own TS board to keep each crates synchronized.
+The busy signal of each setup will be sent to the V1495 which will generate a general busy signal sent to the main TS
+to inhibit the trigger if the receiving Fastbus is not ready to receive a trigger. 
+A common 250MHz clock will be sent from the pipelined electronics to scalers in each of the TS crate.
+This will provide a timestamp to be used as an absolute reference for the time of an event.
+A copy of the L1A of each system will be fed in each scalers giving a redundant check of the synchronization.
 
-
-
-
-
-\subsection{Readout}
-
+\begin{figure}
 \includegraphics[scale=0.55]{figs/SBSlayoutOld.pdf}\\
+\end{figure}
 
+\begin{figure}
+\includegraphics[scale=0.55]{figs/TSs.pdf}\\
+\end{figure}
+
+Detailed layout of the Fastbus electronics
+\begin{figure}
+\includegraphics[scale=0.55]{figs/FastbusEcalDetailed.pdf}\\
+\end{figure}
+
+\begin{figure}
+
+\includegraphics[scale=0.55]{figs/FastbusCDetDetailed.pdf}\\
+\end{figure}
+
+The ECAL trigger takes about 200 ns to be generated. Each TS stage takes 50 ns. Which leaves 200 ns to generate the gate for the Fastbus electronics.
 
 \subsection{Event size and data rates}
-\section{Data acquisition for GEn experiment}
 
-PR-09-016 GEN
-about 2 kHz from a simulation based on pion production rates from a parameterization done by
-Wiser [69], Fig. 22. This simulation when compared to the previous Gn
-E experiment predicted rates
-higher by a factor of 5, so this produces an upper limit on expected rates. Furthermore, adding the
-Cerenkov into the trigger configuration to explicitly reject pions and photons will be possible if
-necessary
+The expected trigger rate from the simulation is around 5 KHz.
 
+The singles rates for the CDET was estimated to be 2 MHz per bar. We will use the suppression feature of 1877S and put a 50 ns time window on the CDET, which reduces the occupancy to 10 \%.
+
+The ECAL will have pedestal subtraction though the efficiency will have to be determined.
+
+It was measured that each readout had a 50 $\mu$s overhead and transfer time of 2 $\mu$s for each 16 ADCs channels. 
+
+The HCAL will also have pedestal subtraction but from the singles rates in the detector it will be most likely not very efficient.
+So we will also assume that all the channels will be readout for each trigger.
+
+\begin{tabular}{|c|c|c|}
+\hline
+HCAL&&\\
+\hline
+HCAL&&\\
+\hline
+\end{tabular}
+\section{Data acquisition for neutron for factor experiments}
+
+The data acquisition for the neutron form factor experiments will be the same as for the protons replacing ECAL by BigBite
+which makes the system simplier since there is less channels to be readout.
+
+
+\subsection{Detectors}
+\begin{tabular}{|c|c|c|c|}
+\hline
+\hline
+GEn/GMn Detectors & Channels& Readout & Type \\
+\hline
+\underline{SBS neutron arm} & & & \\
+HCAL & 288 & FADC 250 &VME\\
+CDet & 2688 & TDCs 1877S&Fastbus\\
+\hline
+\underline{BigBite Electron arm} & & & \\
+PreShower/Shower & 243 & ADCs 1881M&Fastbus\\
+Scintillator & 180& ADCs 1877S&Fastbus\\
+Gas Cerenkov & 510& ADCs 1877S&Fastbus\\
+Front Tracker (4 GEM chambers) & 27,648 & APV25 MPD &VME\\
+Rear Tracker (1 GEM chamber) & 6144& APV25 MPD &VME\\
+\hline
+\end{tabular}
+
+
+\subsection{Detectors}
+\begin{tabular}{|c|c|c|c|}
+\hline
+\hline
+Electronics & Channels& Boards & Crates \\
+\hline
+\underline{SBS neutron arm} & & & \\
+FADC & 288 & 18 & 2\\
+Fastbus & 2688 & TDCs 1877S&Fastbus\\
+\hline
+\underline{BigBite Electron arm} & & & \\
+Fastbus 1881M & 243 & ADCs 1881M&Fastbus\\
+Fastbus 1877S & 180& ADCs 1877S&Fastbus\\
+GEM APV/MPD & 27,648 & APV25 MPD &VME\\
+\hline
+\end{tabular}
 
 \subsection{Requirements}
-\subsection{Detectors}
+The GEn experiment is detecting quasi-elastic neutrons from a polarized He3 target. The main trigger is a quasielastics electron in the BigBite spectrometer and  a neutron in the Hadron calorimeter placed behind the SuperBigBite magnet.
+The trigger rates in BigBite are expected to be of the order a 5 KHz.
+
+
 \subsection{Trigger}
-The trigger will be single quasielastic electron in BigBite.
+The data acquistion is similar to GEp5 setup.
 The expected trigger rate at high Q2 is low even without having the Gas Cerenkov in the trigger.
 In case of unforeseen background, the same scheme as GEp5 could be used by using a L1 and L2 trigger from HCAL for a neutron trigger
 to have a coincidence between the two arms.
+
 \subsection{Readout}
 
 \subsection{Event size and data rates}
@@ -318,11 +509,11 @@ to have a coincidence between the two arms.
 Comparing those thresholds
 to Fig. 23 shows that the expected background trigger rates are comfortably low, generally well
 below 1 kHz.
-
-Q2 3.5 4.5 6.0 8.5 10. 12. 13.5 16. 18.
-Quasi-elastic E’min (GeV) 2.4 1.8 1.1 1.8 3.0 2.0 1.4 2.1 1.2
-Threshold (GeV) 2.1 1.6 1.0 1.6 2.7 1.8 1.2 1.9 1.0
-
+\begin{tabular}{cccccccccc}
+Q2& 3.5& 4.5& 6.0& 8.5& 10.& 12.& 13.5& 16.& 18.\\
+Quasi-elastic E’min (GeV)& 2.4 &1.8& 1.1& 1.8& 3.0& 2.0& 1.4& 2.1& 1.2\\
+Threshold (GeV)& 2.1& 1.6 &1.0& 1.6& 2.7& 1.8& 1.2& 1.9& 1.0\\
+\end{tabular}
 
 
 \subsection{Requirements}
@@ -335,10 +526,17 @@ The configuration is similar to the GEn experiment except for calibration run us
 
 \subsection{Event size and data rates}
 
+
+\section{Timeline}
+
 \begin{thebibliography}{9}
 \bibitem{GEnProp} PR
 \bibitem{GEpProp} PR
 \bibitem{GMnProp} PR
 \bibitem{TransProp} PR
+\bibitem{newTIman} https://coda.jlab.org/wiki/Downloads/HardwareManual/TI/TI.pdf
+\bibitem{newTIman} https://coda.jlab.org/wiki/Downloads/HardwareManual/TI/TI.pdf
+\bibitem{newTIman} https://coda.jlab.org/wiki/Downloads/HardwareManual/TI/TI.pdf
+\bibitem{newTSman} https://coda.jlab.org/wiki/Downloads/HardwareManual/TS//TS.pdf
 \end{thebibliography}
 \end{document}
