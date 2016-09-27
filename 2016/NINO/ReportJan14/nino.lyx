@@ -1,0 +1,990 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language american
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement h
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize letterpaper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 3cm
+\topmargin 2cm
+\rightmargin 3cm
+\bottommargin 3cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip smallskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+A 16-Channel Discriminator based on the NINO Chip
+\begin_inset Newline newline
+\end_inset
+
+
+\color red
+DRAFT
+\end_layout
+
+\begin_layout Author
+John R.M.
+ Annand
+\begin_inset Newline newline
+\end_inset
+
+University of Glasgow
+\end_layout
+
+\begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Introduction"
+
+\end_inset
+
+Introduction
+\end_layout
+
+\begin_layout Standard
+Following the completion of the upgrade of the CEBAF accelerator the experimenta
+l programme in Hall A will, to a large extent, use large acceptance spectrometer
+s designed to operate at high luminosity
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\color black
+BigBite (BB)
+\series default
+\color inherit
+, equipped with new GEM trackers, a new gas Čerenkov particle ID system,
+ a new timing hodoscope and a refurbished electromagnetic calorimeter.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\color black
+Super BigBite Spectrometer (SBS)
+\series default
+\color inherit
+, equipped with GEM trackers and a hadron calorimeter HCAL.
+ The detector package of SBS is very flexible and can be optimized for proton
+ or neutron detection.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\color black
+Electromagnetic Calorimeter
+\series default
+\color inherit
+: which is a highly segmented lead-glass array to detect high energy electrons
+ or photons.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\color black
+Coordinate Detector:
+\series default
+\color inherit
+ a finely segmented plastic hodoscope, intended to be used in conjunction
+ with calorimeters, when optimum angular resolution is required.
+\end_layout
+
+\begin_layout Standard
+The GEM tracking systems will have specialist readout based on the APV25
+ chip, but for fast counting detectors where amplitude and time information
+ are required a different approach is needed.
+ Here a an amplifier/discriminator card based on the NINO chip from CERN
+ is described.
+ Thus far it is envisaged that the card will be used on several components
+ of the BB/SBS system including:
+\end_layout
+
+\begin_layout Itemize
+GRINCH gas Čerenkov 540 elements.
+\end_layout
+
+\begin_layout Itemize
+BB Timing Hodoscope 180 elements.
+\end_layout
+
+\begin_layout Itemize
+Coordinate detector 3328 elements.
+\end_layout
+
+\begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Description"
+
+\end_inset
+
+Description of the Card
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename CherenkovNINO-4.pdf
+	lyxscale 50
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:nino-schematic"
+
+\end_inset
+
+Circuit diagram of the discriminator card.
+ A schematic diagram of the NINO chip is shown in the area shaded blue.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The discriminator card (Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:nino-schematic"
+
+\end_inset
+
+) is based on the NINO chip 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "NINO"
+
+\end_inset
+
+, shown schematically in the blue-shaded box of Fig
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:nino-schematic"
+
+\end_inset
+
+.
+ NINO was designed originally for time of flight systems at the ALICE experiment.
+ It is an 8-channel CMOS ASIC which accepts differential input signals and
+ provides LVDS output signals for timing.
+ The output width is dependent on the charge of the input signal and may
+ be stretched by an amount, dependent on the voltage applied to pin 9.
+ This is currently 1.25
+\begin_inset space ~
+\end_inset
+
+V, which stretches by 10
+\begin_inset space ~
+\end_inset
+
+ns.
+ The threshold is set by applying a differential DC voltage to pins 47 and
+ 49.
+ Pin 47 is fixed at 1.25
+\begin_inset space ~
+\end_inset
+
+V and 49 is varied between 1.25
+\begin_inset space ~
+\end_inset
+
+V (zero threshold) and 1.90
+\begin_inset space ~
+\end_inset
+
+V (maximum).
+ Ref.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "NINO"
+
+\end_inset
+
+ specifies that the threshold range is 10-100
+\begin_inset space ~
+\end_inset
+
+fC and for the present application this translates to a voltage levels in
+ the few-mV range (Sec.
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Testing"
+
+\end_inset
+
+).
+ This enables PMTs to be run at moderate gain when it is desired to detect
+ single photoelectron pulses.
+ When used in conjunction with a multiple resistive plate chamber at CERN,
+ NINO achieves a timing resolution of around 60
+\begin_inset space ~
+\end_inset
+
+ps.
+ However with the 
+\begin_inset Formula $\sim5$
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+ns rise-time pulses from the 9125 photomultipliers (PMT) attached to the
+ GRINCH gas Čerenkov the resolution will be 
+\begin_inset Formula $\gtrsim500$
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+ps.
+ Cosmic-ray tests of the BigBite, plastic scintillator timing hodoscope,
+ using the NINO discriminator card, give a timing resolution of around 100
+\begin_inset space ~
+\end_inset
+
+ps.
+ In this case fast, Hamamatsu R-11265 PMT were used.
+\end_layout
+
+\begin_layout Standard
+For Hall-A/SBS experiments, the discriminator card will be used with PMT
+ so that a front-end circuit is required to convert the input signal from
+ single ended to differential.
+ This is implemented using the MAXIM 9626, which is a unity-gain, low-noise,
+ low-distortion, fully-differential amplifier, with a bandwidth of 1.35
+\begin_inset space ~
+\end_inset
+
+GHz.
+ Resistors R1 allow the input impedance to be tuned to the input transmission
+ line and for 50
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Formula $\Omega$
+\end_inset
+
+ coaxial cable R1 = 0
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Formula $\Omega.$
+\end_inset
+
+ The differential output from the MAXIM 9626 feeds to the NINO input via
+ capacitors which block the common-mode voltage offset applied to the input
+ circuit.
+ Resistors R2 can potentially be used to provide some attenuation of the
+ pulse (to vary the threshold range), but for GRINCH R2 = 0
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Formula $\Omega.$
+\end_inset
+
+ Resistor R3 sets the input impedance of NINO and the current value of 50
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Formula $\Omega$
+\end_inset
+
+ sets the impedance to 100
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Formula $\Omega.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The front end also provides a buffer amplifier, suitable to drive charge
+ digitizing hardware.
+ This is required to calibrate the non-linear relation between time-over-thresho
+ld and pulse amplitude.
+ It is implemented using the MAXIM 4412 operational amplifier, which is
+ moderately fast and relatively inexpensive.
+ The gain is 
+\begin_inset Formula $(1+R4/R5)$
+\end_inset
+
+, nominally a factor 5.7.
+\end_layout
+
+\begin_layout Standard
+Fig.
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:nino-photo"
+
+\end_inset
+
+ is a photograph of the Mk-IV prototype card.
+ Components are mounted on a 5-layer PCB, designed and manufactured by ZOT
+ Integrated Manufacturing (
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.zot.co.uk/
+\end_layout
+
+\end_inset
+
+) based in Musselburgh, Scotland.
+ Components are surface mounted, but for the NINO chips standard solder
+ masking techniques did not give a reliable connection to the PCB, due to
+ the fine pitch of the pads.
+ The 
+\begin_inset Quotes eld
+\end_inset
+
+balling
+\begin_inset Quotes erd
+\end_inset
+
+ technique, whereby precise quantities of solder are deposited on the pads,
+ solved this problem.
+ The card is designed for stand-alone operation (i.e.
+ it does not reside in an electronics crate), so that it can be mounted
+ close to the detector using the four mounting points at the corners of
+ the card.
+ The printed circuit board houses 2 Mk1 (8-channel) NINO chips, associated
+ front-end amplifier circuitry, connectors for input signals and connectors
+ for output analogue and LVDS logic signals.
+ Input cables can be connected, either by the 
+\begin_inset Formula $16\times2$
+\end_inset
+
+-pin arrangement shown in Fig.
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:nino-photo"
+
+\end_inset
+
+, or alternatively hard soldered to the card.
+ Provision of a connector to allow cables to be routed parallel to the plane
+ of the card is to be implemented on future production versions of the card.
+ The output connectors are standard 17-pair, 0.1
+\begin_inset Quotes erd
+\end_inset
+
+ pitch IDC, commonly used with ECL logic.
+\end_layout
+
+\begin_layout Standard
+The card operates from a single +5V supply which powers the operational
+ amplifiers and a voltage regulator which supplies 2.5
+\begin_inset space ~
+\end_inset
+
+V to the NINO chips.
+ The amount of current drawn on the 5
+\begin_inset space ~
+\end_inset
+
+V line is 1.25
+\begin_inset space ~
+\end_inset
+
+A.
+ Discriminator thresholds can be adjusted by on-board potentiometers, or
+ alternatively from an external voltage source.
+ This is chosen by the position of the jumpers on the 
+\begin_inset Quotes eld
+\end_inset
+
+Link Ext Thr
+\begin_inset Quotes erd
+\end_inset
+
+ pins attached at the bottom left and right of the PCB.
+ As shown, the PCB has been configured to operate with external voltage
+ thresholds, supplied via the 
+\begin_inset Quotes eld
+\end_inset
+
+Thr1
+\begin_inset Quotes erd
+\end_inset
+
+ and 
+\begin_inset Quotes eld
+\end_inset
+
+Thr2
+\begin_inset Quotes erd
+\end_inset
+
+ connectors at the bottom of the card.
+ When mounted, the card will be covered by a metal sheet to shield from
+ electromagnetic disturbance and will include attachments to clamp input
+ and output cables in place.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename NinoCardPhoto.jpg
+	lyxscale 80
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:nino-photo"
+
+\end_inset
+
+The NINO-based amplifier-discriminator card.
+ Dimensions are in mm.
+ Displayed is a prototype board.
+ GRINCH and hodoscope cards will have type-MCX coaxial connectors.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Testing"
+
+\end_inset
+
+Testing of the NINO Prototype
+\end_layout
+
+\begin_layout Standard
+Preliminary testing of the NINO card has been performed using the output
+ from a plastic scintillator attached to a XP2262 PMT.
+ Signals are displayed in Fig.
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Oscilloscope-plots"
+
+\end_inset
+
+A and B.
+ Note that the LVDS output signal (cyan) has been obtained with an active
+ differential probe.
+ Plot A corresponds to a threshold voltage of 1.3
+\begin_inset space ~
+\end_inset
+
+V and the corresponding threshold is difficult to discern on the input signal.
+ The amplifier output shows a threshold level of 
+\begin_inset Formula $\lesssim5$
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+mV, equivalent to 
+\begin_inset Formula $\lesssim1$
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+mV on the input.
+ In spite of this extremely low level threshold the discriminator triggered
+ cleanly on pulses from the scintillator.
+ Plot B shows the threshold levels for a threshold setting of 1.9
+\begin_inset space ~
+\end_inset
+
+V which corresponds to around 20
+\begin_inset space ~
+\end_inset
+
+mV on the input pulse.
+ Plots C and D were obtained using input from a pulse generator.
+ Plot C displays the response to a train of pulses of amplitude around 25
+\begin_inset space ~
+\end_inset
+
+mV spaced around 80
+\begin_inset space ~
+\end_inset
+
+ns apart.
+ The threshold setting was 1.5
+\begin_inset space ~
+\end_inset
+
+V and there are no losses from the discriminator.
+ Plot D shows the double-pulse response, with re-triggering achieved on
+ pulses down to 
+\begin_inset Formula $\sim23$
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+ns apart.
+ The minimum re-triggering time will of course depend on the input pulse
+ width and the amount of stretch programmed on the NINO chip (Sec.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Description"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ninoB4.png
+	lyxscale 60
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Oscilloscope-plots"
+
+\end_inset
+
+NINO oscilloscope plots.
+ The color coding is yellow: input signal (5
+\begin_inset space ~
+\end_inset
+
+mV per vertical division); green: amplifier output signal (5
+\begin_inset space ~
+\end_inset
+
+mV per vertical division); cyan: LVDS logic signal (1
+\begin_inset space ~
+\end_inset
+
+V per vertical division).
+ Plots A, B and D have a horizontal scale of 10
+\begin_inset space ~
+\end_inset
+
+ns per division while plot D has 80
+\begin_inset space ~
+\end_inset
+
+ns per division.
+ The oscilloscope was triggered by the LVDS logic signal.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The NINO card has been tested with a prototype element of the BB timing
+ hodoscope as shown in Fig.
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Test-setup"
+
+\end_inset
+
+.
+ At the moment this is equipped with relatively slow (5
+\begin_inset space ~
+\end_inset
+
+ns rise time) 9125 PMTs (as will be used on GRINCH), which limit the achievable
+ timing resolution.
+ Two small plastic scintillators, placed above and below the hodoscope bar,
+ provide a trigger for energetic charged particles (cosmic-ray muons).
+ All PMT signals are passed to a NINO card and in addition the trigger scintilla
+tor PMT outputs are split and attached to Ortec 934 CFDs which provide NIM
+ signals to fire the DAQ system.
+ This consists of a VMEbus crate housing a i686-based controller running
+ Linux, a CAEN V1190A multi-hit TDC and a CAEN V792 QDC.
+ The LVDS signals from NINO are fed directly to the TDC, which has a resolution
+ of 100
+\begin_inset space ~
+\end_inset
+
+ps/channel and has been programmed to record both the leading and trailing
+ edges of the LVDS pulse.
+ The amplifier outputs from the NINO card are fed to the QDC, which has
+ 12-bit resolution and a full-scale limit of 400
+\begin_inset space ~
+\end_inset
+
+pC.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename TestBed2a.jpg
+	lyxscale 20
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Test-setup"
+
+\end_inset
+
+Test setup showing one element of the BigBite timing hodoscope, and two
+ trigger scintillators placed above and below the hodoscope element.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Correlation1"
+
+\end_inset
+
+ shows the correlation of leading-edge hit time from a single PMT of the
+ hodoscope with the time-over-threshold (TOT) for the same signal.
+ TOT is just the difference of trailing- and leading-edge recorded hits,
+ times the TDC conversion gain of 100
+\begin_inset space ~
+\end_inset
+
+ps/channel.
+ The correlation is smooth and quite close to linear over most of the dynamic
+ range, so that it can be used to correct for time walk.
+ Fig.
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Correl2"
+
+\end_inset
+
+ shows the correlation between TOT with the charge from the buffer amplifier,
+ measured by the QDC.
+ The cut-off at a TOT of 10
+\begin_inset space ~
+\end_inset
+
+ns is not completely sharp, presumably an effect of noise on very low level
+ input pulses.
+ The non-linear correlation between time-over-threshold and measured charge
+ is smooth and 
+\begin_inset Quotes eld
+\end_inset
+
+saturates
+\begin_inset Quotes erd
+\end_inset
+
+ at a pulse charge of around 7 units (1 unit is roughly 1
+\begin_inset space ~
+\end_inset
+
+MeV energy deposit in the hodoscope bar).
+ The 
+\begin_inset Quotes eld
+\end_inset
+
+saturation
+\begin_inset Quotes erd
+\end_inset
+
+ corresponds to approaching the full-scale limit of the QDC.
+ The linear dynamic ranges of the 9125 PMT (equipped here with a redesigned
+ low-gain/high-linearity base) and the buffer amplifier on the NINO card
+ remain to be quantified.
+ However for GRINCH operation, signal amplitudes will be well within the
+ linear range of the system.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename NinoT1.pdf
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Correlation1"
+
+\end_inset
+
+Correlation of NINO leading edge time with time over threshold
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename NinoT2.pdf
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Correl2"
+
+\end_inset
+
+Correlation of NINO time over threshold with the pulse charge measured in
+ a V792 QDC.
+ Y-axis 
+\begin_inset Quotes eld
+\end_inset
+
+arb.
+ units
+\begin_inset Quotes erd
+\end_inset
+
+ are approximately deposited energy in MeV.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "NINO"
+
+\end_inset
+
+F.
+ Anghinolfi et al., Nucl.
+ Instr.
+ and Meth.
+ A 533 (2004), 183.
+\end_layout
+
+\end_body
+\end_document

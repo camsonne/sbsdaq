@@ -1,0 +1,4150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="792pt"
+   height="612pt"
+   id="svg6414"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="New document 2">
+  <defs
+     id="defs6416">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 382.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="990 : 382.5 : 1"
+       inkscape:persp3d-origin="495 : 255 : 1"
+       id="perspective6423" />
+    <inkscape:perspective
+       id="perspective5365"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <clipPath
+       id="presentation_clip_path"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         x="0"
+         y="0"
+         width="28002"
+         height="20999"
+         id="rect7" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     inkscape:document-units="in"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.43415836"
+     inkscape:cx="490"
+     inkscape:cy="380"
+     inkscape:current-layer="layer1"
+     id="namedview6418"
+     showgrid="false"
+     inkscape:window-width="1575"
+     inkscape:window-height="1226"
+     inkscape:window-x="10"
+     inkscape:window-y="160"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata6420">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="id1"
+       class="Slide"
+       clip-path="url(#presentation_clip_path)"
+       transform="matrix(0.03543307,0,0,0.03543307,-0.62988224,33.026269)">
+      <g
+         class="Page"
+         id="g274">
+        <g
+           class="com.sun.star.presentation.TitleTextShape"
+           id="g276">
+          <g
+             id="id9">
+            <text
+               class="TextShape"
+               id="text279">
+              <tspan
+                 style="font-size:1129px;font-weight:400;font-family:'Arial, sans-serif'"
+                 class="TextParagraph"
+                 font-size="1129px"
+                 font-weight="400"
+                 id="tspan281">
+                <tspan
+                   class="TextPosition"
+                   x="1649"
+                   y="1373"
+                   id="tspan283">
+                  <tspan
+                     style="fill:#000099;stroke:none"
+                     id="tspan285">BigBite Shower Trigger</tspan>
+                </tspan>
+              </tspan>
+            </text>
+          </g>
+        </g>
+        <g
+           style="visibility:hidden"
+           visibility="hidden"
+           class="Date/Time"
+           id="g287">
+          <g
+             id="id10">
+            <text
+               class="TextShape"
+               id="text290">
+              <tspan
+                 style="font-size:353px;font-weight:700;font-family:'Arial, sans-serif'"
+                 class="TextParagraph"
+                 font-size="353px"
+                 font-weight="700"
+                 id="tspan292">
+                <tspan
+                   class="TextPosition"
+                   x="27615"
+                   y="228"
+                   transform="matrix(0.00174533,0.99999848,-0.99999848,0.00174533,27794.802,-27387.356)"
+                   id="tspan294">
+                  <tspan
+                     style="fill:#ffffff;stroke:none"
+                     id="tspan296">4/Nov/2014</tspan>
+                </tspan>
+              </tspan>
+            </text>
+          </g>
+        </g>
+        <g
+           style="visibility:hidden"
+           visibility="hidden"
+           class="Footer"
+           id="g298">
+          <g
+             id="id11">
+            <text
+               class="TextShape"
+               id="text301">
+              <tspan
+                 style="font-size:353px;font-weight:700;font-family:'Arial, sans-serif'"
+                 class="TextParagraph"
+                 font-size="353px"
+                 font-weight="700"
+                 id="tspan303">
+                <tspan
+                   class="TextPosition"
+                   x="27615"
+                   y="6262"
+                   transform="matrix(0.00174533,0.99999848,-0.99999848,0.00174533,33828.793,-21363.887)"
+                   id="tspan305">
+                  <tspan
+                     style="fill:#ffffff;stroke:none"
+                     id="tspan307">DOE SBS Review / SBS DAQ</tspan>
+                </tspan>
+              </tspan>
+            </text>
+          </g>
+        </g>
+        <g
+           style="visibility:hidden"
+           visibility="hidden"
+           class="Slide_Number"
+           id="g309">
+          <g
+             id="id12">
+            <text
+               class="TextShape"
+               id="text312">
+              <tspan
+                 style="font-size:353px;font-weight:700;font-family:'Arial, sans-serif'"
+                 class="TextParagraph"
+                 font-size="353px"
+                 font-weight="700"
+                 id="tspan314">
+                <tspan
+                   class="TextPosition"
+                   x="28091"
+                   y="20771"
+                   transform="matrix(0,-1,1,0,7320,48862)"
+                   id="tspan316">
+                  <tspan
+                     style="fill:#ffffff;stroke:none"
+                     id="tspan318">9</tspan>
+                </tspan>
+              </tspan>
+            </text>
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g320">
+          <g
+             id="id13">
+            <path
+               style="fill:#c6d9f1;fill-opacity:0.25899999;stroke:#ffffff;stroke-opacity:0.25899999"
+               d="m 11824,6996 6960,0 0,1142 -6960,0 0,-1142 z m 0,0 0,0 z m 6960,1142 0,0 z"
+               id="path323" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 11824,6996 6960,0 0,1142 -6960,0 0,-1142 z"
+               id="path325" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g327">
+          <g
+             id="id14">
+            <path
+               style="fill:none;stroke:#4a7ebb;stroke-width:71"
+               d="M 11146,9030 12310,7649"
+               id="path330" />
+            <path
+               style="fill:#4a7ebb;stroke:none"
+               d="m 12502,7421 -65,324 -55,-8 46,-228 -217,84 -18,-53 309,-119 z"
+               id="path332" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g334">
+          <g
+             id="id15">
+            <path
+               style="fill:none;stroke:#4a7ebb;stroke-width:71"
+               d="M 12060,9047 13224,7666"
+               id="path337" />
+            <path
+               style="fill:#4a7ebb;stroke:none"
+               d="m 13416,7438 -65,324 -55,-8 46,-228 -217,84 -18,-53 309,-119 z"
+               id="path339" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g341">
+          <g
+             id="id16">
+            <path
+               style="fill:none;stroke:#4a7ebb;stroke-width:71"
+               d="M 13228,9030 14392,7649"
+               id="path344" />
+            <path
+               style="fill:#4a7ebb;stroke:none"
+               d="m 14584,7421 -65,324 -55,-8 46,-228 -217,84 -18,-53 309,-119 z"
+               id="path346" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g348">
+          <g
+             id="id17">
+            <path
+               style="fill:none;stroke:#4a7ebb;stroke-width:71"
+               d="M 14143,9047 15307,7666"
+               id="path351" />
+            <path
+               style="fill:#4a7ebb;stroke:none"
+               d="m 15499,7438 -65,324 -55,-8 46,-228 -217,84 -18,-53 309,-119 z"
+               id="path353" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g355">
+          <g
+             id="id18">
+            <path
+               style="fill:none;stroke:#4a7ebb;stroke-width:71"
+               d="M 15157,9030 16321,7649"
+               id="path358" />
+            <path
+               style="fill:#4a7ebb;stroke:none"
+               d="m 16513,7421 -65,324 -55,-8 46,-228 -217,84 -18,-53 309,-119 z"
+               id="path360" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g362">
+          <g
+             id="id19">
+            <path
+               style="fill:none;stroke:#4a7ebb;stroke-width:71"
+               d="M 16807,8954 17971,7573"
+               id="path365" />
+            <path
+               style="fill:#4a7ebb;stroke:none"
+               d="m 18163,7345 -65,324 -55,-8 46,-228 -217,84 -18,-53 309,-119 z"
+               id="path367" />
+          </g>
+        </g>
+        <g
+           class="Group"
+           id="g369">
+          <g
+             class="com.sun.star.drawing.CustomShape"
+             id="g371">
+            <g
+               id="id20">
+              <path
+                 style="fill:#c6d9f1;fill-opacity:0.25899999;stroke:#ffffff;stroke-opacity:0.25899999"
+                 d="m 11875,2955 6960,0 0,1142 -6960,0 0,-1142 z m 0,0 0,0 z m 6960,1142 0,0 z"
+                 id="path374" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 11875,2955 6960,0 0,1142 -6960,0 0,-1142 z"
+                 id="path376" />
+            </g>
+          </g>
+          <g
+             class="com.sun.star.drawing.CustomShape"
+             id="g378">
+            <g
+               id="id21">
+              <path
+                 style="fill:none;stroke:#4a7ebb;stroke-width:71"
+                 d="M 12111,5007 13275,3626"
+                 id="path381" />
+              <path
+                 style="fill:#4a7ebb;stroke:none"
+                 d="m 13467,3398 -65,324 -55,-8 46,-228 -217,84 -18,-53 309,-119 z"
+                 id="path383" />
+            </g>
+          </g>
+          <g
+             class="com.sun.star.drawing.CustomShape"
+             id="g385">
+            <g
+               id="id22">
+              <path
+                 style="fill:none;stroke:#4a7ebb;stroke-width:71"
+                 d="M 13280,4990 14444,3609"
+                 id="path388" />
+              <path
+                 style="fill:#4a7ebb;stroke:none"
+                 d="m 14636,3381 -65,324 -55,-8 46,-228 -217,84 -18,-53 309,-119 z"
+                 id="path390" />
+            </g>
+          </g>
+          <g
+             class="com.sun.star.drawing.CustomShape"
+             id="g392">
+            <g
+               id="id23">
+              <path
+                 style="fill:none;stroke:#4a7ebb;stroke-width:71"
+                 d="M 14194,5007 15358,3626"
+                 id="path395" />
+              <path
+                 style="fill:#4a7ebb;stroke:none"
+                 d="m 15550,3398 -65,324 -55,-8 46,-228 -217,84 -18,-53 309,-119 z"
+                 id="path397" />
+            </g>
+          </g>
+          <g
+             class="com.sun.star.drawing.CustomShape"
+             id="g399">
+            <g
+               id="id24">
+              <path
+                 style="fill:none;stroke:#4a7ebb;stroke-width:71"
+                 d="M 15209,4990 16373,3609"
+                 id="path402" />
+              <path
+                 style="fill:#4a7ebb;stroke:none"
+                 d="m 16565,3381 -65,324 -55,-8 46,-228 -217,84 -18,-53 309,-119 z"
+                 id="path404" />
+            </g>
+          </g>
+          <g
+             class="com.sun.star.drawing.CustomShape"
+             id="g406">
+            <g
+               id="id25">
+              <path
+                 style="fill:none;stroke:#4a7ebb;stroke-width:71"
+                 d="M 16123,5007 17287,3626"
+                 id="path409" />
+              <path
+                 style="fill:#4a7ebb;stroke:none"
+                 d="m 17479,3398 -65,324 -55,-8 46,-228 -217,84 -18,-53 309,-119 z"
+                 id="path411" />
+            </g>
+          </g>
+          <g
+             class="com.sun.star.drawing.CustomShape"
+             id="g413">
+            <g
+               id="id26">
+              <path
+                 style="fill:none;stroke:#4a7ebb;stroke-width:71"
+                 d="M 17077,5007 18241,3626"
+                 id="path416" />
+              <path
+                 style="fill:#4a7ebb;stroke:none"
+                 d="m 18433,3398 -65,324 -55,-8 46,-228 -217,84 -18,-53 309,-119 z"
+                 id="path418" />
+            </g>
+          </g>
+        </g>
+        <g
+           class="Group"
+           id="g420">
+          <g
+             class="com.sun.star.drawing.CustomShape"
+             id="g422">
+            <g
+               id="id27">
+              <path
+                 style="fill:#c6d9f1;fill-opacity:0.25899999;stroke:#ffffff;stroke-opacity:0.25899999"
+                 d="m 11881,5665 6960,0 0,1142 -6960,0 0,-1142 z m 0,0 0,0 z m 6960,1142 0,0 z"
+                 id="path425" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 11881,5665 6960,0 0,1142 -6960,0 0,-1142 z"
+                 id="path427" />
+            </g>
+          </g>
+          <g
+             class="com.sun.star.drawing.CustomShape"
+             id="g429">
+            <g
+               id="id28">
+              <path
+                 style="fill:none;stroke:#4a7ebb;stroke-width:71"
+                 d="M 11202,7699 12366,6318"
+                 id="path432" />
+              <path
+                 style="fill:#4a7ebb;stroke:none"
+                 d="m 12558,6090 -65,324 -55,-8 46,-228 -217,84 -18,-53 309,-119 z"
+                 id="path434" />
+            </g>
+          </g>
+          <g
+             class="com.sun.star.drawing.CustomShape"
+             id="g436">
+            <g
+               id="id29">
+              <path
+                 style="fill:none;stroke:#4a7ebb;stroke-width:71"
+                 d="M 12117,7716 13281,6335"
+                 id="path439" />
+              <path
+                 style="fill:#4a7ebb;stroke:none"
+                 d="m 13473,6107 -65,324 -55,-8 46,-228 -217,84 -18,-53 309,-119 z"
+                 id="path441" />
+            </g>
+          </g>
+          <g
+             class="com.sun.star.drawing.CustomShape"
+             id="g443">
+            <g
+               id="id30">
+              <path
+                 style="fill:none;stroke:#4a7ebb;stroke-width:71"
+                 d="M 13285,7699 14449,6318"
+                 id="path446" />
+              <path
+                 style="fill:#4a7ebb;stroke:none"
+                 d="m 14641,6090 -65,324 -55,-8 46,-228 -217,84 -18,-53 309,-119 z"
+                 id="path448" />
+            </g>
+          </g>
+          <g
+             class="com.sun.star.drawing.CustomShape"
+             id="g450">
+            <g
+               id="id31">
+              <path
+                 style="fill:none;stroke:#4a7ebb;stroke-width:71"
+                 d="M 14199,7716 15363,6335"
+                 id="path453" />
+              <path
+                 style="fill:#4a7ebb;stroke:none"
+                 d="m 15555,6107 -65,324 -55,-8 46,-228 -217,84 -18,-53 309,-119 z"
+                 id="path455" />
+            </g>
+          </g>
+          <g
+             class="com.sun.star.drawing.CustomShape"
+             id="g457">
+            <g
+               id="id32">
+              <path
+                 style="fill:none;stroke:#4a7ebb;stroke-width:71"
+                 d="M 15214,7699 16378,6318"
+                 id="path460" />
+              <path
+                 style="fill:#4a7ebb;stroke:none"
+                 d="m 16570,6090 -65,324 -55,-8 46,-228 -217,84 -18,-53 309,-119 z"
+                 id="path462" />
+            </g>
+          </g>
+          <g
+             class="com.sun.star.drawing.CustomShape"
+             id="g464">
+            <g
+               id="id33">
+              <path
+                 style="fill:none;stroke:#4a7ebb;stroke-width:71"
+                 d="M 16128,7716 17292,6335"
+                 id="path467" />
+              <path
+                 style="fill:#4a7ebb;stroke:none"
+                 d="m 17484,6107 -65,324 -55,-8 46,-228 -217,84 -18,-53 309,-119 z"
+                 id="path469" />
+            </g>
+          </g>
+          <g
+             class="com.sun.star.drawing.CustomShape"
+             id="g471">
+            <g
+               id="id34">
+              <path
+                 style="fill:none;stroke:#4a7ebb;stroke-width:71"
+                 d="M 17082,7716 18246,6335"
+                 id="path474" />
+              <path
+                 style="fill:#4a7ebb;stroke:none"
+                 d="m 18438,6107 -65,324 -55,-8 46,-228 -217,84 -18,-53 309,-119 z"
+                 id="path476" />
+            </g>
+          </g>
+        </g>
+        <g
+           class="Group"
+           id="g478">
+          <g
+             class="com.sun.star.drawing.CustomShape"
+             id="g480">
+            <g
+               id="id35">
+              <path
+                 style="fill:#c6d9f1;fill-opacity:0.25899999;stroke:#ffffff;stroke-opacity:0.25899999"
+                 d="m 11875,4290 6960,0 0,1142 -6960,0 0,-1142 z m 0,0 0,0 z m 6960,1142 0,0 z"
+                 id="path483" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 11875,4290 6960,0 0,1142 -6960,0 0,-1142 z"
+                 id="path485" />
+            </g>
+          </g>
+          <g
+             class="com.sun.star.drawing.CustomShape"
+             id="g487">
+            <g
+               id="id36">
+              <path
+                 style="fill:none;stroke:#4a7ebb;stroke-width:71"
+                 d="M 11197,6324 12361,4943"
+                 id="path490" />
+              <path
+                 style="fill:#4a7ebb;stroke:none"
+                 d="m 12553,4715 -65,324 -55,-8 46,-228 -217,84 -18,-53 309,-119 z"
+                 id="path492" />
+            </g>
+          </g>
+          <g
+             class="com.sun.star.drawing.CustomShape"
+             id="g494">
+            <g
+               id="id37">
+              <path
+                 style="fill:none;stroke:#4a7ebb;stroke-width:71"
+                 d="M 12111,6341 13275,4960"
+                 id="path497" />
+              <path
+                 style="fill:#4a7ebb;stroke:none"
+                 d="m 13467,4732 -65,324 -55,-8 46,-228 -217,84 -18,-53 309,-119 z"
+                 id="path499" />
+            </g>
+          </g>
+          <g
+             class="com.sun.star.drawing.CustomShape"
+             id="g501">
+            <g
+               id="id38">
+              <path
+                 style="fill:none;stroke:#4a7ebb;stroke-width:71"
+                 d="M 13280,6324 14444,4943"
+                 id="path504" />
+              <path
+                 style="fill:#4a7ebb;stroke:none"
+                 d="m 14636,4715 -65,324 -55,-8 46,-228 -217,84 -18,-53 309,-119 z"
+                 id="path506" />
+            </g>
+          </g>
+          <g
+             class="com.sun.star.drawing.CustomShape"
+             id="g508">
+            <g
+               id="id39">
+              <path
+                 style="fill:none;stroke:#4a7ebb;stroke-width:71"
+                 d="M 14194,6341 15358,4960"
+                 id="path511" />
+              <path
+                 style="fill:#4a7ebb;stroke:none"
+                 d="m 15550,4732 -65,324 -55,-8 46,-228 -217,84 -18,-53 309,-119 z"
+                 id="path513" />
+            </g>
+          </g>
+          <g
+             class="com.sun.star.drawing.CustomShape"
+             id="g515">
+            <g
+               id="id40">
+              <path
+                 style="fill:none;stroke:#4a7ebb;stroke-width:71"
+                 d="M 15209,6324 16373,4943"
+                 id="path518" />
+              <path
+                 style="fill:#4a7ebb;stroke:none"
+                 d="m 16565,4715 -65,324 -55,-8 46,-228 -217,84 -18,-53 309,-119 z"
+                 id="path520" />
+            </g>
+          </g>
+          <g
+             class="com.sun.star.drawing.CustomShape"
+             id="g522">
+            <g
+               id="id41">
+              <path
+                 style="fill:none;stroke:#4a7ebb;stroke-width:71"
+                 d="M 16123,6341 17287,4960"
+                 id="path525" />
+              <path
+                 style="fill:#4a7ebb;stroke:none"
+                 d="m 17479,4732 -65,324 -55,-8 46,-228 -217,84 -18,-53 309,-119 z"
+                 id="path527" />
+            </g>
+          </g>
+          <g
+             class="com.sun.star.drawing.CustomShape"
+             id="g529">
+            <g
+               id="id42">
+              <path
+                 style="fill:none;stroke:#4a7ebb;stroke-width:71"
+                 d="M 17077,6341 18241,4960"
+                 id="path532" />
+              <path
+                 style="fill:#4a7ebb;stroke:none"
+                 d="m 18433,4732 -65,324 -55,-8 46,-228 -217,84 -18,-53 309,-119 z"
+                 id="path534" />
+            </g>
+          </g>
+        </g>
+        <g
+           class="Group"
+           id="g536">
+          <g
+             class="com.sun.star.drawing.CustomShape"
+             id="g538">
+            <g
+               id="id43">
+              <path
+                 style="fill:#eeece1;stroke:none"
+                 d="m 8131,10163 808,0 0,833 -808,0 0,-833 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+                 id="path541" />
+              <path
+                 style="fill:#c6c5bb;stroke:none"
+                 d="m 8939,10163 2226,-2225 0,832 -2226,2226 0,-833 z m -808,-2225 0,0 z m 3034,3058 0,0 z"
+                 id="path543" />
+              <path
+                 style="fill:#ffffff;stroke:none"
+                 d="m 8131,10163 2225,-2225 809,0 -2226,2225 -808,0 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+                 id="path545" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 8131,10163 2225,-2225 809,0 0,832 -2226,2226 -808,0 0,-833 z"
+                 id="path547" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 8131,10163 808,0 2226,-2225"
+                 id="path549" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 8939,10163 0,833"
+                 id="path551" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 8131,7938 0,0 z"
+                 id="path553" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 11165,10996 0,0 z"
+                 id="path555" />
+            </g>
+          </g>
+          <g
+             class="com.sun.star.drawing.CustomShape"
+             id="g557">
+            <g
+               id="id44">
+              <path
+                 style="fill:#eeece1;stroke:none"
+                 d="m 9153,10163 808,0 0,833 -808,0 0,-833 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+                 id="path560" />
+              <path
+                 style="fill:#c6c5bb;stroke:none"
+                 d="m 9961,10163 2226,-2225 0,832 -2226,2226 0,-833 z m -808,-2225 0,0 z m 3034,3058 0,0 z"
+                 id="path562" />
+              <path
+                 style="fill:#ffffff;stroke:none"
+                 d="m 9153,10163 2225,-2225 809,0 -2226,2225 -808,0 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+                 id="path564" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 9153,10163 2225,-2225 809,0 0,832 -2226,2226 -808,0 0,-833 z"
+                 id="path566" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 9153,10163 808,0 2226,-2225"
+                 id="path568" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 9961,10163 0,833"
+                 id="path570" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 9153,7938 0,0 z"
+                 id="path572" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 12187,10996 0,0 z"
+                 id="path574" />
+            </g>
+          </g>
+          <g
+             class="com.sun.star.drawing.CustomShape"
+             id="g576">
+            <g
+               id="id45">
+              <path
+                 style="fill:#eeece1;stroke:none"
+                 d="m 10175,10163 808,0 0,833 -808,0 0,-833 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+                 id="path579" />
+              <path
+                 style="fill:#c6c5bb;stroke:none"
+                 d="m 10983,10163 2226,-2225 0,832 -2226,2226 0,-833 z m -808,-2225 0,0 z m 3034,3058 0,0 z"
+                 id="path581" />
+              <path
+                 style="fill:#ffffff;stroke:none"
+                 d="m 10175,10163 2225,-2225 809,0 -2226,2225 -808,0 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+                 id="path583" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 10175,10163 2225,-2225 809,0 0,832 -2226,2226 -808,0 0,-833 z"
+                 id="path585" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 10175,10163 808,0 2226,-2225"
+                 id="path587" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 10983,10163 0,833"
+                 id="path589" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 10175,7938 0,0 z"
+                 id="path591" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 13209,10996 0,0 z"
+                 id="path593" />
+            </g>
+          </g>
+          <g
+             class="com.sun.star.drawing.CustomShape"
+             id="g595">
+            <g
+               id="id46">
+              <path
+                 style="fill:#eeece1;stroke:none"
+                 d="m 11197,10163 808,0 0,833 -808,0 0,-833 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+                 id="path598" />
+              <path
+                 style="fill:#c6c5bb;stroke:none"
+                 d="m 12005,10163 2226,-2225 0,832 -2226,2226 0,-833 z m -808,-2225 0,0 z m 3034,3058 0,0 z"
+                 id="path600" />
+              <path
+                 style="fill:#ffffff;stroke:none"
+                 d="m 11197,10163 2225,-2225 809,0 -2226,2225 -808,0 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+                 id="path602" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 11197,10163 2225,-2225 809,0 0,832 -2226,2226 -808,0 0,-833 z"
+                 id="path604" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 11197,10163 808,0 2226,-2225"
+                 id="path606" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 12005,10163 0,833"
+                 id="path608" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 11197,7938 0,0 z"
+                 id="path610" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 14231,10996 0,0 z"
+                 id="path612" />
+            </g>
+          </g>
+          <g
+             class="com.sun.star.drawing.CustomShape"
+             id="g614">
+            <g
+               id="id47">
+              <path
+                 style="fill:#eeece1;stroke:none"
+                 d="m 12219,10163 808,0 0,833 -808,0 0,-833 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+                 id="path617" />
+              <path
+                 style="fill:#c6c5bb;stroke:none"
+                 d="m 13027,10163 2226,-2225 0,832 -2226,2226 0,-833 z m -808,-2225 0,0 z m 3034,3058 0,0 z"
+                 id="path619" />
+              <path
+                 style="fill:#ffffff;stroke:none"
+                 d="m 12219,10163 2225,-2225 809,0 -2226,2225 -808,0 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+                 id="path621" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 12219,10163 2225,-2225 809,0 0,832 -2226,2226 -808,0 0,-833 z"
+                 id="path623" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 12219,10163 808,0 2226,-2225"
+                 id="path625" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 13027,10163 0,833"
+                 id="path627" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 12219,7938 0,0 z"
+                 id="path629" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 15253,10996 0,0 z"
+                 id="path631" />
+            </g>
+          </g>
+          <g
+             class="com.sun.star.drawing.CustomShape"
+             id="g633">
+            <g
+               id="id48">
+              <path
+                 style="fill:#eeece1;stroke:none"
+                 d="m 13242,10163 808,0 0,833 -808,0 0,-833 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+                 id="path636" />
+              <path
+                 style="fill:#c6c5bb;stroke:none"
+                 d="m 14050,10163 2226,-2225 0,832 -2226,2226 0,-833 z m -808,-2225 0,0 z m 3034,3058 0,0 z"
+                 id="path638" />
+              <path
+                 style="fill:#ffffff;stroke:none"
+                 d="m 13242,10163 2225,-2225 809,0 -2226,2225 -808,0 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+                 id="path640" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 13242,10163 2225,-2225 809,0 0,832 -2226,2226 -808,0 0,-833 z"
+                 id="path642" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 13242,10163 808,0 2226,-2225"
+                 id="path644" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 14050,10163 0,833"
+                 id="path646" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 13242,7938 0,0 z"
+                 id="path648" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 16276,10996 0,0 z"
+                 id="path650" />
+            </g>
+          </g>
+          <g
+             class="com.sun.star.drawing.CustomShape"
+             id="g652">
+            <g
+               id="id49">
+              <path
+                 style="fill:#eeece1;stroke:none"
+                 d="m 14264,10163 808,0 0,833 -808,0 0,-833 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+                 id="path655" />
+              <path
+                 style="fill:#c6c5bb;stroke:none"
+                 d="m 15072,10163 2226,-2225 0,832 -2226,2226 0,-833 z m -808,-2225 0,0 z m 3034,3058 0,0 z"
+                 id="path657" />
+              <path
+                 style="fill:#ffffff;stroke:none"
+                 d="m 14264,10163 2225,-2225 809,0 -2226,2225 -808,0 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+                 id="path659" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 14264,10163 2225,-2225 809,0 0,832 -2226,2226 -808,0 0,-833 z"
+                 id="path661" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 14264,10163 808,0 2226,-2225"
+                 id="path663" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 15072,10163 0,833"
+                 id="path665" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 14264,7938 0,0 z"
+                 id="path667" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 17298,10996 0,0 z"
+                 id="path669" />
+            </g>
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g671">
+          <g
+             id="id50">
+            <path
+               style="fill:#eeece1;stroke:none"
+               d="m 8120,8972 808,0 0,833 -808,0 0,-833 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+               id="path674" />
+            <path
+               style="fill:#c6c5bb;stroke:none"
+               d="m 8928,8972 2226,-2225 0,832 -2226,2226 0,-833 z m -808,-2225 0,0 z m 3034,3058 0,0 z"
+               id="path676" />
+            <path
+               style="fill:#ffffff;stroke:none"
+               d="m 8120,8972 2225,-2225 809,0 -2226,2225 -808,0 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+               id="path678" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 8120,8972 2225,-2225 809,0 0,832 -2226,2226 -808,0 0,-833 z"
+               id="path680" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 8120,8972 808,0 2226,-2225"
+               id="path682" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 8928,8972 0,833"
+               id="path684" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 8120,6747 0,0 z"
+               id="path686" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 11154,9805 0,0 z"
+               id="path688" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g690">
+          <g
+             id="id51">
+            <path
+               style="fill:#eeece1;stroke:none"
+               d="m 9142,8972 808,0 0,833 -808,0 0,-833 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+               id="path693" />
+            <path
+               style="fill:#c6c5bb;stroke:none"
+               d="m 9950,8972 2226,-2225 0,832 -2226,2226 0,-833 z m -808,-2225 0,0 z m 3034,3058 0,0 z"
+               id="path695" />
+            <path
+               style="fill:#ffffff;stroke:none"
+               d="m 9142,8972 2225,-2225 809,0 -2226,2225 -808,0 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+               id="path697" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 9142,8972 2225,-2225 809,0 0,832 -2226,2226 -808,0 0,-833 z"
+               id="path699" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 9142,8972 808,0 2226,-2225"
+               id="path701" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 9950,8972 0,833"
+               id="path703" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 9142,6747 0,0 z"
+               id="path705" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 12176,9805 0,0 z"
+               id="path707" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g709">
+          <g
+             id="id52">
+            <path
+               style="fill:#eeece1;stroke:none"
+               d="m 10165,8972 808,0 0,833 -808,0 0,-833 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+               id="path712" />
+            <path
+               style="fill:#c6c5bb;stroke:none"
+               d="m 10973,8972 2226,-2225 0,832 -2226,2226 0,-833 z m -808,-2225 0,0 z m 3034,3058 0,0 z"
+               id="path714" />
+            <path
+               style="fill:#ffffff;stroke:none"
+               d="m 10165,8972 2225,-2225 809,0 -2226,2225 -808,0 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+               id="path716" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 10165,8972 2225,-2225 809,0 0,832 -2226,2226 -808,0 0,-833 z"
+               id="path718" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 10165,8972 808,0 2226,-2225"
+               id="path720" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 10973,8972 0,833"
+               id="path722" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 10165,6747 0,0 z"
+               id="path724" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 13199,9805 0,0 z"
+               id="path726" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g728">
+          <g
+             id="id53">
+            <path
+               style="fill:#eeece1;stroke:none"
+               d="m 11187,8972 808,0 0,833 -808,0 0,-833 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+               id="path731" />
+            <path
+               style="fill:#c6c5bb;stroke:none"
+               d="m 11995,8972 2226,-2225 0,832 -2226,2226 0,-833 z m -808,-2225 0,0 z m 3034,3058 0,0 z"
+               id="path733" />
+            <path
+               style="fill:#ffffff;stroke:none"
+               d="m 11187,8972 2225,-2225 809,0 -2226,2225 -808,0 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+               id="path735" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 11187,8972 2225,-2225 809,0 0,832 -2226,2226 -808,0 0,-833 z"
+               id="path737" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 11187,8972 808,0 2226,-2225"
+               id="path739" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 11995,8972 0,833"
+               id="path741" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 11187,6747 0,0 z"
+               id="path743" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 14221,9805 0,0 z"
+               id="path745" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g747">
+          <g
+             id="id54">
+            <path
+               style="fill:#eeece1;stroke:none"
+               d="m 12209,8972 808,0 0,833 -808,0 0,-833 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+               id="path750" />
+            <path
+               style="fill:#c6c5bb;stroke:none"
+               d="m 13017,8972 2226,-2225 0,832 -2226,2226 0,-833 z m -808,-2225 0,0 z m 3034,3058 0,0 z"
+               id="path752" />
+            <path
+               style="fill:#ffffff;stroke:none"
+               d="m 12209,8972 2225,-2225 809,0 -2226,2225 -808,0 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+               id="path754" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 12209,8972 2225,-2225 809,0 0,832 -2226,2226 -808,0 0,-833 z"
+               id="path756" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 12209,8972 808,0 2226,-2225"
+               id="path758" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 13017,8972 0,833"
+               id="path760" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 12209,6747 0,0 z"
+               id="path762" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 15243,9805 0,0 z"
+               id="path764" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g766">
+          <g
+             id="id55">
+            <path
+               style="fill:#eeece1;stroke:none"
+               d="m 13231,8972 808,0 0,833 -808,0 0,-833 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+               id="path769" />
+            <path
+               style="fill:#c6c5bb;stroke:none"
+               d="m 14039,8972 2226,-2225 0,832 -2226,2226 0,-833 z m -808,-2225 0,0 z m 3034,3058 0,0 z"
+               id="path771" />
+            <path
+               style="fill:#ffffff;stroke:none"
+               d="m 13231,8972 2225,-2225 809,0 -2226,2225 -808,0 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+               id="path773" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 13231,8972 2225,-2225 809,0 0,832 -2226,2226 -808,0 0,-833 z"
+               id="path775" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 13231,8972 808,0 2226,-2225"
+               id="path777" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 14039,8972 0,833"
+               id="path779" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 13231,6747 0,0 z"
+               id="path781" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 16265,9805 0,0 z"
+               id="path783" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g785">
+          <g
+             id="id56">
+            <path
+               style="fill:#eeece1;stroke:none"
+               d="m 14253,8972 808,0 0,833 -808,0 0,-833 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+               id="path788" />
+            <path
+               style="fill:#c6c5bb;stroke:none"
+               d="m 15061,8972 2226,-2225 0,832 -2226,2226 0,-833 z m -808,-2225 0,0 z m 3034,3058 0,0 z"
+               id="path790" />
+            <path
+               style="fill:#ffffff;stroke:none"
+               d="m 14253,8972 2225,-2225 809,0 -2226,2225 -808,0 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+               id="path792" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 14253,8972 2225,-2225 809,0 0,832 -2226,2226 -808,0 0,-833 z"
+               id="path794" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 14253,8972 808,0 2226,-2225"
+               id="path796" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 15061,8972 0,833"
+               id="path798" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 14253,6747 0,0 z"
+               id="path800" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 17287,9805 0,0 z"
+               id="path802" />
+          </g>
+        </g>
+        <g
+           class="Group"
+           id="g804">
+          <g
+             class="com.sun.star.drawing.CustomShape"
+             id="g806">
+            <g
+               id="id57">
+              <path
+                 style="fill:#eeece1;stroke:none"
+                 d="m 8120,7805 808,0 0,833 -808,0 0,-833 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+                 id="path809" />
+              <path
+                 style="fill:#c6c5bb;stroke:none"
+                 d="m 8928,7805 2226,-2225 0,832 -2226,2226 0,-833 z m -808,-2225 0,0 z m 3034,3058 0,0 z"
+                 id="path811" />
+              <path
+                 style="fill:#ffffff;stroke:none"
+                 d="m 8120,7805 2225,-2225 809,0 -2226,2225 -808,0 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+                 id="path813" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 8120,7805 2225,-2225 809,0 0,832 -2226,2226 -808,0 0,-833 z"
+                 id="path815" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 8120,7805 808,0 2226,-2225"
+                 id="path817" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 8928,7805 0,833"
+                 id="path819" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 8120,5580 0,0 z"
+                 id="path821" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 11154,8638 0,0 z"
+                 id="path823" />
+            </g>
+          </g>
+          <g
+             class="com.sun.star.drawing.CustomShape"
+             id="g825">
+            <g
+               id="id58">
+              <path
+                 style="fill:#eeece1;stroke:none"
+                 d="m 9142,7805 808,0 0,833 -808,0 0,-833 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+                 id="path828" />
+              <path
+                 style="fill:#c6c5bb;stroke:none"
+                 d="m 9950,7805 2226,-2225 0,832 -2226,2226 0,-833 z m -808,-2225 0,0 z m 3034,3058 0,0 z"
+                 id="path830" />
+              <path
+                 style="fill:#ffffff;stroke:none"
+                 d="m 9142,7805 2225,-2225 809,0 -2226,2225 -808,0 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+                 id="path832" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 9142,7805 2225,-2225 809,0 0,832 -2226,2226 -808,0 0,-833 z"
+                 id="path834" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 9142,7805 808,0 2226,-2225"
+                 id="path836" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 9950,7805 0,833"
+                 id="path838" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 9142,5580 0,0 z"
+                 id="path840" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 12176,8638 0,0 z"
+                 id="path842" />
+            </g>
+          </g>
+          <g
+             class="com.sun.star.drawing.CustomShape"
+             id="g844">
+            <g
+               id="id59">
+              <path
+                 style="fill:#eeece1;stroke:none"
+                 d="m 10165,7805 808,0 0,833 -808,0 0,-833 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+                 id="path847" />
+              <path
+                 style="fill:#c6c5bb;stroke:none"
+                 d="m 10973,7805 2226,-2225 0,832 -2226,2226 0,-833 z m -808,-2225 0,0 z m 3034,3058 0,0 z"
+                 id="path849" />
+              <path
+                 style="fill:#ffffff;stroke:none"
+                 d="m 10165,7805 2225,-2225 809,0 -2226,2225 -808,0 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+                 id="path851" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 10165,7805 2225,-2225 809,0 0,832 -2226,2226 -808,0 0,-833 z"
+                 id="path853" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 10165,7805 808,0 2226,-2225"
+                 id="path855" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 10973,7805 0,833"
+                 id="path857" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 10165,5580 0,0 z"
+                 id="path859" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 13199,8638 0,0 z"
+                 id="path861" />
+            </g>
+          </g>
+          <g
+             class="com.sun.star.drawing.CustomShape"
+             id="g863">
+            <g
+               id="id60">
+              <path
+                 style="fill:#eeece1;stroke:none"
+                 d="m 11187,7805 808,0 0,833 -808,0 0,-833 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+                 id="path866" />
+              <path
+                 style="fill:#c6c5bb;stroke:none"
+                 d="m 11995,7805 2226,-2225 0,832 -2226,2226 0,-833 z m -808,-2225 0,0 z m 3034,3058 0,0 z"
+                 id="path868" />
+              <path
+                 style="fill:#ffffff;stroke:none"
+                 d="m 11187,7805 2225,-2225 809,0 -2226,2225 -808,0 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+                 id="path870" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 11187,7805 2225,-2225 809,0 0,832 -2226,2226 -808,0 0,-833 z"
+                 id="path872" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 11187,7805 808,0 2226,-2225"
+                 id="path874" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 11995,7805 0,833"
+                 id="path876" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 11187,5580 0,0 z"
+                 id="path878" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 14221,8638 0,0 z"
+                 id="path880" />
+            </g>
+          </g>
+          <g
+             class="com.sun.star.drawing.CustomShape"
+             id="g882">
+            <g
+               id="id61">
+              <path
+                 style="fill:#eeece1;stroke:none"
+                 d="m 12209,7805 808,0 0,833 -808,0 0,-833 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+                 id="path885" />
+              <path
+                 style="fill:#c6c5bb;stroke:none"
+                 d="m 13017,7805 2226,-2225 0,832 -2226,2226 0,-833 z m -808,-2225 0,0 z m 3034,3058 0,0 z"
+                 id="path887" />
+              <path
+                 style="fill:#ffffff;stroke:none"
+                 d="m 12209,7805 2225,-2225 809,0 -2226,2225 -808,0 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+                 id="path889" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 12209,7805 2225,-2225 809,0 0,832 -2226,2226 -808,0 0,-833 z"
+                 id="path891" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 12209,7805 808,0 2226,-2225"
+                 id="path893" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 13017,7805 0,833"
+                 id="path895" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 12209,5580 0,0 z"
+                 id="path897" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 15243,8638 0,0 z"
+                 id="path899" />
+            </g>
+          </g>
+          <g
+             class="com.sun.star.drawing.CustomShape"
+             id="g901">
+            <g
+               id="id62">
+              <path
+                 style="fill:#eeece1;stroke:none"
+                 d="m 13231,7805 808,0 0,833 -808,0 0,-833 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+                 id="path904" />
+              <path
+                 style="fill:#c6c5bb;stroke:none"
+                 d="m 14039,7805 2226,-2225 0,832 -2226,2226 0,-833 z m -808,-2225 0,0 z m 3034,3058 0,0 z"
+                 id="path906" />
+              <path
+                 style="fill:#ffffff;stroke:none"
+                 d="m 13231,7805 2225,-2225 809,0 -2226,2225 -808,0 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+                 id="path908" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 13231,7805 2225,-2225 809,0 0,832 -2226,2226 -808,0 0,-833 z"
+                 id="path910" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 13231,7805 808,0 2226,-2225"
+                 id="path912" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 14039,7805 0,833"
+                 id="path914" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 13231,5580 0,0 z"
+                 id="path916" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 16265,8638 0,0 z"
+                 id="path918" />
+            </g>
+          </g>
+          <g
+             class="com.sun.star.drawing.CustomShape"
+             id="g920">
+            <g
+               id="id63">
+              <path
+                 style="fill:#eeece1;stroke:none"
+                 d="m 14253,7805 808,0 0,833 -808,0 0,-833 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+                 id="path923" />
+              <path
+                 style="fill:#c6c5bb;stroke:none"
+                 d="m 15061,7805 2226,-2225 0,832 -2226,2226 0,-833 z m -808,-2225 0,0 z m 3034,3058 0,0 z"
+                 id="path925" />
+              <path
+                 style="fill:#ffffff;stroke:none"
+                 d="m 14253,7805 2225,-2225 809,0 -2226,2225 -808,0 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+                 id="path927" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 14253,7805 2225,-2225 809,0 0,832 -2226,2226 -808,0 0,-833 z"
+                 id="path929" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 14253,7805 808,0 2226,-2225"
+                 id="path931" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 15061,7805 0,833"
+                 id="path933" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 14253,5580 0,0 z"
+                 id="path935" />
+              <path
+                 style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                 d="m 17287,8638 0,0 z"
+                 id="path937" />
+            </g>
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g939">
+          <g
+             id="id64">
+            <path
+               style="fill:#eeece1;stroke:none"
+               d="m 8110,6614 808,0 0,833 -808,0 0,-833 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+               id="path942" />
+            <path
+               style="fill:#c6c5bb;stroke:none"
+               d="m 8918,6614 2226,-2225 0,832 -2226,2226 0,-833 z m -808,-2225 0,0 z m 3034,3058 0,0 z"
+               id="path944" />
+            <path
+               style="fill:#ffffff;stroke:none"
+               d="m 8110,6614 2225,-2225 809,0 -2226,2225 -808,0 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+               id="path946" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 8110,6614 2225,-2225 809,0 0,832 -2226,2226 -808,0 0,-833 z"
+               id="path948" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 8110,6614 808,0 2226,-2225"
+               id="path950" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 8918,6614 0,833"
+               id="path952" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 8110,4389 0,0 z"
+               id="path954" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 11144,7447 0,0 z"
+               id="path956" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g958">
+          <g
+             id="id65">
+            <path
+               style="fill:#eeece1;stroke:none"
+               d="m 9132,6614 808,0 0,833 -808,0 0,-833 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+               id="path961" />
+            <path
+               style="fill:#c6c5bb;stroke:none"
+               d="m 9940,6614 2226,-2225 0,832 -2226,2226 0,-833 z m -808,-2225 0,0 z m 3034,3058 0,0 z"
+               id="path963" />
+            <path
+               style="fill:#ffffff;stroke:none"
+               d="m 9132,6614 2225,-2225 809,0 -2226,2225 -808,0 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+               id="path965" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 9132,6614 2225,-2225 809,0 0,832 -2226,2226 -808,0 0,-833 z"
+               id="path967" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 9132,6614 808,0 2226,-2225"
+               id="path969" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 9940,6614 0,833"
+               id="path971" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 9132,4389 0,0 z"
+               id="path973" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 12166,7447 0,0 z"
+               id="path975" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g977">
+          <g
+             id="id66">
+            <path
+               style="fill:#eeece1;stroke:none"
+               d="m 10154,6614 808,0 0,833 -808,0 0,-833 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+               id="path980" />
+            <path
+               style="fill:#c6c5bb;stroke:none"
+               d="m 10962,6614 2226,-2225 0,832 -2226,2226 0,-833 z m -808,-2225 0,0 z m 3034,3058 0,0 z"
+               id="path982" />
+            <path
+               style="fill:#ffffff;stroke:none"
+               d="m 10154,6614 2225,-2225 809,0 -2226,2225 -808,0 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+               id="path984" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 10154,6614 2225,-2225 809,0 0,832 -2226,2226 -808,0 0,-833 z"
+               id="path986" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 10154,6614 808,0 2226,-2225"
+               id="path988" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 10962,6614 0,833"
+               id="path990" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 10154,4389 0,0 z"
+               id="path992" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 13188,7447 0,0 z"
+               id="path994" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g996">
+          <g
+             id="id67">
+            <path
+               style="fill:#eeece1;stroke:none"
+               d="m 11176,6614 808,0 0,833 -808,0 0,-833 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+               id="path999" />
+            <path
+               style="fill:#c6c5bb;stroke:none"
+               d="m 11984,6614 2226,-2225 0,832 -2226,2226 0,-833 z m -808,-2225 0,0 z m 3034,3058 0,0 z"
+               id="path1001" />
+            <path
+               style="fill:#ffffff;stroke:none"
+               d="m 11176,6614 2225,-2225 809,0 -2226,2225 -808,0 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+               id="path1003" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 11176,6614 2225,-2225 809,0 0,832 -2226,2226 -808,0 0,-833 z"
+               id="path1005" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 11176,6614 808,0 2226,-2225"
+               id="path1007" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 11984,6614 0,833"
+               id="path1009" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 11176,4389 0,0 z"
+               id="path1011" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 14210,7447 0,0 z"
+               id="path1013" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g1015">
+          <g
+             id="id68">
+            <path
+               style="fill:#eeece1;stroke:none"
+               d="m 12199,6614 808,0 0,833 -808,0 0,-833 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+               id="path1018" />
+            <path
+               style="fill:#c6c5bb;stroke:none"
+               d="m 13007,6614 2226,-2225 0,832 -2226,2226 0,-833 z m -808,-2225 0,0 z m 3034,3058 0,0 z"
+               id="path1020" />
+            <path
+               style="fill:#ffffff;stroke:none"
+               d="m 12199,6614 2225,-2225 809,0 -2226,2225 -808,0 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+               id="path1022" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 12199,6614 2225,-2225 809,0 0,832 -2226,2226 -808,0 0,-833 z"
+               id="path1024" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 12199,6614 808,0 2226,-2225"
+               id="path1026" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 13007,6614 0,833"
+               id="path1028" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 12199,4389 0,0 z"
+               id="path1030" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 15233,7447 0,0 z"
+               id="path1032" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g1034">
+          <g
+             id="id69">
+            <path
+               style="fill:#eeece1;stroke:none"
+               d="m 13221,6614 808,0 0,833 -808,0 0,-833 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+               id="path1037" />
+            <path
+               style="fill:#c6c5bb;stroke:none"
+               d="m 14029,6614 2226,-2225 0,832 -2226,2226 0,-833 z m -808,-2225 0,0 z m 3034,3058 0,0 z"
+               id="path1039" />
+            <path
+               style="fill:#ffffff;stroke:none"
+               d="m 13221,6614 2225,-2225 809,0 -2226,2225 -808,0 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+               id="path1041" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 13221,6614 2225,-2225 809,0 0,832 -2226,2226 -808,0 0,-833 z"
+               id="path1043" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 13221,6614 808,0 2226,-2225"
+               id="path1045" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 14029,6614 0,833"
+               id="path1047" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 13221,4389 0,0 z"
+               id="path1049" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 16255,7447 0,0 z"
+               id="path1051" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g1053">
+          <g
+             id="id70">
+            <path
+               style="fill:#eeece1;stroke:none"
+               d="m 14243,6614 808,0 0,833 -808,0 0,-833 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+               id="path1056" />
+            <path
+               style="fill:#c6c5bb;stroke:none"
+               d="m 15051,6614 2226,-2225 0,832 -2226,2226 0,-833 z m -808,-2225 0,0 z m 3034,3058 0,0 z"
+               id="path1058" />
+            <path
+               style="fill:#ffffff;stroke:none"
+               d="m 14243,6614 2225,-2225 809,0 -2226,2225 -808,0 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+               id="path1060" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 14243,6614 2225,-2225 809,0 0,832 -2226,2226 -808,0 0,-833 z"
+               id="path1062" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 14243,6614 808,0 2226,-2225"
+               id="path1064" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 15051,6614 0,833"
+               id="path1066" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 14243,4389 0,0 z"
+               id="path1068" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 17277,7447 0,0 z"
+               id="path1070" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g1072">
+          <g
+             id="id71">
+            <path
+               style="fill:#c6d9f1;fill-opacity:0.25899999;stroke:#ffffff;stroke-opacity:0.25899999"
+               d="m 20945,3699 1830,0 0,1508 -1830,0 0,-1508 z m 0,-502 0,0 z m 2333,2010 0,0 z"
+               id="path1075" />
+            <path
+               style="fill:#a5b5c9;fill-opacity:0.25899999;stroke:#ffffff;stroke-opacity:0.25899999"
+               d="m 22775,3699 503,-502 0,1507 -503,503 0,-1508 z m -1830,-502 0,0 z m 2333,2010 0,0 z"
+               id="path1077" />
+            <path
+               style="fill:#ffffff;fill-opacity:0.25899999;stroke:#ffffff;stroke-opacity:0.25899999"
+               d="m 20945,3699 502,-502 1831,0 -503,502 -1830,0 z m 0,-502 0,0 z m 2333,2010 0,0 z"
+               id="path1079" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 20945,3699 502,-502 1831,0 0,1507 -503,503 -1830,0 0,-1508 z"
+               id="path1081" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 20945,3699 1830,0 503,-502"
+               id="path1083" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 22775,3699 0,1508"
+               id="path1085" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 20945,3197 0,0 z"
+               id="path1087" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 23278,5207 0,0 z"
+               id="path1089" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g1091">
+          <g
+             id="id72">
+            <path
+               style="fill:none;stroke:#4a7ebb;stroke-width:71"
+               d="m 18835,3526 2044,2"
+               id="path1094" />
+            <path
+               style="fill:#4a7ebb;stroke:none"
+               d="m 21177,3528 -290,159 -29,-48 204,-111 -204,-112 29,-48 290,160 z"
+               id="path1096" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g1098">
+          <g
+             id="id73">
+            <path
+               style="fill:none;stroke:#4a7ebb;stroke-width:71"
+               d="m 18840,4620 1171,0 0,-571 873,0"
+               id="path1101" />
+            <path
+               style="fill:#4a7ebb;stroke:none"
+               d="m 21182,4049 -290,160 -29,-49 204,-111 -204,-112 29,-47 290,159 z"
+               id="path1103" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g1105">
+          <g
+             id="id74">
+            <path
+               style="fill:#c6d9f1;fill-opacity:0.25899999;stroke:#ffffff;stroke-opacity:0.25899999"
+               d="m 21097,5993 1830,0 0,1508 -1830,0 0,-1508 z m 0,-502 0,0 z m 2333,2010 0,0 z"
+               id="path1108" />
+            <path
+               style="fill:#a5b5c9;fill-opacity:0.25899999;stroke:#ffffff;stroke-opacity:0.25899999"
+               d="m 22927,5993 503,-502 0,1507 -503,503 0,-1508 z m -1830,-502 0,0 z m 2333,2010 0,0 z"
+               id="path1110" />
+            <path
+               style="fill:#ffffff;fill-opacity:0.25899999;stroke:#ffffff;stroke-opacity:0.25899999"
+               d="m 21097,5993 502,-502 1831,0 -503,502 -1830,0 z m 0,-502 0,0 z m 2333,2010 0,0 z"
+               id="path1112" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 21097,5993 502,-502 1831,0 0,1507 -503,503 -1830,0 0,-1508 z"
+               id="path1114" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 21097,5993 1830,0 503,-502"
+               id="path1116" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 22927,5993 0,1508"
+               id="path1118" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 21097,5491 0,0 z"
+               id="path1120" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 23430,7501 0,0 z"
+               id="path1122" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g1124">
+          <g
+             id="id75">
+            <path
+               style="fill:none;stroke:#4a7ebb;stroke-width:71"
+               d="m 18812,5087 1433,0 0,1004 611,0"
+               id="path1127" />
+            <path
+               style="fill:#4a7ebb;stroke:none"
+               d="m 21154,6091 -290,160 -29,-49 204,-111 -204,-112 29,-47 290,159 z"
+               id="path1129" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g1131">
+          <g
+             id="id76">
+            <path
+               style="fill:none;stroke:#4a7ebb;stroke-width:71"
+               d="m 18840,5918 1171,0 0,1004 873,0"
+               id="path1134" />
+            <path
+               style="fill:#4a7ebb;stroke:none"
+               d="m 21182,6922 -290,160 -29,-49 204,-111 -204,-112 29,-47 290,159 z"
+               id="path1136" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g1138">
+          <g
+             id="id77">
+            <path
+               style="fill:none;stroke:#4a7ebb;stroke-width:71"
+               d="m 18784,6444 963,0 0,1915 666,0"
+               id="path1141" />
+            <path
+               style="fill:#4a7ebb;stroke:none"
+               d="m 20711,8359 -290,160 -29,-49 204,-111 -204,-112 29,-47 290,159 z"
+               id="path1143" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g1145">
+          <g
+             id="id78">
+            <path
+               style="fill:#c6d9f1;fill-opacity:0.25899999;stroke:#ffffff;stroke-opacity:0.25899999"
+               d="m 20653,8440 1830,0 0,1508 -1830,0 0,-1508 z m 0,-502 0,0 z m 2333,2010 0,0 z"
+               id="path1148" />
+            <path
+               style="fill:#a5b5c9;fill-opacity:0.25899999;stroke:#ffffff;stroke-opacity:0.25899999"
+               d="m 22483,8440 503,-502 0,1507 -503,503 0,-1508 z m -1830,-502 0,0 z m 2333,2010 0,0 z"
+               id="path1150" />
+            <path
+               style="fill:#ffffff;fill-opacity:0.25899999;stroke:#ffffff;stroke-opacity:0.25899999"
+               d="m 20653,8440 502,-502 1831,0 -503,502 -1830,0 z m 0,-502 0,0 z m 2333,2010 0,0 z"
+               id="path1152" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 20653,8440 502,-502 1831,0 0,1507 -503,503 -1830,0 0,-1508 z"
+               id="path1154" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 20653,8440 1830,0 503,-502"
+               id="path1156" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 22483,8440 0,1508"
+               id="path1158" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 20653,7938 0,0 z"
+               id="path1160" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 22986,9948 0,0 z"
+               id="path1162" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g1164">
+          <g
+             id="id79">
+            <path
+               style="fill:none;stroke:#4a7ebb;stroke-width:71"
+               d="m 17218,9254 0,284"
+               id="path1167" />
+            <path
+               style="fill:none;stroke:#4a7ebb;stroke-width:71"
+               d="m 17218,9751 0,284"
+               id="path1169" />
+            <path
+               style="fill:none;stroke:#4a7ebb;stroke-width:71"
+               d="m 17218,10248 0,284"
+               id="path1171" />
+            <path
+               style="fill:none;stroke:#4a7ebb;stroke-width:71"
+               d="m 17219,10745 0,284"
+               id="path1173" />
+            <path
+               style="fill:none;stroke:#4a7ebb;stroke-width:71"
+               d="m 17219,11242 0,284"
+               id="path1175" />
+            <path
+               style="fill:none;stroke:#4a7ebb;stroke-width:71"
+               d="m 17219,11739 0,284"
+               id="path1177" />
+            <path
+               style="fill:none;stroke:#4a7ebb;stroke-width:71"
+               d="m 17219,12236 0,284"
+               id="path1179" />
+            <path
+               style="fill:none;stroke:#4a7ebb;stroke-width:71"
+               d="m 17219,12733 0,284"
+               id="path1181" />
+            <path
+               style="fill:none;stroke:#4a7ebb;stroke-width:71"
+               d="m 17220,13230 0,284"
+               id="path1183" />
+            <path
+               style="fill:none;stroke:#4a7ebb;stroke-width:71"
+               d="m 17220,13727 0,284"
+               id="path1185" />
+            <path
+               style="fill:#4a7ebb;stroke:none"
+               d="m 17220,14405 -160,-290 49,-29 111,204 112,-204 47,29 -159,290 z"
+               id="path1187" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g1189">
+          <g
+             id="id80">
+            <path
+               style="fill:none;stroke:#4a7ebb;stroke-width:71"
+               d="m 18638,7434 890,0 0,1761 827,0"
+               id="path1192" />
+            <path
+               style="fill:#4a7ebb;stroke:none"
+               d="m 20653,9195 -290,160 -29,-49 204,-111 -204,-112 29,-47 290,159 z"
+               id="path1194" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g1196">
+          <g
+             id="id81">
+            <path
+               style="fill:none;stroke:#4a7ebb;stroke-width:71"
+               d="m 18638,7961 0,3370 1717,0"
+               id="path1199" />
+            <path
+               style="fill:#4a7ebb;stroke:none"
+               d="m 20653,11331 -290,160 -29,-49 204,-111 -204,-112 29,-47 290,159 z"
+               id="path1201" />
+          </g>
+        </g>
+        <g
+           class="Group"
+           id="g1203">
+          <g
+             class="Group"
+             id="g1205">
+            <g
+               class="com.sun.star.drawing.CustomShape"
+               id="g1207">
+              <g
+                 id="id82">
+                <path
+                   style="fill:#ffffff;stroke:none"
+                   d="m 5740,9759 4930,0 0,700 -4930,0 0,-700 z m 0,0 0,0 z m 4930,700 0,0 z"
+                   id="path1210" />
+                <path
+                   style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                   d="m 5740,9759 4930,0 0,700 -4930,0 0,-700 z"
+                   id="path1212" />
+              </g>
+            </g>
+            <g
+               class="com.sun.star.drawing.CustomShape"
+               id="g1214">
+              <g
+                 id="id83">
+                <path
+                   style="fill:#ffffff;stroke:none"
+                   d="m 5379,10096 4909,0 0,700 -4909,0 0,-700 z m 0,0 0,0 z m 4909,700 0,0 z"
+                   id="path1217" />
+                <path
+                   style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                   d="m 5379,10096 4909,0 0,700 -4909,0 0,-700 z"
+                   id="path1219" />
+              </g>
+            </g>
+            <g
+               class="com.sun.star.drawing.CustomShape"
+               id="g1221">
+              <g
+                 id="id84">
+                <path
+                   style="fill:#ffffff;stroke:none"
+                   d="m 5359,10122 278,-350 4899,0 -279,350 -4898,0 z m 0,-350 0,0 z m 5177,350 0,0 z"
+                   id="path1224" />
+                <path
+                   style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                   d="m 5359,10122 278,-350 4899,0 -279,350 -4898,0 z"
+                   id="path1226" />
+              </g>
+            </g>
+            <g
+               class="com.sun.star.drawing.LineShape"
+               id="g1228">
+              <g
+                 id="id85">
+                <path
+                   style="fill:none;stroke:#4a7ebb;stroke-width:71"
+                   d="m 10308,10797 363,-337"
+                   id="path1231" />
+              </g>
+            </g>
+            <g
+               class="com.sun.star.drawing.LineShape"
+               id="g1233">
+              <g
+                 id="id86">
+                <path
+                   style="fill:none;stroke:#ffffff;stroke-width:71"
+                   d="m 10535,10460 -210,0"
+                   id="path1236" />
+              </g>
+            </g>
+          </g>
+          <g
+             class="Group"
+             id="g1238">
+            <g
+               class="com.sun.star.drawing.CustomShape"
+               id="g1240">
+              <g
+                 id="id87">
+                <path
+                   style="fill:#ffffff;stroke:none"
+                   d="m 10846,9759 4930,0 0,700 -4930,0 0,-700 z m 0,0 0,0 z m 4930,700 0,0 z"
+                   id="path1243" />
+                <path
+                   style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                   d="m 10846,9759 4930,0 0,700 -4930,0 0,-700 z"
+                   id="path1245" />
+              </g>
+            </g>
+            <g
+               class="com.sun.star.drawing.CustomShape"
+               id="g1247">
+              <g
+                 id="id88">
+                <path
+                   style="fill:#ffffff;stroke:none"
+                   d="m 10484,10096 4909,0 0,700 -4909,0 0,-700 z m 0,0 0,0 z m 4909,700 0,0 z"
+                   id="path1250" />
+                <path
+                   style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                   d="m 10484,10096 4909,0 0,700 -4909,0 0,-700 z"
+                   id="path1252" />
+              </g>
+            </g>
+            <g
+               class="com.sun.star.drawing.CustomShape"
+               id="g1254">
+              <g
+                 id="id89">
+                <path
+                   style="fill:#ffffff;stroke:none"
+                   d="m 10464,10122 278,-350 4899,0 -279,350 -4898,0 z m 0,-350 0,0 z m 5177,350 0,0 z"
+                   id="path1257" />
+                <path
+                   style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                   d="m 10464,10122 278,-350 4899,0 -279,350 -4898,0 z"
+                   id="path1259" />
+              </g>
+            </g>
+            <g
+               class="com.sun.star.drawing.LineShape"
+               id="g1261">
+              <g
+                 id="id90">
+                <path
+                   style="fill:none;stroke:#4a7ebb;stroke-width:71"
+                   d="m 15414,10797 362,-337"
+                   id="path1264" />
+              </g>
+            </g>
+            <g
+               class="com.sun.star.drawing.LineShape"
+               id="g1266">
+              <g
+                 id="id91">
+                <path
+                   style="fill:none;stroke:#ffffff;stroke-width:71"
+                   d="m 15641,10460 -210,0"
+                   id="path1269" />
+              </g>
+            </g>
+          </g>
+          <g
+             class="Group"
+             id="g1271">
+            <g
+               class="com.sun.star.drawing.CustomShape"
+               id="g1273">
+              <g
+                 id="id92">
+                <path
+                   style="fill:#ffffff;stroke:none"
+                   d="m 5830,8891 4930,0 0,700 -4930,0 0,-700 z m 0,0 0,0 z m 4930,700 0,0 z"
+                   id="path1276" />
+                <path
+                   style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                   d="m 5830,8891 4930,0 0,700 -4930,0 0,-700 z"
+                   id="path1278" />
+              </g>
+            </g>
+            <g
+               class="com.sun.star.drawing.CustomShape"
+               id="g1280">
+              <g
+                 id="id93">
+                <path
+                   style="fill:#ffffff;stroke:none"
+                   d="m 5469,9228 4909,0 0,700 -4909,0 0,-700 z m 0,0 0,0 z m 4909,700 0,0 z"
+                   id="path1283" />
+                <path
+                   style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                   d="m 5469,9228 4909,0 0,700 -4909,0 0,-700 z"
+                   id="path1285" />
+              </g>
+            </g>
+            <g
+               class="com.sun.star.drawing.CustomShape"
+               id="g1287">
+              <g
+                 id="id94">
+                <path
+                   style="fill:#ffffff;stroke:none"
+                   d="m 5449,9254 278,-350 4899,0 -279,350 -4898,0 z m 0,-350 0,0 z m 5177,350 0,0 z"
+                   id="path1290" />
+                <path
+                   style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                   d="m 5449,9254 278,-350 4899,0 -279,350 -4898,0 z"
+                   id="path1292" />
+              </g>
+            </g>
+            <g
+               class="com.sun.star.drawing.LineShape"
+               id="g1294">
+              <g
+                 id="id95">
+                <path
+                   style="fill:none;stroke:#4a7ebb;stroke-width:71"
+                   d="m 10398,9928 363,-337"
+                   id="path1297" />
+              </g>
+            </g>
+            <g
+               class="com.sun.star.drawing.LineShape"
+               id="g1299">
+              <g
+                 id="id96">
+                <path
+                   style="fill:none;stroke:#ffffff;stroke-width:71"
+                   d="m 10625,9591 -210,0"
+                   id="path1302" />
+              </g>
+            </g>
+          </g>
+          <g
+             class="Group"
+             id="g1304">
+            <g
+               class="com.sun.star.drawing.CustomShape"
+               id="g1306">
+              <g
+                 id="id97">
+                <path
+                   style="fill:#ffffff;stroke:none"
+                   d="m 10936,8891 4930,0 0,700 -4930,0 0,-700 z m 0,0 0,0 z m 4930,700 0,0 z"
+                   id="path1309" />
+                <path
+                   style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                   d="m 10936,8891 4930,0 0,700 -4930,0 0,-700 z"
+                   id="path1311" />
+              </g>
+            </g>
+            <g
+               class="com.sun.star.drawing.CustomShape"
+               id="g1313">
+              <g
+                 id="id98">
+                <path
+                   style="fill:#ffffff;stroke:none"
+                   d="m 10574,9228 4909,0 0,700 -4909,0 0,-700 z m 0,0 0,0 z m 4909,700 0,0 z"
+                   id="path1316" />
+                <path
+                   style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                   d="m 10574,9228 4909,0 0,700 -4909,0 0,-700 z"
+                   id="path1318" />
+              </g>
+            </g>
+            <g
+               class="com.sun.star.drawing.CustomShape"
+               id="g1320">
+              <g
+                 id="id99">
+                <path
+                   style="fill:#ffffff;stroke:none"
+                   d="m 10554,9254 278,-350 4899,0 -279,350 -4898,0 z m 0,-350 0,0 z m 5177,350 0,0 z"
+                   id="path1323" />
+                <path
+                   style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                   d="m 10554,9254 278,-350 4899,0 -279,350 -4898,0 z"
+                   id="path1325" />
+              </g>
+            </g>
+            <g
+               class="com.sun.star.drawing.LineShape"
+               id="g1327">
+              <g
+                 id="id100">
+                <path
+                   style="fill:none;stroke:#4a7ebb;stroke-width:71"
+                   d="m 15504,9928 362,-337"
+                   id="path1330" />
+              </g>
+            </g>
+            <g
+               class="com.sun.star.drawing.LineShape"
+               id="g1332">
+              <g
+                 id="id101">
+                <path
+                   style="fill:none;stroke:#ffffff;stroke-width:71"
+                   d="m 15730,9591 -209,0"
+                   id="path1335" />
+              </g>
+            </g>
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g1337">
+          <g
+             id="id102">
+            <path
+               style="fill:#c6d9f1;fill-opacity:0.25899999;stroke:#ffffff;stroke-opacity:0.25899999"
+               d="m 20653,10576 1830,0 0,1508 -1830,0 0,-1508 z m 0,-502 0,0 z m 2333,2010 0,0 z"
+               id="path1340" />
+            <path
+               style="fill:#a5b5c9;fill-opacity:0.25899999;stroke:#ffffff;stroke-opacity:0.25899999"
+               d="m 22483,10576 503,-502 0,1507 -503,503 0,-1508 z m -1830,-502 0,0 z m 2333,2010 0,0 z"
+               id="path1342" />
+            <path
+               style="fill:#ffffff;fill-opacity:0.25899999;stroke:#ffffff;stroke-opacity:0.25899999"
+               d="m 20653,10576 502,-502 1831,0 -503,502 -1830,0 z m 0,-502 0,0 z m 2333,2010 0,0 z"
+               id="path1344" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 20653,10576 502,-502 1831,0 0,1507 -503,503 -1830,0 0,-1508 z"
+               id="path1346" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 20653,10576 1830,0 503,-502"
+               id="path1348" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 22483,10576 0,1508"
+               id="path1350" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 20653,10074 0,0 z"
+               id="path1352" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 22986,12084 0,0 z"
+               id="path1354" />
+          </g>
+        </g>
+        <g
+           class="Group"
+           id="g1356">
+          <g
+             class="Group"
+             id="g1358">
+            <g
+               class="com.sun.star.drawing.CustomShape"
+               id="g1360">
+              <g
+                 id="id103">
+                <path
+                   style="fill:#ffffff;stroke:none"
+                   d="m 5857,8021 4930,0 0,700 -4930,0 0,-700 z m 0,0 0,0 z m 4930,700 0,0 z"
+                   id="path1363" />
+                <path
+                   style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                   d="m 5857,8021 4930,0 0,700 -4930,0 0,-700 z"
+                   id="path1365" />
+              </g>
+            </g>
+            <g
+               class="com.sun.star.drawing.CustomShape"
+               id="g1367">
+              <g
+                 id="id104">
+                <path
+                   style="fill:#ffffff;stroke:none"
+                   d="m 5495,8358 4909,0 0,700 -4909,0 0,-700 z m 0,0 0,0 z m 4909,700 0,0 z"
+                   id="path1370" />
+                <path
+                   style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                   d="m 5495,8358 4909,0 0,700 -4909,0 0,-700 z"
+                   id="path1372" />
+              </g>
+            </g>
+            <g
+               class="com.sun.star.drawing.CustomShape"
+               id="g1374">
+              <g
+                 id="id105">
+                <path
+                   style="fill:#ffffff;stroke:none"
+                   d="m 5475,8384 278,-350 4899,0 -279,350 -4898,0 z m 0,-350 0,0 z m 5177,350 0,0 z"
+                   id="path1377" />
+                <path
+                   style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                   d="m 5475,8384 278,-350 4899,0 -279,350 -4898,0 z"
+                   id="path1379" />
+              </g>
+            </g>
+            <g
+               class="com.sun.star.drawing.LineShape"
+               id="g1381">
+              <g
+                 id="id106">
+                <path
+                   style="fill:none;stroke:#4a7ebb;stroke-width:71"
+                   d="m 10425,9059 362,-337"
+                   id="path1384" />
+              </g>
+            </g>
+            <g
+               class="com.sun.star.drawing.LineShape"
+               id="g1386">
+              <g
+                 id="id107">
+                <path
+                   style="fill:none;stroke:#ffffff;stroke-width:71"
+                   d="m 10652,8722 -210,0"
+                   id="path1389" />
+              </g>
+            </g>
+          </g>
+          <g
+             class="Group"
+             id="g1391">
+            <g
+               class="com.sun.star.drawing.CustomShape"
+               id="g1393">
+              <g
+                 id="id108">
+                <path
+                   style="fill:#ffffff;stroke:none"
+                   d="m 10962,8021 4930,0 0,700 -4930,0 0,-700 z m 0,0 0,0 z m 4930,700 0,0 z"
+                   id="path1396" />
+                <path
+                   style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                   d="m 10962,8021 4930,0 0,700 -4930,0 0,-700 z"
+                   id="path1398" />
+              </g>
+            </g>
+            <g
+               class="com.sun.star.drawing.CustomShape"
+               id="g1400">
+              <g
+                 id="id109">
+                <path
+                   style="fill:#ffffff;stroke:none"
+                   d="m 10601,8358 4909,0 0,700 -4909,0 0,-700 z m 0,0 0,0 z m 4909,700 0,0 z"
+                   id="path1403" />
+                <path
+                   style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                   d="m 10601,8358 4909,0 0,700 -4909,0 0,-700 z"
+                   id="path1405" />
+              </g>
+            </g>
+            <g
+               class="com.sun.star.drawing.CustomShape"
+               id="g1407">
+              <g
+                 id="id110">
+                <path
+                   style="fill:#ffffff;stroke:none"
+                   d="m 10581,8384 278,-350 4899,0 -279,350 -4898,0 z m 0,-350 0,0 z m 5177,350 0,0 z"
+                   id="path1410" />
+                <path
+                   style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                   d="m 10581,8384 278,-350 4899,0 -279,350 -4898,0 z"
+                   id="path1412" />
+              </g>
+            </g>
+            <g
+               class="com.sun.star.drawing.LineShape"
+               id="g1414">
+              <g
+                 id="id111">
+                <path
+                   style="fill:none;stroke:#4a7ebb;stroke-width:71"
+                   d="m 15530,9059 363,-337"
+                   id="path1417" />
+              </g>
+            </g>
+            <g
+               class="com.sun.star.drawing.LineShape"
+               id="g1419">
+              <g
+                 id="id112">
+                <path
+                   style="fill:none;stroke:#ffffff;stroke-width:71"
+                   d="m 15757,8722 -210,0"
+                   id="path1422" />
+              </g>
+            </g>
+          </g>
+          <g
+             class="Group"
+             id="g1424">
+            <g
+               class="com.sun.star.drawing.CustomShape"
+               id="g1426">
+              <g
+                 id="id113">
+                <path
+                   style="fill:#ffffff;stroke:none"
+                   d="m 5947,7153 4930,0 0,700 -4930,0 0,-700 z m 0,0 0,0 z m 4930,700 0,0 z"
+                   id="path1429" />
+                <path
+                   style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                   d="m 5947,7153 4930,0 0,700 -4930,0 0,-700 z"
+                   id="path1431" />
+              </g>
+            </g>
+            <g
+               class="com.sun.star.drawing.CustomShape"
+               id="g1433">
+              <g
+                 id="id114">
+                <path
+                   style="fill:#ffffff;stroke:none"
+                   d="m 5585,7490 4909,0 0,700 -4909,0 0,-700 z m 0,0 0,0 z m 4909,700 0,0 z"
+                   id="path1436" />
+                <path
+                   style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                   d="m 5585,7490 4909,0 0,700 -4909,0 0,-700 z"
+                   id="path1438" />
+              </g>
+            </g>
+            <g
+               class="com.sun.star.drawing.CustomShape"
+               id="g1440">
+              <g
+                 id="id115">
+                <path
+                   style="fill:#ffffff;stroke:none"
+                   d="m 5565,7516 278,-350 4899,0 -279,350 -4898,0 z m 0,-350 0,0 z m 5177,350 0,0 z"
+                   id="path1443" />
+                <path
+                   style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                   d="m 5565,7516 278,-350 4899,0 -279,350 -4898,0 z"
+                   id="path1445" />
+              </g>
+            </g>
+            <g
+               class="com.sun.star.drawing.LineShape"
+               id="g1447">
+              <g
+                 id="id116">
+                <path
+                   style="fill:none;stroke:#4a7ebb;stroke-width:71"
+                   d="m 10515,8190 362,-337"
+                   id="path1450" />
+              </g>
+            </g>
+            <g
+               class="com.sun.star.drawing.LineShape"
+               id="g1452">
+              <g
+                 id="id117">
+                <path
+                   style="fill:none;stroke:#ffffff;stroke-width:71"
+                   d="m 10742,7853 -210,0"
+                   id="path1455" />
+              </g>
+            </g>
+          </g>
+          <g
+             class="Group"
+             id="g1457">
+            <g
+               class="com.sun.star.drawing.CustomShape"
+               id="g1459">
+              <g
+                 id="id118">
+                <path
+                   style="fill:#ffffff;stroke:none"
+                   d="m 11052,7153 4930,0 0,700 -4930,0 0,-700 z m 0,0 0,0 z m 4930,700 0,0 z"
+                   id="path1462" />
+                <path
+                   style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                   d="m 11052,7153 4930,0 0,700 -4930,0 0,-700 z"
+                   id="path1464" />
+              </g>
+            </g>
+            <g
+               class="com.sun.star.drawing.CustomShape"
+               id="g1466">
+              <g
+                 id="id119">
+                <path
+                   style="fill:#ffffff;stroke:none"
+                   d="m 10691,7490 4909,0 0,700 -4909,0 0,-700 z m 0,0 0,0 z m 4909,700 0,0 z"
+                   id="path1469" />
+                <path
+                   style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                   d="m 10691,7490 4909,0 0,700 -4909,0 0,-700 z"
+                   id="path1471" />
+              </g>
+            </g>
+            <g
+               class="com.sun.star.drawing.CustomShape"
+               id="g1473">
+              <g
+                 id="id120">
+                <path
+                   style="fill:#ffffff;stroke:none"
+                   d="m 10671,7516 278,-350 4899,0 -279,350 -4898,0 z m 0,-350 0,0 z m 5177,350 0,0 z"
+                   id="path1476" />
+                <path
+                   style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                   d="m 10671,7516 278,-350 4899,0 -279,350 -4898,0 z"
+                   id="path1478" />
+              </g>
+            </g>
+            <g
+               class="com.sun.star.drawing.LineShape"
+               id="g1480">
+              <g
+                 id="id121">
+                <path
+                   style="fill:none;stroke:#4a7ebb;stroke-width:71"
+                   d="m 15620,8190 363,-337"
+                   id="path1483" />
+              </g>
+            </g>
+            <g
+               class="com.sun.star.drawing.LineShape"
+               id="g1485">
+              <g
+                 id="id122">
+                <path
+                   style="fill:none;stroke:#ffffff;stroke-width:71"
+                   d="m 15847,7853 -210,0"
+                   id="path1488" />
+              </g>
+            </g>
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g1490">
+          <g
+             id="id123">
+            <path
+               style="fill:#c6d9f1;fill-opacity:0.25899999;stroke:#ffffff;stroke-opacity:0.25899999"
+               d="m 3210,7898 1302,0 0,993 -1302,0 0,-993 z m 0,-330 0,0 z m 1633,1323 0,0 z"
+               id="path1493" />
+            <path
+               style="fill:#a5b5c9;fill-opacity:0.25899999;stroke:#ffffff;stroke-opacity:0.25899999"
+               d="m 4512,7898 331,-330 0,992 -331,331 0,-993 z m -1302,-330 0,0 z m 1633,1323 0,0 z"
+               id="path1495" />
+            <path
+               style="fill:#ffffff;fill-opacity:0.25899999;stroke:#ffffff;stroke-opacity:0.25899999"
+               d="m 3210,7898 330,-330 1303,0 -331,330 -1302,0 z m 0,-330 0,0 z m 1633,1323 0,0 z"
+               id="path1497" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 3210,7898 330,-330 1303,0 0,992 -331,331 -1302,0 0,-993 z"
+               id="path1499" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 3210,7898 1302,0 331,-330"
+               id="path1501" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 4512,7898 0,993"
+               id="path1503" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 3210,7568 0,0 z"
+               id="path1505" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 4843,8891 0,0 z"
+               id="path1507" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g1509">
+          <g
+             id="id124">
+            <path
+               style="fill:none;stroke:#4a7ebb;stroke-width:71"
+               d="m 5584,7841 -456,137"
+               id="path1512" />
+            <path
+               style="fill:#4a7ebb;stroke:none"
+               d="m 4843,8064 232,-236 41,37 -163,166 228,48 -14,54 -324,-69 z"
+               id="path1514" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g1516">
+          <g
+             id="id125">
+            <path
+               style="fill:none;stroke:#4a7ebb;stroke-width:71"
+               d="M 5494,8708 5054,8272"
+               id="path1519" />
+            <path
+               style="fill:#4a7ebb;stroke:none"
+               d="m 4842,8063 318,91 -13,54 -223,-64 66,223 -54,13 -94,-317 z"
+               id="path1521" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g1523">
+          <g
+             id="id126">
+            <path
+               style="fill:#c6d9f1;fill-opacity:0.25899999;stroke:#ffffff;stroke-opacity:0.25899999"
+               d="m 3025,9525 1302,0 0,993 -1302,0 0,-993 z m 0,-330 0,0 z m 1633,1323 0,0 z"
+               id="path1526" />
+            <path
+               style="fill:#a5b5c9;fill-opacity:0.25899999;stroke:#ffffff;stroke-opacity:0.25899999"
+               d="m 4327,9525 331,-330 0,992 -331,331 0,-993 z m -1302,-330 0,0 z m 1633,1323 0,0 z"
+               id="path1528" />
+            <path
+               style="fill:#ffffff;fill-opacity:0.25899999;stroke:#ffffff;stroke-opacity:0.25899999"
+               d="m 3025,9525 330,-330 1303,0 -331,330 -1302,0 z m 0,-330 0,0 z m 1633,1323 0,0 z"
+               id="path1530" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 3025,9525 330,-330 1303,0 0,992 -331,331 -1302,0 0,-993 z"
+               id="path1532" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 3025,9525 1302,0 331,-330"
+               id="path1534" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 4327,9525 0,993"
+               id="path1536" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 3025,9195 0,0 z"
+               id="path1538" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 4658,10518 0,0 z"
+               id="path1540" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g1542">
+          <g
+             id="id127">
+            <path
+               style="fill:none;stroke:#4a7ebb;stroke-width:71"
+               d="m 5495,8709 -587,383"
+               id="path1545" />
+            <path
+               style="fill:#4a7ebb;stroke:none"
+               d="m 4658,9254 156,-292 51,25 -111,204 232,-17 2,55 -330,25 z"
+               id="path1547" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g1549">
+          <g
+             id="id128">
+            <path
+               style="fill:none;stroke:#4a7ebb;stroke-width:71"
+               d="m 5468,9578 -611,195"
+               id="path1552" />
+            <path
+               style="fill:#4a7ebb;stroke:none"
+               d="m 4573,9864 228,-240 42,37 -161,168 229,45 -13,54 -325,-64 z"
+               id="path1554" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g1556">
+          <g
+             id="id129">
+            <path
+               style="fill:none;stroke:#4a7ebb;stroke-width:71"
+               d="m 5428,9752 -686,999"
+               id="path1559" />
+            <path
+               style="fill:#4a7ebb;stroke:none"
+               d="m 4573,10996 33,-329 56,3 -24,231 208,-104 23,50 -296,149 z"
+               id="path1561" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g1563">
+          <g
+             id="id130">
+            <path
+               style="fill:#c6d9f1;fill-opacity:0.25899999;stroke:#ffffff;stroke-opacity:0.25899999"
+               d="m 3368,11293 1302,0 0,993 -1302,0 0,-993 z m 0,-330 0,0 z m 1633,1323 0,0 z"
+               id="path1566" />
+            <path
+               style="fill:#a5b5c9;fill-opacity:0.25899999;stroke:#ffffff;stroke-opacity:0.25899999"
+               d="m 4670,11293 331,-330 0,992 -331,331 0,-993 z m -1302,-330 0,0 z m 1633,1323 0,0 z"
+               id="path1568" />
+            <path
+               style="fill:#ffffff;fill-opacity:0.25899999;stroke:#ffffff;stroke-opacity:0.25899999"
+               d="m 3368,11293 330,-330 1303,0 -331,330 -1302,0 z m 0,-330 0,0 z m 1633,1323 0,0 z"
+               id="path1570" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 3368,11293 330,-330 1303,0 0,992 -331,331 -1302,0 0,-993 z"
+               id="path1572" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 3368,11293 1302,0 331,-330"
+               id="path1574" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 4670,11293 0,993"
+               id="path1576" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 3368,10963 0,0 z"
+               id="path1578" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 5001,12286 0,0 z"
+               id="path1580" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g1582">
+          <g
+             id="id131">
+            <path
+               style="fill:none;stroke:#4a7ebb;stroke-width:71"
+               d="m 5378,10446 -273,733"
+               id="path1585" />
+            <path
+               style="fill:#4a7ebb;stroke:none"
+               d="m 5001,11458 -48,-327 55,-11 33,230 176,-152 35,44 -251,216 z"
+               id="path1587" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.LineShape"
+           id="g1589">
+          <g
+             id="id132">
+            <path
+               style="fill:none;stroke:#4a7ebb;stroke-width:71"
+               d="m 15983,7503 136,10444"
+               id="path1592" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.LineShape"
+           id="g1594">
+          <g
+             id="id133">
+            <path
+               style="fill:none;stroke:#4a7ebb;stroke-width:71"
+               d="m 15663,8564 225,9036"
+               id="path1597" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.LineShape"
+           id="g1599">
+          <g
+             id="id134">
+            <path
+               style="fill:none;stroke:#4a7ebb;stroke-width:71"
+               d="m 15486,9617 134,7618"
+               id="path1602" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.LineShape"
+           id="g1604">
+          <g
+             id="id135">
+            <path
+               style="fill:none;stroke:#4a7ebb;stroke-width:71"
+               d="m 16255,17947 -15714,0"
+               id="path1607" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.LineShape"
+           id="g1609">
+          <g
+             id="id136">
+            <path
+               style="fill:none;stroke:#4a7ebb;stroke-width:71"
+               d="m 541,17947 0,-9883"
+               id="path1612" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g1614">
+          <g
+             id="id137">
+            <path
+               style="fill:none;stroke:#4a7ebb;stroke-width:71"
+               d="m 541,8063 2370,-25"
+               id="path1617" />
+            <path
+               style="fill:#4a7ebb;stroke:none"
+               d="m 3209,8035 -288,163 -30,-48 203,-114 -205,-110 28,-47 292,156 z"
+               id="path1619" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.LineShape"
+           id="g1621">
+          <g
+             id="id138">
+            <path
+               style="fill:none;stroke:#4a7ebb;stroke-width:71"
+               d="m 15866,17600 -14858,0"
+               id="path1624" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.LineShape"
+           id="g1626">
+          <g
+             id="id139">
+            <path
+               style="fill:none;stroke:#4a7ebb;stroke-width:71"
+               d="m 1008,17600 0,-7879"
+               id="path1629" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.LineShape"
+           id="g1631">
+          <g
+             id="id140">
+            <path
+               style="fill:none;stroke:#4a7ebb;stroke-width:71"
+               d="m 1008,9721 467,0"
+               id="path1634" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.LineShape"
+           id="g1636">
+          <g
+             id="id141">
+            <path
+               style="fill:none;stroke:#4a7ebb;stroke-width:71"
+               d="m 1475,9752 0,-1358"
+               id="path1639" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g1641">
+          <g
+             id="id142">
+            <path
+               style="fill:none;stroke:#4a7ebb;stroke-width:71"
+               d="m 1475,8394 1437,2"
+               id="path1644" />
+            <path
+               style="fill:#4a7ebb;stroke:none"
+               d="m 3210,8396 -290,159 -29,-48 204,-111 -204,-112 29,-48 290,160 z"
+               id="path1646" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g1648">
+          <g
+             id="id143">
+            <path
+               style="fill:none;stroke:#4a7ebb;stroke-width:71"
+               d="m 1474,9720 1253,-61"
+               id="path1651" />
+            <path
+               style="fill:#4a7ebb;stroke:none"
+               d="m 3024,9645 -282,173 -31,-46 198,-121 -209,-102 27,-49 297,145 z"
+               id="path1653" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.LineShape"
+           id="g1655">
+          <g
+             id="id144">
+            <path
+               style="fill:none;stroke:#4a7ebb;stroke-width:71"
+               d="m 15620,17235 -14145,0"
+               id="path1658" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.LineShape"
+           id="g1660">
+          <g
+             id="id145">
+            <path
+               style="fill:none;stroke:#4a7ebb;stroke-width:71"
+               d="m 1475,17235 0,-5904"
+               id="path1663" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g1665">
+          <g
+             id="id146">
+            <path
+               style="fill:none;stroke:#4a7ebb;stroke-width:71"
+               d="M 1474,11330 2797,10213"
+               id="path1668" />
+            <path
+               style="fill:#4a7ebb;stroke:none"
+               d="m 3024,10021 -119,309 -53,-18 84,-217 -228,46 -8,-55 324,-65 z"
+               id="path1670" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g1672">
+          <g
+             id="id147">
+            <path
+               style="fill:none;stroke:#4a7ebb;stroke-width:71"
+               d="m 1475,11330 1596,108"
+               id="path1675" />
+            <path
+               style="fill:#4a7ebb;stroke:none"
+               d="m 3368,11458 -300,140 -26,-50 211,-98 -196,-125 32,-46 279,179 z"
+               id="path1677" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g1679">
+          <g
+             id="id148">
+            <text
+               class="TextShape"
+               id="text1682">
+              <tspan
+                 style="font-size:529px;font-weight:400;font-family:Symbol"
+                 class="TextParagraph"
+                 font-size="529px"
+                 font-weight="400"
+                 id="tspan1684">
+                <tspan
+                   class="TextPosition"
+                   x="14594"
+                   y="2364"
+                   id="tspan1686">
+                  <tspan
+                     style="font-size:917px;fill:#000000;stroke:none"
+                     font-size="917px"
+                     id="tspan1688">S</tspan>
+                  <tspan
+                     style="fill:#000000;stroke:none"
+                     id="tspan1690">7</tspan>
+                </tspan>
+              </tspan>
+            </text>
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g1692">
+          <g
+             id="id149">
+            <text
+               class="TextShape"
+               id="text1695">
+              <tspan
+                 style="font-size:917px;font-weight:400;font-family:'Calibri, sans-serif'"
+                 class="TextParagraph"
+                 font-size="917px"
+                 font-weight="400"
+                 id="tspan1697">
+                <tspan
+                   class="TextPosition"
+                   x="20388"
+                   y="2354"
+                   id="tspan1699">
+                  <tspan
+                     style="fill:#000000;stroke:none"
+                     id="tspan1701">2 x</tspan>
+                  <tspan
+                     style="fill:#000000;stroke:none;font-family:Symbol"
+                     id="tspan1703">S</tspan>
+                  <tspan
+                     style="font-size:635px;fill:#000000;stroke:none;font-family:Symbol"
+                     font-size="635px"
+                     id="tspan1705">7</tspan>
+                  <tspan
+                     style="font-size:529px;fill:#000000;stroke:none"
+                     font-size="529px"
+                     id="tspan1707">+</tspan>
+                  <tspan
+                     style="fill:#000000;stroke:none;font-family:Symbol"
+                     id="tspan1709">S</tspan>
+                  <tspan
+                     style="font-size:529px;fill:#000000;stroke:none;font-family:Symbol"
+                     font-size="529px"
+                     id="tspan1711">4</tspan>
+                </tspan>
+              </tspan>
+            </text>
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g1713">
+          <g
+             id="id150">
+            <text
+               class="TextShape"
+               id="text1716">
+              <tspan
+                 style="font-size:1235px;font-weight:700;font-family:'Calibri, sans-serif'"
+                 class="TextParagraph"
+                 font-size="1235px"
+                 font-weight="700"
+                 id="tspan1718">
+                <tspan
+                   class="TextPosition"
+                   x="10605"
+                   y="5418"
+                   id="tspan1720">
+                  <tspan
+                     style="fill:#000000;stroke:none"
+                     id="tspan1722">Shower</tspan>
+                </tspan>
+              </tspan>
+              <tspan
+                 style="font-size:1235px;font-weight:700;font-family:'Calibri, sans-serif'"
+                 class="TextParagraph"
+                 font-size="1235px"
+                 font-weight="700"
+                 id="tspan1724">
+                <tspan
+                   class="TextPosition"
+                   x="11051"
+                   y="6900"
+                   id="tspan1726">
+                  <tspan
+                     style="fill:#000000;stroke:none"
+                     id="tspan1728">7 x27</tspan>
+                </tspan>
+              </tspan>
+            </text>
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g1730">
+          <g
+             id="id151">
+            <text
+               class="TextShape"
+               id="text1733">
+              <tspan
+                 style="font-size:1235px;font-weight:700;font-family:'Calibri, sans-serif'"
+                 class="TextParagraph"
+                 font-size="1235px"
+                 font-weight="700"
+                 id="tspan1735">
+                <tspan
+                   class="TextPosition"
+                   x="7701"
+                   y="8967"
+                   id="tspan1737">
+                  <tspan
+                     style="fill:#000000;stroke:none"
+                     id="tspan1739">Preshower</tspan>
+                </tspan>
+              </tspan>
+              <tspan
+                 style="font-size:1235px;font-weight:700;font-family:'Calibri, sans-serif'"
+                 class="TextParagraph"
+                 font-size="1235px"
+                 font-weight="700"
+                 id="tspan1741">
+                <tspan
+                   class="TextPosition"
+                   x="8960"
+                   y="10449"
+                   id="tspan1743">
+                  <tspan
+                     style="fill:#000000;stroke:none"
+                     id="tspan1745">2 x27</tspan>
+                </tspan>
+              </tspan>
+            </text>
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g1747">
+          <g
+             id="id152">
+            <text
+               class="TextShape"
+               id="text1750">
+              <tspan
+                 style="font-size:529px;font-weight:400;font-family:Symbol"
+                 class="TextParagraph"
+                 font-size="529px"
+                 font-weight="400"
+                 id="tspan1752">
+                <tspan
+                   class="TextPosition"
+                   x="2192"
+                   y="6863"
+                   id="tspan1754">
+                  <tspan
+                     style="font-size:917px;fill:#000000;stroke:none"
+                     font-size="917px"
+                     id="tspan1756">S</tspan>
+                  <tspan
+                     style="fill:#000000;stroke:none"
+                     id="tspan1758">4</tspan>
+                </tspan>
+              </tspan>
+            </text>
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g1760">
+          <g
+             id="id153">
+            <path
+               style="fill:#ffffff;stroke:none"
+               d="m 22986,4013 1245,0 0,-172 345,344 -345,345 0,-173 -1245,0 0,-344 z m 0,-172 0,0 z m 1590,689 0,0 z"
+               id="path1763" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 22986,4013 1245,0 0,-172 345,344 -345,345 0,-173 -1245,0 0,-344 z"
+               id="path1765" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g1767">
+          <g
+             id="id154">
+            <path
+               style="fill:#ffffff;stroke:none"
+               d="m 23182,6322 1245,0 0,-172 345,344 -345,345 0,-173 -1245,0 0,-344 z m 0,-172 0,0 z m 1590,689 0,0 z"
+               id="path1770" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 23182,6322 1245,0 0,-172 345,344 -345,345 0,-173 -1245,0 0,-344 z"
+               id="path1772" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g1774">
+          <g
+             id="id155">
+            <path
+               style="fill:#ffffff;stroke:none"
+               d="m 22657,8771 1245,0 0,-172 345,344 -345,345 0,-173 -1245,0 0,-344 z m 0,-172 0,0 z m 1590,689 0,0 z"
+               id="path1777" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 22657,8771 1245,0 0,-172 345,344 -345,345 0,-173 -1245,0 0,-344 z"
+               id="path1779" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g1781">
+          <g
+             id="id156">
+            <path
+               style="fill:#ffffff;stroke:none"
+               d="m 22832,10896 1245,0 0,-172 345,344 -345,345 0,-173 -1245,0 0,-344 z m 0,-172 0,0 z m 1590,689 0,0 z"
+               id="path1784" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 22832,10896 1245,0 0,-172 345,344 -345,345 0,-173 -1245,0 0,-344 z"
+               id="path1786" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.LineShape"
+           id="g1788">
+          <g
+             id="id157">
+            <path
+               style="fill:none;stroke:#4a7ebb;stroke-width:71"
+               d="m 4192,7567 0,-4846"
+               id="path1791" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.LineShape"
+           id="g1793">
+          <g
+             id="id158">
+            <path
+               style="fill:none;stroke:#4a7ebb;stroke-width:71"
+               d="m 4192,2721 17627,0"
+               id="path1796" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g1798">
+          <g
+             id="id159">
+            <path
+               style="fill:none;stroke:#4a7ebb;stroke-width:71"
+               d="m 21819,2722 170,377"
+               id="path1801" />
+            <path
+               style="fill:#4a7ebb;stroke:none"
+               d="m 22111,3371 -264,-199 32,-46 185,140 18,-232 55,7 -26,330 z"
+               id="path1803" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g1805">
+          <g
+             id="id160">
+            <text
+               class="TextShape"
+               id="text1808">
+              <tspan
+                 style="font-size:635px;font-weight:400;font-family:'Calibri, sans-serif'"
+                 class="TextParagraph"
+                 font-size="635px"
+                 font-weight="400"
+                 id="tspan1810">
+                <tspan
+                   class="TextPosition"
+                   x="25132"
+                   y="2894"
+                   id="tspan1812">
+                  <tspan
+                     style="fill:#000000;stroke:none"
+                     id="tspan1814">To</tspan>
+                </tspan>
+              </tspan>
+              <tspan
+                 style="font-size:635px;font-weight:400;font-family:'Calibri, sans-serif'"
+                 class="TextParagraph"
+                 font-size="635px"
+                 font-weight="400"
+                 id="tspan1816">
+                <tspan
+                   class="TextPosition"
+                   x="23817"
+                   y="3656"
+                   id="tspan1818">
+                  <tspan
+                     style="fill:#000000;stroke:none"
+                     id="tspan1820">discriminator</tspan>
+                </tspan>
+              </tspan>
+            </text>
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g1822">
+          <g
+             id="id161">
+            <text
+               class="TextShape"
+               id="text1825">
+              <tspan
+                 style="font-size:635px;font-weight:400;font-family:'Calibri, sans-serif'"
+                 class="TextParagraph"
+                 font-size="635px"
+                 font-weight="400"
+                 id="tspan1827">
+                <tspan
+                   class="TextPosition"
+                   x="19883"
+                   y="14454"
+                   id="tspan1829">
+                  <tspan
+                     style="fill:#000000;stroke:none"
+                     id="tspan1831">Bigbite trigger is OR</tspan>
+                </tspan>
+              </tspan>
+              <tspan
+                 style="font-size:635px;font-weight:400;font-family:'Calibri, sans-serif'"
+                 class="TextParagraph"
+                 font-size="635px"
+                 font-weight="400"
+                 id="tspan1833">
+                <tspan
+                   class="TextPosition"
+                   x="18395"
+                   y="15216"
+                   id="tspan1835">
+                  <tspan
+                     style="fill:#000000;stroke:none"
+                     id="tspan1837">of discriminated superblocks of</tspan>
+                </tspan>
+              </tspan>
+              <tspan
+                 style="font-size:635px;font-weight:400;font-family:'Calibri, sans-serif'"
+                 class="TextParagraph"
+                 font-size="635px"
+                 font-weight="400"
+                 id="tspan1839">
+                <tspan
+                   class="TextPosition"
+                   x="21458"
+                   y="15978"
+                   id="tspan1841">
+                  <tspan
+                     style="fill:#000000;stroke:none"
+                     id="tspan1843">Shower</tspan>
+                </tspan>
+              </tspan>
+              <tspan
+                 style="font-size:635px;font-weight:400;font-family:'Calibri, sans-serif'"
+                 class="TextParagraph"
+                 font-size="635px"
+                 font-weight="400"
+                 id="tspan1845">
+                <tspan
+                   class="TextPosition"
+                   x="22275"
+                   y="16740"
+                   id="tspan1847">
+                  <tspan
+                     style="fill:#000000;stroke:none"
+                     id="tspan1849">+</tspan>
+                </tspan>
+              </tspan>
+              <tspan
+                 style="font-size:635px;font-weight:400;font-family:'Calibri, sans-serif'"
+                 class="TextParagraph"
+                 font-size="635px"
+                 font-weight="400"
+                 id="tspan1851">
+                <tspan
+                   class="TextPosition"
+                   x="21047"
+                   y="17502"
+                   id="tspan1853">
+                  <tspan
+                     style="fill:#000000;stroke:none"
+                     id="tspan1855">Preshower</tspan>
+                </tspan>
+              </tspan>
+            </text>
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g1857">
+          <g
+             id="id162">
+            <path
+               style="fill:#eeece1;stroke:none"
+               d="m 8052,16630 808,0 0,833 -808,0 0,-833 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+               id="path1860" />
+            <path
+               style="fill:#c6c5bb;stroke:none"
+               d="m 8860,16630 2226,-2225 0,832 -2226,2226 0,-833 z m -808,-2225 0,0 z m 3034,3058 0,0 z"
+               id="path1862" />
+            <path
+               style="fill:#ffffff;stroke:none"
+               d="m 8052,16630 2225,-2225 809,0 -2226,2225 -808,0 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+               id="path1864" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 8052,16630 2225,-2225 809,0 0,832 -2226,2226 -808,0 0,-833 z"
+               id="path1866" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 8052,16630 808,0 2226,-2225"
+               id="path1868" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 8860,16630 0,833"
+               id="path1870" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 8052,14405 0,0 z"
+               id="path1872" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 11086,17463 0,0 z"
+               id="path1874" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g1876">
+          <g
+             id="id163">
+            <path
+               style="fill:#eeece1;stroke:none"
+               d="m 9074,16630 808,0 0,833 -808,0 0,-833 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+               id="path1879" />
+            <path
+               style="fill:#c6c5bb;stroke:none"
+               d="m 9882,16630 2226,-2225 0,832 -2226,2226 0,-833 z m -808,-2225 0,0 z m 3034,3058 0,0 z"
+               id="path1881" />
+            <path
+               style="fill:#ffffff;stroke:none"
+               d="m 9074,16630 2225,-2225 809,0 -2226,2225 -808,0 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+               id="path1883" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 9074,16630 2225,-2225 809,0 0,832 -2226,2226 -808,0 0,-833 z"
+               id="path1885" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 9074,16630 808,0 2226,-2225"
+               id="path1887" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 9882,16630 0,833"
+               id="path1889" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 9074,14405 0,0 z"
+               id="path1891" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 12108,17463 0,0 z"
+               id="path1893" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g1895">
+          <g
+             id="id164">
+            <path
+               style="fill:#eeece1;stroke:none"
+               d="m 10187,16630 808,0 0,833 -808,0 0,-833 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+               id="path1898" />
+            <path
+               style="fill:#c6c5bb;stroke:none"
+               d="m 10995,16630 2226,-2225 0,832 -2226,2226 0,-833 z m -808,-2225 0,0 z m 3034,3058 0,0 z"
+               id="path1900" />
+            <path
+               style="fill:#ffffff;stroke:none"
+               d="m 10187,16630 2225,-2225 809,0 -2226,2225 -808,0 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+               id="path1902" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 10187,16630 2225,-2225 809,0 0,832 -2226,2226 -808,0 0,-833 z"
+               id="path1904" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 10187,16630 808,0 2226,-2225"
+               id="path1906" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 10995,16630 0,833"
+               id="path1908" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 10187,14405 0,0 z"
+               id="path1910" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 13221,17463 0,0 z"
+               id="path1912" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g1914">
+          <g
+             id="id165">
+            <path
+               style="fill:#eeece1;stroke:none"
+               d="m 11220,16630 808,0 0,833 -808,0 0,-833 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+               id="path1917" />
+            <path
+               style="fill:#c6c5bb;stroke:none"
+               d="m 12028,16630 2226,-2225 0,832 -2226,2226 0,-833 z m -808,-2225 0,0 z m 3034,3058 0,0 z"
+               id="path1919" />
+            <path
+               style="fill:#ffffff;stroke:none"
+               d="m 11220,16630 2225,-2225 809,0 -2226,2225 -808,0 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+               id="path1921" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 11220,16630 2225,-2225 809,0 0,832 -2226,2226 -808,0 0,-833 z"
+               id="path1923" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 11220,16630 808,0 2226,-2225"
+               id="path1925" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 12028,16630 0,833"
+               id="path1927" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 11220,14405 0,0 z"
+               id="path1929" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 14254,17463 0,0 z"
+               id="path1931" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g1933">
+          <g
+             id="id166">
+            <path
+               style="fill:#eeece1;stroke:none"
+               d="m 12165,16630 808,0 0,833 -808,0 0,-833 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+               id="path1936" />
+            <path
+               style="fill:#c6c5bb;stroke:none"
+               d="m 12973,16630 2226,-2225 0,832 -2226,2226 0,-833 z m -808,-2225 0,0 z m 3034,3058 0,0 z"
+               id="path1938" />
+            <path
+               style="fill:#ffffff;stroke:none"
+               d="m 12165,16630 2225,-2225 809,0 -2226,2225 -808,0 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+               id="path1940" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 12165,16630 2225,-2225 809,0 0,832 -2226,2226 -808,0 0,-833 z"
+               id="path1942" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 12165,16630 808,0 2226,-2225"
+               id="path1944" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 12973,16630 0,833"
+               id="path1946" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 12165,14405 0,0 z"
+               id="path1948" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 15199,17463 0,0 z"
+               id="path1950" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g1952">
+          <g
+             id="id167">
+            <path
+               style="fill:#eeece1;stroke:none"
+               d="m 13198,16630 808,0 0,833 -808,0 0,-833 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+               id="path1955" />
+            <path
+               style="fill:#c6c5bb;stroke:none"
+               d="m 14006,16630 2226,-2225 0,832 -2226,2226 0,-833 z m -808,-2225 0,0 z m 3034,3058 0,0 z"
+               id="path1957" />
+            <path
+               style="fill:#ffffff;stroke:none"
+               d="m 13198,16630 2225,-2225 809,0 -2226,2225 -808,0 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+               id="path1959" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 13198,16630 2225,-2225 809,0 0,832 -2226,2226 -808,0 0,-833 z"
+               id="path1961" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 13198,16630 808,0 2226,-2225"
+               id="path1963" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 14006,16630 0,833"
+               id="path1965" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 13198,14405 0,0 z"
+               id="path1967" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 16232,17463 0,0 z"
+               id="path1969" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g1971">
+          <g
+             id="id168">
+            <path
+               style="fill:#eeece1;stroke:none"
+               d="m 14185,16630 808,0 0,833 -808,0 0,-833 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+               id="path1974" />
+            <path
+               style="fill:#c6c5bb;stroke:none"
+               d="m 14993,16630 2226,-2225 0,832 -2226,2226 0,-833 z m -808,-2225 0,0 z m 3034,3058 0,0 z"
+               id="path1976" />
+            <path
+               style="fill:#ffffff;stroke:none"
+               d="m 14185,16630 2225,-2225 809,0 -2226,2225 -808,0 z m 0,-2225 0,0 z m 3034,3058 0,0 z"
+               id="path1978" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 14185,16630 2225,-2225 809,0 0,832 -2226,2226 -808,0 0,-833 z"
+               id="path1980" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 14185,16630 808,0 2226,-2225"
+               id="path1982" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 14993,16630 0,833"
+               id="path1984" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 14185,14405 0,0 z"
+               id="path1986" />
+            <path
+               style="fill:none;stroke:#3a5f8b;stroke-width:71"
+               d="m 17219,17463 0,0 z"
+               id="path1988" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g1990">
+          <g
+             id="id169">
+            <text
+               class="TextShape"
+               id="text1993">
+              <tspan
+                 style="font-size:635px;font-weight:400;font-family:'Calibri, sans-serif'"
+                 class="TextParagraph"
+                 font-size="635px"
+                 font-weight="400"
+                 id="tspan1995">
+                <tspan
+                   class="TextPosition"
+                   x="17875"
+                   y="13069"
+                   id="tspan1997">
+                  <tspan
+                     style="fill:#1f497d;stroke:none"
+                     id="tspan1999">27 rows</tspan>
+                </tspan>
+              </tspan>
+            </text>
+          </g>
+        </g>
+        <g
+           class="Group"
+           id="g2001">
+          <g
+             class="Group"
+             id="g2003">
+            <g
+               class="com.sun.star.drawing.CustomShape"
+               id="g2005">
+              <g
+                 id="id170">
+                <path
+                   style="fill:#ffffff;stroke:none"
+                   d="m 5738,16630 4930,0 0,700 -4930,0 0,-700 z m 0,0 0,0 z m 4930,700 0,0 z"
+                   id="path2008" />
+                <path
+                   style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                   d="m 5738,16630 4930,0 0,700 -4930,0 0,-700 z"
+                   id="path2010" />
+              </g>
+            </g>
+            <g
+               class="com.sun.star.drawing.CustomShape"
+               id="g2012">
+              <g
+                 id="id171">
+                <path
+                   style="fill:#ffffff;stroke:none"
+                   d="m 5377,16967 4909,0 0,700 -4909,0 0,-700 z m 0,0 0,0 z m 4909,700 0,0 z"
+                   id="path2015" />
+                <path
+                   style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                   d="m 5377,16967 4909,0 0,700 -4909,0 0,-700 z"
+                   id="path2017" />
+              </g>
+            </g>
+            <g
+               class="com.sun.star.drawing.CustomShape"
+               id="g2019">
+              <g
+                 id="id172">
+                <path
+                   style="fill:#ffffff;stroke:none"
+                   d="m 5357,16993 278,-350 4899,0 -279,350 -4898,0 z m 0,-350 0,0 z m 5177,350 0,0 z"
+                   id="path2022" />
+                <path
+                   style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                   d="m 5357,16993 278,-350 4899,0 -279,350 -4898,0 z"
+                   id="path2024" />
+              </g>
+            </g>
+            <g
+               class="com.sun.star.drawing.LineShape"
+               id="g2026">
+              <g
+                 id="id173">
+                <path
+                   style="fill:none;stroke:#4a7ebb;stroke-width:71"
+                   d="m 10306,17667 363,-337"
+                   id="path2029" />
+              </g>
+            </g>
+            <g
+               class="com.sun.star.drawing.LineShape"
+               id="g2031">
+              <g
+                 id="id174">
+                <path
+                   style="fill:none;stroke:#ffffff;stroke-width:71"
+                   d="m 10533,17330 -210,0"
+                   id="path2034" />
+              </g>
+            </g>
+          </g>
+          <g
+             class="Group"
+             id="g2036">
+            <g
+               class="com.sun.star.drawing.CustomShape"
+               id="g2038">
+              <g
+                 id="id175">
+                <path
+                   style="fill:#ffffff;stroke:none"
+                   d="m 10844,16630 4930,0 0,700 -4930,0 0,-700 z m 0,0 0,0 z m 4930,700 0,0 z"
+                   id="path2041" />
+                <path
+                   style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                   d="m 10844,16630 4930,0 0,700 -4930,0 0,-700 z"
+                   id="path2043" />
+              </g>
+            </g>
+            <g
+               class="com.sun.star.drawing.CustomShape"
+               id="g2045">
+              <g
+                 id="id176">
+                <path
+                   style="fill:#ffffff;stroke:none"
+                   d="m 10482,16967 4909,0 0,700 -4909,0 0,-700 z m 0,0 0,0 z m 4909,700 0,0 z"
+                   id="path2048" />
+                <path
+                   style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                   d="m 10482,16967 4909,0 0,700 -4909,0 0,-700 z"
+                   id="path2050" />
+              </g>
+            </g>
+            <g
+               class="com.sun.star.drawing.CustomShape"
+               id="g2052">
+              <g
+                 id="id177">
+                <path
+                   style="fill:#ffffff;stroke:none"
+                   d="m 10462,16993 278,-350 4899,0 -279,350 -4898,0 z m 0,-350 0,0 z m 5177,350 0,0 z"
+                   id="path2055" />
+                <path
+                   style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                   d="m 10462,16993 278,-350 4899,0 -279,350 -4898,0 z"
+                   id="path2057" />
+              </g>
+            </g>
+            <g
+               class="com.sun.star.drawing.LineShape"
+               id="g2059">
+              <g
+                 id="id178">
+                <path
+                   style="fill:none;stroke:#4a7ebb;stroke-width:71"
+                   d="m 15412,17667 362,-337"
+                   id="path2062" />
+              </g>
+            </g>
+            <g
+               class="com.sun.star.drawing.LineShape"
+               id="g2064">
+              <g
+                 id="id179">
+                <path
+                   style="fill:none;stroke:#ffffff;stroke-width:71"
+                   d="m 15638,17330 -210,0"
+                   id="path2067" />
+              </g>
+            </g>
+          </g>
+          <g
+             class="Group"
+             id="g2069">
+            <g
+               class="com.sun.star.drawing.CustomShape"
+               id="g2071">
+              <g
+                 id="id180">
+                <path
+                   style="fill:#ffffff;stroke:none"
+                   d="m 5828,15761 4930,0 0,700 -4930,0 0,-700 z m 0,0 0,0 z m 4930,700 0,0 z"
+                   id="path2074" />
+                <path
+                   style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                   d="m 5828,15761 4930,0 0,700 -4930,0 0,-700 z"
+                   id="path2076" />
+              </g>
+            </g>
+            <g
+               class="com.sun.star.drawing.CustomShape"
+               id="g2078">
+              <g
+                 id="id181">
+                <path
+                   style="fill:#ffffff;stroke:none"
+                   d="m 5466,16098 4909,0 0,700 -4909,0 0,-700 z m 0,0 0,0 z m 4909,700 0,0 z"
+                   id="path2081" />
+                <path
+                   style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                   d="m 5466,16098 4909,0 0,700 -4909,0 0,-700 z"
+                   id="path2083" />
+              </g>
+            </g>
+            <g
+               class="com.sun.star.drawing.CustomShape"
+               id="g2085">
+              <g
+                 id="id182">
+                <path
+                   style="fill:#ffffff;stroke:none"
+                   d="m 5446,16124 278,-350 4899,0 -279,350 -4898,0 z m 0,-350 0,0 z m 5177,350 0,0 z"
+                   id="path2088" />
+                <path
+                   style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                   d="m 5446,16124 278,-350 4899,0 -279,350 -4898,0 z"
+                   id="path2090" />
+              </g>
+            </g>
+            <g
+               class="com.sun.star.drawing.LineShape"
+               id="g2092">
+              <g
+                 id="id183">
+                <path
+                   style="fill:none;stroke:#4a7ebb;stroke-width:71"
+                   d="m 10396,16799 362,-337"
+                   id="path2095" />
+              </g>
+            </g>
+            <g
+               class="com.sun.star.drawing.LineShape"
+               id="g2097">
+              <g
+                 id="id184">
+                <path
+                   style="fill:none;stroke:#ffffff;stroke-width:71"
+                   d="m 10623,16462 -210,0"
+                   id="path2100" />
+              </g>
+            </g>
+          </g>
+          <g
+             class="Group"
+             id="g2102">
+            <g
+               class="com.sun.star.drawing.CustomShape"
+               id="g2104">
+              <g
+                 id="id185">
+                <path
+                   style="fill:#ffffff;stroke:none"
+                   d="m 10933,15761 4930,0 0,700 -4930,0 0,-700 z m 0,0 0,0 z m 4930,700 0,0 z"
+                   id="path2107" />
+                <path
+                   style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                   d="m 10933,15761 4930,0 0,700 -4930,0 0,-700 z"
+                   id="path2109" />
+              </g>
+            </g>
+            <g
+               class="com.sun.star.drawing.CustomShape"
+               id="g2111">
+              <g
+                 id="id186">
+                <path
+                   style="fill:#ffffff;stroke:none"
+                   d="m 10572,16098 4909,0 0,700 -4909,0 0,-700 z m 0,0 0,0 z m 4909,700 0,0 z"
+                   id="path2114" />
+                <path
+                   style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                   d="m 10572,16098 4909,0 0,700 -4909,0 0,-700 z"
+                   id="path2116" />
+              </g>
+            </g>
+            <g
+               class="com.sun.star.drawing.CustomShape"
+               id="g2118">
+              <g
+                 id="id187">
+                <path
+                   style="fill:#ffffff;stroke:none"
+                   d="m 10552,16124 278,-350 4899,0 -279,350 -4898,0 z m 0,-350 0,0 z m 5177,350 0,0 z"
+                   id="path2121" />
+                <path
+                   style="fill:none;stroke:#3a5f8b;stroke-width:71"
+                   d="m 10552,16124 278,-350 4899,0 -279,350 -4898,0 z"
+                   id="path2123" />
+              </g>
+            </g>
+            <g
+               class="com.sun.star.drawing.LineShape"
+               id="g2125">
+              <g
+                 id="id188">
+                <path
+                   style="fill:none;stroke:#4a7ebb;stroke-width:71"
+                   d="m 15501,16799 363,-337"
+                   id="path2128" />
+              </g>
+            </g>
+            <g
+               class="com.sun.star.drawing.LineShape"
+               id="g2130">
+              <g
+                 id="id189">
+                <path
+                   style="fill:none;stroke:#ffffff;stroke-width:71"
+                   d="m 15728,16462 -210,0"
+                   id="path2133" />
+              </g>
+            </g>
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g2135">
+          <g
+             id="id190">
+            <path
+               style="fill:none;stroke:#4a7ebb;stroke-width:71"
+               d="m 6041,10580 0,284"
+               id="path2138" />
+            <path
+               style="fill:none;stroke:#4a7ebb;stroke-width:71"
+               d="m 6041,11077 0,284"
+               id="path2140" />
+            <path
+               style="fill:none;stroke:#4a7ebb;stroke-width:71"
+               d="m 6041,11574 0,284"
+               id="path2142" />
+            <path
+               style="fill:none;stroke:#4a7ebb;stroke-width:71"
+               d="m 6042,12071 0,284"
+               id="path2144" />
+            <path
+               style="fill:none;stroke:#4a7ebb;stroke-width:71"
+               d="m 6042,12568 0,284"
+               id="path2146" />
+            <path
+               style="fill:none;stroke:#4a7ebb;stroke-width:71"
+               d="m 6042,13065 0,284"
+               id="path2148" />
+            <path
+               style="fill:none;stroke:#4a7ebb;stroke-width:71"
+               d="m 6042,13562 0,284"
+               id="path2150" />
+            <path
+               style="fill:none;stroke:#4a7ebb;stroke-width:71"
+               d="m 6042,14059 0,284"
+               id="path2152" />
+            <path
+               style="fill:none;stroke:#4a7ebb;stroke-width:71"
+               d="m 6043,14556 0,284"
+               id="path2154" />
+            <path
+               style="fill:none;stroke:#4a7ebb;stroke-width:71"
+               d="m 6043,15053 0,284"
+               id="path2156" />
+            <path
+               style="fill:#4a7ebb;stroke:none"
+               d="m 6043,15731 -160,-290 49,-29 111,204 112,-204 47,29 -159,290 z"
+               id="path2158" />
+          </g>
+        </g>
+        <g
+           class="com.sun.star.drawing.CustomShape"
+           id="g2160">
+          <g
+             id="id191">
+            <text
+               class="TextShape"
+               id="text2163">
+              <tspan
+                 style="font-size:635px;font-weight:400;font-family:'Calibri, sans-serif'"
+                 class="TextParagraph"
+                 font-size="635px"
+                 font-weight="400"
+                 id="tspan2165">
+                <tspan
+                   class="TextPosition"
+                   x="6697"
+                   y="14395"
+                   id="tspan2167">
+                  <tspan
+                     style="fill:#1f497d;stroke:none"
+                     id="tspan2169">27 rows</tspan>
+                </tspan>
+              </tspan>
+            </text>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

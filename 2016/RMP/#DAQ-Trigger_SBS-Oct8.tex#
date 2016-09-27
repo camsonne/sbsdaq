@@ -1,0 +1,23 @@
+\documentclass {article}
+\title{DAQ and trigger}
+\begin{document}
+\section{GEM readout}
+Both SRS system and INFN MPD readout are available at the laboratory.
+This summer the SRS system was tested using the CERN DATE software.
+A standalone readout is started to be developped for readout of the SRS with a C program to be later integrated in the JLAB CODA Data Acquisition system.
+
+
+\section{HCAL trigger}
+All elements are gathered to start testing the HCAL trigger using Flash ADCs.
+A Crate Trigger Processing was borrowed from Hall D and 16 FADCs were ordered.
+The setup will be installed in the test lab and will allow to test the performance and start developping the firmware for the HCAL trigger.
+Our collaborators from INFN Catagna, also put a funding proposal for an additionnal VXS crate and associated electronics to be able add additonnal HCAL channels going from 256 channel to 288 channels. If the proposal is not funded we will use the current VXS crate and 4 FADCs that Hall A ordered for testing the pipeline electronics. 
+
+
+\section {Fastbus}
+The weldment for the Fastbus electronics was installed. 4 powers supplies were configured in order to handle 3 crates each.
+A set of 3 crates is being setup to test the performance of the flipping method.
+
+\section{Fastbus}
+
+\end{document}
