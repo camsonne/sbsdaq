@@ -314,7 +314,7 @@ A sum over 4x4 adjacent blocks can be implemented in the same way as the HPS sch
 
 Since we have 288 channels for the HCAL, 18 FADCs will be used using two VXS crates. The crate with all 16 FADCs will send its data ti theother CTP through the SSP using the 10 Gb/s optical link. The second crate will hold the two additionnal FADCs and a pipelined input register called VETROC which can have up to 208 logic inputs which a 1 ns timing resolution, to send the sums firing in the ECAL to the GTP to generate the L2 using the geometrical matching of the HCAL with the ECAL. The total process will not take more than 1 $\mu s$ which is sufficiently fast for the APVs which have a look back of 4 $\mu s$.
 
-\section{Fastbus implementation}
+\section{Fastbus implementation} 
 In order to improve the data transfer rate a large number of fastbus crate is going to be used.
 Right now we are planning to use 12 crates for the ECal and 9 crates for the Coordinate Detector.
 
