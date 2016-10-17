@@ -7,7 +7,7 @@
 
 \begin{document}
 \maketitle
-\section{ Overview of experiments}
+\section{Overview of experiments}
 \subsection{Overview of neutron form factor experiments}
 Both neutron form factor experiments measure quasi-free scattering on a nuclear target. The standard Hall~A BigBite Spectrometer is used to detect the scattered electrons.  
 Neutrons and protons are detected in
@@ -135,64 +135,12 @@ Rear Tracker (1 GEM chamber) & 6,144& APV25 MPD &VME\\
 \hline
 \end{tabular}
 
-\section{Trigger}
-\subsection{Neutron form factor experiments}
-\label{sec:neutron-trig}
-The shower calorimeter consist of an 7x27 array of  lead glass blocks. A preshower
- layer of 2x27 is placed in front of the shower
-An analog sum of 7 blocks is made. 
-A preshower layer 2x27 is placed in front of the shower.
-Overlapping group of 2 shower rows and preshower rows are summed together. 
-The electron trigger is generated when one of this sum is above threshold.
-This make a total of 189 + 54 = 243 lead glass blocks to be readout.
-The readout of the detector will be done using fastbus using ADCs 1881M.
- The trigger for the neutron form factor experiments will use the 
-standard electron trigger using the preshower and shower calorimeter which was developed for previous experiments. 
-For the quasi-free kinematics of the experiments, the trigger provides sufficient pion rejection to keep the
-trigger rate below 5 KHz. There is a side project to include the gas cerenkov in the trigger, but this
-is not necessary for the experiments and the main focus is for the A$_{1N}$ experiment.
-
-\subsection{Proton form factor experiments}
-The trigger is a coincidence between the electron calorimeter, ECAL,  and the hadron calorimeter, HCAL.
-Both ECAL and HCAL each form a trigger separately. Then a coincidence between the two is made which
-takes into account the elastic angular correlation to reduce backgrounds.
-
-\subsubsection{ECAL trigger}
-\label{sec:ecal-trig}
- In the right   figure, the groups of 32 blocks are indicated connecting
-group of 8 blocks by different colored squares. The group of 32 blocks overlap
-by two groups of 8 in both horizontal and vertical directions. So most of the
-groups of 8 have to go to 4 groups of 32. At the edges the groups of 8 feed into
-two groups of 32. There are 204  groups of 32 are sums of 4 groups of 8 using
-a 4 input channel linear FI/FO. The 228 groups of 32 would have to
-go into discriminators.
-
-
-\begin{figure}
-  \centering
-  % Requires \usepackage{graphicx}
-  \includegraphics[width=\textwidth]{figs/cfpa.pdf}\\
-  \caption{The left plot is the distribution of elastic electrons in ECAL with the black rectangles representing
-groups of 2x4 lead glass blocks. The right plot demonstrates
-the scheme for make overlapping groups of 32 lead glass blocks to be used in the ECAL trigger with
-details explained in text.  }\label{fig:ECALTrig}
-\end{figure}
-
-
-
-\section{DAQ Details}
-\subsection{CODA}
-\subsubsection{Introduction}
-Jefferson Laboratory is using the Cebaf Online Data Acquisition system for data taking.
-CODA is based on a main server interacting with a database in which all the DAQ components update their status . The readout crates host a single board computer running a Read Out Controller (ROC) program which controls and reads out the data from the electronics. The ROCs send the data through a standard network link usually ethernet to a computer running the Event Builder program, which uses the data from the ROC to check synchronization and build the event. Finally the event is sent to the Event Recorder which puts the event into a file on the hard drive of the computer. 
 \subsubsection{CODA Hardware}
 In addition to the software a set of harware components specific to CODA is used in order to keep ensure event synchronization between all the components each crate has a trigger interface ( TI board ) which sends the trigger signal to the ROC program for the read out of the data. All the TI are linked to a trigger supervisor board which takes the triggers and sends them to the TI while monitoring the status of each TI to keep all the crates synchronized and generates a Level 1 accept and Level 2 accept for the read out modules. The TS also takes as input the front end busy of the modules to inhibit the triggering if one module is not ready insuring synchronization between the modules.
 This allows the TS module to buffering if the front-end has the capability. The triggers and read out are then decorrelated which improve the deadtime since a module can take triggers while being readout asynchronously. The TS has a setting of the maximum of events which can be in the buffer it is set to the smallest buffer available on the electronics ( usually 5 for fastbus ). Since in this mode modules can potentially get out of synchronization, a synchronization event is set so that when a certain number of triggers is processed, the TS will disable the triggers to empty the FIFO. If there any remaining events in the FIFO a warning issue would be issued and the FIFOs would be cleared resynchronizing the modules.
 \includegraphics[scale=0.55]{figs/TS.pdf}\\
 
-
-\section{Electronics}
-\section{NINO amplifier discriminator boards }
+\subsection{NINO amplifier discriminator boards }
 The discriminator card (Fig. \ref{fig:nino-schematic}) is based on
 the NINO chip \cite{NINO}, shown schematically in the blue-shaded
 box of Fig\ref{fig:nino-schematic}. NINO was designed originally
@@ -277,12 +225,12 @@ the card will be covered by a metal sheet to shield from electromagnetic
 disturbance and will include attachments to clamp input and output
 cables in place.
 
-\section{GEM readout}
-\subsection{APV25}
+\subsection{GEM readout}
+\subsubsection{APV25}
 The GEM readout is carried out by the APV25 chip. It is a 128 channels ASICs with pipeline depth of 192 samples sampling at 40 MHz giving a pipeline depth of 4.8 $\mu s$ ( limited to 4 $\mu s$ for the hardware to perform correctly) . When a trigger is issued the corresponding cells are frozen until they are readout while the other cells are still being used reducing the dead time.
 For each trigger all the data of 128 channels are transfered at 40 MHz rate in a multiplexed analog format. Adding some header and event informations 141 words are transmitted for each trigger which gives a transfer time of $141x25 ns = 3.6 \mu s $. In case of high background several consecutives time samples can be sent in order to detect pile up, we plan to read 3 samples which gives a transfer time of 10.8 $\mu s$. If the we assume the controls words are recorded on 32 bits and each sample is recorded on 16 bit this gives a raw event size of (141-128)*4+(128*2)*3 = 820 bytes per APV. This allows deadtimeless operation for rates up to 90 KHz.
 
-\subsection {Multi Purpose Digitizer (MPD)}
+\subsubsection {Multi Purpose Digitizer (MPD)}
  The readout planned to be use the the INFN Multi Purpose Digitizer (MPD), it is a VME board with a 200 MHz FADC and signals to control the APV setup and readout. It has 2 ports which can read up to 8 APVs each for a total of 16 APVs giving 2048 channels. 
 For the GEp trackers 14 APVs will be read per MPDs, the APV data is 130 24 bit words so the event size to be transferred for 3 samples is then :
 
@@ -366,31 +314,7 @@ A sum over 4x4 adjacent blocks can be implemented in the same way as the HPS sch
 
 Since we have 288 channels for the HCAL, 18 FADCs will be used using two VXS crates. The crate with all 16 FADCs will send its data ti theother CTP through the SSP using the 10 Gb/s optical link. The second crate will hold the two additionnal FADCs and a pipelined input register called VETROC which can have up to 208 logic inputs which a 1 ns timing resolution, to send the sums firing in the ECAL to the GTP to generate the L2 using the geometrical matching of the HCAL with the ECAL. The total process will not take more than 1 $\mu s$ which is sufficiently fast for the APVs which have a look back of 4 $\mu s$.
 
-\section{Fastbus}
-\subsection{Introduction}
-Fastbus is an electronics standard. It can transfer up to 10 Megawords per second with a 32 bit width which gives a maximum theoretical throughput of 40 MB/s which translates in usual sustained rate of 15 MB/s. If the amount of data is greater than 15 MB/s, the modules will be split between several crates allowing readout in parallel.
-
-Since we have a lot of Fastbus equipment on hand. It will be used in order to save money for the large number of detectors channels. The main readout is the Lecroy ADC 1881M a 13 bit ADC, with a 9 $\mu$s encoding time in 12 bit resolution and 12  $\mu$s in 13 bit resolution. The 1881M features a fast clear and is ready to tahe another event after 1 $\mu$s. For signal requiring time measurement 1877S TDC will be used, they have 96 channels per module. It is multihit up to 16 hits with an event buffer of 8 events. It has an encoding time  1.7 $\mu$s plus 50 ns per hit per channel giving a maximum encoding time of 78 $\mu$. 
-The Struck Fastbus Interface (SFI) is a Fastbus Master is controlled by a standard VME controller which allows to control the Fastbus modules through any VME CPU. It is needed in each Fastbus bin to control the Fastbus modules.
-
-The L2 trigger will take 1 $\mu s$ to be generated and with the fastclear time we expect a L1 front end deadtime to be 2 $\mu s$.
-
-
-
-
-In the case of the experiments using the BigBite spectrometer, ECAL will be simply replaced by the BigBite shower.
-
-\newpage
-\begin{figure}
-\includegraphics[scale=0.9,angle=270]{figs/Sh-PS_logic_v2A.pdf}\\
-\caption {BigBite electron shower analog sum trigger \label{BBEtrig}}
-\end{figure}
-\newpage
-
-
-Each SFI can hold 2 VME boards, one slot is used for the VME CPU and the VME TI will be placed in the second slot.
-
-\subsection{Module flipping}
+\section{Fastbus implementation}
 In order to improve the data transfer rate a large number of fastbus crate is going to be used.
 Right now we are planning to use 12 crates for the ECal and 9 crates for the Coordinate Detector.
 
@@ -446,10 +370,71 @@ HCAL&&\\
 HCAL&&\\
 \hline
 \end{tabular}
+
+\section{GEp5 overview}
+
+\subsection{Proton form factor experiments}
+The trigger is a coincidence between the electron calorimeter, ECAL,  and the hadron calorimeter, HCAL.
+Both ECAL and HCAL each form a trigger separately. Then a coincidence between the two is made which
+takes into account the elastic angular correlation to reduce backgrounds.
+
+\subsubsection{ECAL trigger}
+\label{sec:ecal-trig}
+ In the right   figure, the groups of 32 blocks are indicated connecting
+group of 8 blocks by different colored squares. The group of 32 blocks overlap
+by two groups of 8 in both horizontal and vertical directions. So most of the
+groups of 8 have to go to 4 groups of 32. At the edges the groups of 8 feed into
+two groups of 32. There are 204  groups of 32 are sums of 4 groups of 8 using
+a 4 input channel linear FI/FO. The 228 groups of 32 would have to
+go into discriminators.
+
+
+\begin{figure}
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=\textwidth]{figs/cfpa.pdf}\\
+  \caption{The left plot is the distribution of elastic electrons in ECAL with the black rectangles representing
+groups of 2x4 lead glass blocks. The right plot demonstrates
+the scheme for make overlapping groups of 32 lead glass blocks to be used in the ECAL trigger with
+details explained in text.  }\label{fig:ECALTrig}
+\end{figure}
+
+\begin{figure}
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=\textwidth]{figs/Gep5layout.pdf}\\
+  \caption{The left plot is the distribution of elastic electrons in ECAL with the black rectangles representing
+groups of 2x4 lead glass blocks. The right plot demonstrates
+the scheme for make overlapping groups of 32 lead glass blocks to be used in the ECAL trigger with
+details explained in text.  }\label{fig:ECALTrig}
+\end{figure}
+
+
+
 \section{Data acquisition for neutron for factor experiments}
+
+
 
 The data acquisition for the neutron form factor experiments will be the same as for the protons replacing ECAL by BigBite
 which makes the system simplier since there is less channels to be readout.
+
+\section{Trigger}
+\subsection{Neutron form factor experiments}
+\label{sec:neutron-trig}
+The shower calorimeter consist of an 7x27 array of  lead glass blocks. A preshower
+ layer of 2x27 is placed in front of the shower
+An analog sum of 7 blocks is made. 
+A preshower layer 2x27 is placed in front of the shower.
+Overlapping group of 2 shower rows and preshower rows are summed together. 
+The electron trigger is generated when one of this sum is above threshold.
+This make a total of 189 + 54 = 243 lead glass blocks to be readout.
+The readout of the detector will be done using fastbus using ADCs 1881M.
+ The trigger for the neutron form factor experiments will use the 
+standard electron trigger using the preshower and shower calorimeter which was developed for previous experiments. 
+For the quasi-free kinematics of the experiments, the trigger provides sufficient pion rejection to keep the
+trigger rate below 5 KHz. There is a side project to include the gas cerenkov in the trigger, but this
+is not necessary for the experiments and the main focus is for the A$_{1N}$ experiment.
+
 
 
 \subsection{Detectors}
