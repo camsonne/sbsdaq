@@ -1,0 +1,413 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2016/dev) (preloaded format=pdflatex 2016.8.24)  17 OCT 2016 05:44
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**SBS-DAQ.tex
+(./SBS-DAQ.tex
+LaTeX2e <2015/01/01> patch level 2
+Babel <3.9m> and hyphenation patterns for 79 languages loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/epsfig.sty
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+\epsfxsize=\dimen105
+\epsfysize=\dimen106
+) (./SBS-DAQ.aux
+
+LaTeX Warning: Label `fig:ECALTrig' multiply defined.
+
+
+LaTeX Warning: Label `newTIman' multiply defined.
+
+
+LaTeX Warning: Label `newTIman' multiply defined.
+
+)
+\openout1 = `SBS-DAQ.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+ (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count88
+\scratchdimen=\dimen107
+\scratchbox=\box26
+\nofMPsegments=\count89
+\nofMParguments=\count90
+\everyMPshowfont=\toks15
+\MPscratchCnt=\count91
+\MPscratchDim=\dimen108
+\MPnumerator=\count92
+\makeMPintoPDFobject=\count93
+\everyMPtoPDFconversion=\toks16
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 9.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 9.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 9.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 23.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 23.
+
+[1
+
+{/usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}] [2]
+
+LaTeX Warning: Reference `sec:hcal-trig' on page 3 undefined on input line 85.
+
+[3] <figs/TS.pdf, id=20, 598.235pt x 845.55902pt>
+File: figs/TS.pdf Graphic file (type pdf)
+ <use figs/TS.pdf>
+Package pdftex.def Info: figs/TS.pdf used on input line 141.
+(pdftex.def)             Requested size: 329.03026pt x 465.0589pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--142
+
+ []
+
+[4]
+
+LaTeX Warning: Citation `NINO' on page 5 undefined on input line 145.
+
+
+LaTeX Warning: Citation `NINO' on page 5 undefined on input line 154.
+
+<NINO/ReportJan14/CherenkovNINO-4.pdf, id=24, 865.2325pt x 526.96875pt>
+File: NINO/ReportJan14/CherenkovNINO-4.pdf Graphic file (type pdf)
+
+<use NINO/ReportJan14/CherenkovNINO-4.pdf>
+Package pdftex.def Info: NINO/ReportJan14/CherenkovNINO-4.pdf used on input lin
+e 158.
+(pdftex.def)             Requested size: 345.0pt x 210.1244pt.
+ [5 <./figs/TS.pdf>] [6 <./NINO/ReportJan14/CherenkovNINO-4.pdf>]
+Overfull \hbox (1.10143pt too wide) in paragraph at lines 186--205
+[]\OT1/cmr/m/n/10 Fig.2[] is a pho-to-graph of the Mk-IV pro-to-type card. Com-
+po-nents are mounted
+ []
+
+<NINO/ReportJan14/NinoCardPhoto.jpg, id=54, 796.77675pt x 602.55113pt>
+File: NINO/ReportJan14/NinoCardPhoto.jpg Graphic file (type jpg)
+
+<use NINO/ReportJan14/NinoCardPhoto.jpg>
+Package pdftex.def Info: NINO/ReportJan14/NinoCardPhoto.jpg used on input line 
+207.
+(pdftex.def)             Requested size: 345.0pt x 260.90318pt.
+ [7 <./NINO/ReportJan14/NinoCardPhoto.jpg>] <figs/OldMPD.pdf, id=60, 464.13399p
+t x 467.34601pt>
+File: figs/OldMPD.pdf Graphic file (type pdf)
+ <use figs/OldMPD.pdf>
+Package pdftex.def Info: figs/OldMPD.pdf used on input line 242.
+(pdftex.def)             Requested size: 255.27448pt x 257.04109pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 242--243
+
+ []
+
+[8] <figs/NewMPD.pdf, id=64, 794.97pt x 614.295pt>
+File: figs/NewMPD.pdf Graphic file (type pdf)
+ <use figs/NewMPD.pdf>
+Package pdftex.def Info: figs/NewMPD.pdf used on input line 255.
+(pdftex.def)             Requested size: 437.23485pt x 337.86328pt.
+
+Overfull \hbox (107.23485pt too wide) in paragraph at lines 255--256
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--256
+
+ []
+
+[9 <./figs/OldMPD.pdf>] <figs/NewMPDDetailed.pdf, id=77, 614.295pt x 794.97pt>
+File: figs/NewMPDDetailed.pdf Graphic file (type pdf)
+
+<use figs/NewMPDDetailed.pdf>
+Package pdftex.def Info: figs/NewMPDDetailed.pdf used on input line 257.
+(pdftex.def)             Requested size: 337.86328pt x 437.23485pt.
+
+Overfull \hbox (7.86328pt too wide) in paragraph at lines 257--258
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 257--258
+
+ []
+
+[10 <./figs/NewMPD.pdf>]
+<figs/MPD4_UserManual.pdf, id=90, 437.635pt x 392.667pt>
+File: figs/MPD4_UserManual.pdf Graphic file (type pdf)
+
+<use figs/MPD4_UserManual.pdf>
+Package pdftex.def Info: figs/MPD4_UserManual.pdf used on input line 259.
+(pdftex.def)             Requested size: 240.69998pt x 215.96751pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--260
+
+ []
+
+[11 <./figs/NewMPDDetailed.pdf>] [12 <./figs/MPD4_UserManual.pdf>]
+<figs/TriggerPipeline.pdf, id=129, 460.92201pt x 311.564pt>
+File: figs/TriggerPipeline.pdf Graphic file (type pdf)
+
+<use figs/TriggerPipeline.pdf>
+Package pdftex.def Info: figs/TriggerPipeline.pdf used on input line 285.
+(pdftex.def)             Requested size: 345.0pt x 233.21126pt.
+
+<figs/CaloTrigger.pdf, id=130, 1124.2pt x 803.0pt>
+File: figs/CaloTrigger.pdf Graphic file (type pdf)
+ <use figs/CaloTrigger.pdf>
+Package pdftex.def Info: figs/CaloTrigger.pdf used on input line 297.
+(pdftex.def)             Requested size: 345.0pt x 246.42786pt.
+
+<figs/HCALSum.pdf, id=131, 614.295pt x 794.97pt>
+File: figs/HCALSum.pdf Graphic file (type pdf)
+ <use figs/HCALSum.pdf>
+Package pdftex.def Info: figs/HCALSum.pdf used on input line 304.
+(pdftex.def)             Requested size: 345.0pt x 446.4781pt.
+
+<figs/VXSHCalFADC.pdf, id=132, 343.68399pt x 448.87701pt>
+File: figs/VXSHCalFADC.pdf Graphic file (type pdf)
+
+<use figs/VXSHCalFADC.pdf>
+Package pdftex.def Info: figs/VXSHCalFADC.pdf used on input line 311.
+(pdftex.def)             Requested size: 345.0pt x 450.62933pt.
+ [13] [14 <./figs/TriggerPipeline.pdf> <./figs/CaloTrigger.pdf
+
+pdfTeX warning: pdflatex (file ./figs/CaloTrigger.pdf): PDF inclusion: multiple
+ pdfs with page group included in a single page
+>] [15 <./figs/HCALSum.pdf>] [16 <./figs/VXSHCalFADC.pdf>]
+<figs/FPGAFlip.pdf, id=298, 501.072pt x 477.785pt>
+File: figs/FPGAFlip.pdf Graphic file (type pdf)
+ <use figs/FPGAFlip.pdf>
+Package pdftex.def Info: figs/FPGAFlip.pdf used on input line 324.
+(pdftex.def)             Requested size: 275.59045pt x 262.78256pt.
+
+[17 <./figs/FPGAFlip.pdf>]
+<figs/SBSlayoutOld.pdf, id=311, 845.55902pt x 598.235pt>
+File: figs/SBSlayoutOld.pdf Graphic file (type pdf)
+
+<use figs/SBSlayoutOld.pdf>
+Package pdftex.def Info: figs/SBSlayoutOld.pdf used on input line 334.
+(pdftex.def)             Requested size: 465.0589pt x 329.03026pt.
+
+Overfull \hbox (120.0589pt too wide) in paragraph at lines 334--335
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--335
+
+ []
+
+<figs/TSs.pdf, id=312, 845.55902pt x 598.235pt>
+File: figs/TSs.pdf Graphic file (type pdf)
+ <use figs/TSs.pdf>
+Package pdftex.def Info: figs/TSs.pdf used on input line 338.
+(pdftex.def)             Requested size: 465.0589pt x 329.03026pt.
+
+Overfull \hbox (120.0589pt too wide) in paragraph at lines 338--339
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 338--339
+
+ []
+
+<figs/FastbusEcalDetailed.pdf, id=313, 794.97pt x 614.295pt>
+File: figs/FastbusEcalDetailed.pdf Graphic file (type pdf)
+
+<use figs/FastbusEcalDetailed.pdf>
+Package pdftex.def Info: figs/FastbusEcalDetailed.pdf used on input line 343.
+(pdftex.def)             Requested size: 437.23485pt x 337.86328pt.
+
+Overfull \hbox (92.23485pt too wide) in paragraph at lines 343--344
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 343--344
+
+ []
+
+<figs/FastbusCDetDetailed.pdf, id=314, 794.97pt x 614.295pt>
+File: figs/FastbusCDetDetailed.pdf Graphic file (type pdf)
+
+<use figs/FastbusCDetDetailed.pdf>
+Package pdftex.def Info: figs/FastbusCDetDetailed.pdf used on input line 348.
+(pdftex.def)             Requested size: 437.23485pt x 337.86328pt.
+
+Overfull \hbox (92.23485pt too wide) in paragraph at lines 348--349
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 348--349
+
+ []
+
+[18 <./figs/SBSlayoutOld.pdf>] [19 <./figs/TSs.pdf>] [20 <./figs/FastbusEcalDet
+ailed.pdf>] [21 <./figs/FastbusCDetDetailed.pdf>]
+<figs/cfpa.pdf, id=365, 569.12625pt x 401.5pt>
+File: figs/cfpa.pdf Graphic file (type pdf)
+ <use figs/cfpa.pdf>
+Package pdftex.def Info: figs/cfpa.pdf used on input line 395.
+(pdftex.def)             Requested size: 345.0pt x 243.3953pt.
+
+<figs/Gep5layout.pdf, id=366, 598.235pt x 845.55902pt>
+File: figs/Gep5layout.pdf Graphic file (type pdf)
+
+<use figs/Gep5layout.pdf>
+Package pdftex.def Info: figs/Gep5layout.pdf used on input line 405.
+(pdftex.def)             Requested size: 345.0pt x 487.63771pt.
+ [22] [23 <./figs/cfpa.pdf, page is rotated 90 degrees>] [24 <./figs/Gep5layout
+.pdf>]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+
+Overfull \hbox (256.47781pt too wide) in paragraph at lines 492--500
+\OT1/cmr/m/n/10 ger rates are com-fort-ably low, gen-er-ally well be-low 1 kHz.
+ [] 
+ []
+
+[25] [26] (./SBS-DAQ.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 1631 strings out of 493096
+ 23973 string characters out of 6137367
+ 87854 words of memory out of 5000000
+ 5105 multiletter control sequences out of 15000+600000
+ 7895 words of font info for 28 fonts, out of 8000000 for 9000
+ 1137 hyphenation exceptions out of 8191
+ 37i,9n,23p,1060b,219s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy10.pfb>
+Output written on SBS-DAQ.pdf (26 pages, 3249488 bytes).
+PDF statistics:
+ 465 PDF objects out of 1000 (max. 8388607)
+ 293 compressed objects within 3 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,383 @@
+\documentclass{chowto}
+%\documentstyle[12pt,epsfig]{article}
+%\textwidth=155mm
+%\textheight=235mm
+%\setlength{\voffset}{-8.0mm}
+%\oddsidemargin 5.mm
+%\evensidemargin 5.mm
+ \title{Electromagnetic calorimeter BigCal}
+\howtotype{user}
+\experiment{GEp(III) and two-gamma}
+\author{C.F. Perdrisat}
+\category{general}
+\maintainer{C.F. Perdrisat}
+\date{9/23/2007}
+
+\input epsf
+
+\begin{document}
+
+\begin{abstract}
+A description of the physical configuration of the calorimeter built for 
+the GEp(III) experiment, followed by one of the electronic layout leading 
+to the generation of the calorimeter trigger.
+\end{abstract}
+\section{General Description}
+
+The electromagnetic calorimeter BigCal consists of 1024 bars of lead glass, 
+3.8x3.8 cm$^2$ cross section and 45 cm length, stacked in a 32 by 32 array, 
+and 720 bars 4.0x4.0$cm^2$ 40 cm long, stacked 30 horizontal time 24 
+vertical, on top of the first 1024. The glass is TF0-1, density 
+3.86 $gcm^{-3}$, index of refraction $n=$1.6522 and radiation length 2.74 
+$gcm^{-2}$. The nuclear absorption length is 22 $cm$. 
+The arrangement of the glass bars is seen in Fig. \ref{fig:glassback}.
+In the two 2007-8 GEp experiments, the main functions of BigCal are to 
+help separate the electron of elastic $ep$ scattering from the background, 
+by 1) providing a trigger signal, and 2) determining the $x$ and $y$ 
+position of the shower associated with the elastic electron; the expected 
+position resolution is 
+in the range 0.5 to 1.0 cm, depending on electron energy and angle 
+relative to the normal to the calorimeter face. The corresponding electron 
+angles will then be compared with the expected values calculated from the
+angles (and momentum) of the proton detected in the HMS. The electron energy 
+is an additional, secondary information obtained by summing the signal in 
+the bars 
+containing the electron shower; it can be calculated in software with 
+appropriate cuts on time and pulse height, and more
+coarsely directly from the summing hardware used to 
+define the trigger. 
+\begin{figure}[h]
+%\begin{minipage}[b]{0.45\linewidth}
+\begin{center}
+\epsfig{file=/home/perdrisa/PS/calo_logic_5.eps,height=4.0in}
+\caption[]{\it{The 1744 bars of lead glass in BigCal.The colors are used to 
+distinguish subgroups of 64 bars as defined by the second level trigger.}}
+\label{fig:glassback}
+\end{center}
+\end{figure}
+A trigger threshold will be set empirically to  
+keep the trigger rate low enough;it will be typically higher than 50\% 
+of the elastic electron energy.The expected energy resolution is about 5\% 
+for 1 GeV electrons.
+
+\subsection{Mechanicals}
+\label{mechanics}
+\subsubsection{Physical description}
+\begin{figure}[h]
+%\begin{minipage}[b]{0.45\linewidth}
+\begin{center}
+\epsfig{file=/home/perdrisa/PS/calo_box_backview_rev.eps,height=4.0in}
+\caption[]{\it{A longitudinal cut through the calorimeter on the right, 
+and a rear
+view showing details of the lead glass stack, PM and PM bases, as well 
+as the patch panels attached on vertical bars in the back of the setup.}}
+\label{fig:schematicview}
+\end{center}
+\end{figure}
+
+The lead glass stack is contained in a frame attached to the calorimeter 
+platform. All 56 layers are resting against the right internal wall of the 
+frame (seen from behind the calorimeter). The bars have all been measured, and chosen so as to minimize 
+the fluctuation in height, from layer to layer; they are kept in place 
+by horizontal pushers. The total weight of the glass alone is 4300 kg. 
+
+The lead glass bars in the lower part of the calorimeter are arranged in 32
+rows of 32 bars horizontally, for a total of 1024 bars; the glass originated 
+in the HEP group in Protvino, Russia. The upper part of 
+the calorimeter consists of 24 rows of 30 bars horizontally, for a total of 
+720 bars; this glass was used in the Hall A RCS experiment, but is originally 
+from Yerevan. A schematic of the various components of the calorimeter 
+proper is in 
+Fig.~\ref{fig:schematicview}. Each bar is connected to a 12-stage, venetian
+blind Russian FEU-84 
+photomultipliers (PM) 
+through a 5 mm thick Si-pad (cookies), and held in place in 
+horizontal 2'' thick aluminum cross bars, one for 4 rows of PM's; each 
+cross bar holds 
+128 PMs in the lower section, and 120 in the upper section. There are 14 
+cross bars in total; they are attached to the frame and their position is
+adjustable. The base of each PM is attached to the cross bar by two threaded 
+rods screwed into the cross bar, applying pressure on the cookies. 
+
+The numbering of the bars is shown in Fig. \ref{fig:glassback}: looking at the 
+calorimeter from the back, the first bar at the bottom left corner is bar 1.
+Although the upper section (RCS) has  only 30 bars per row, as compared to the 
+lower part's 32 bar per row, the horizontal size of the two sections of glass 
+differ by only 1.6 cm. Electronically the calorimeter is divided into 
+for columns A, B, C and D, 
+each of 8 bars; accordingly in the RCS section bars 16 and 32 are physically 
+absent. 
+
+\subsubsection{Photomultiplier High Voltage}
+
+The photomultiplier voltage dividers of the Protvino section of 1024 bars
+have the voltage of the 4 last stages provided by 4 external power supplies.
+The resistive part of the voltage divider chain has a resistance of 5.6 
+M$\Omega$. The last for dynodes are coupled by 1.5 nF capacitors. The load
+of the 4 external power supplies consists of 4 variable shunt resistors of 20
+k$\Omega$ each; it needs to be adjusted when the number of PM's connected is 
+changed. A schematic of the bases power supplies and load resistors is in 
+Fig.~\ref{fig:PMHV}. The power dissipated per tube, with -1300 V applied to the cathode, and -300V distributed over the last 4 dynodes, is 0.18 W.
+The same photomultipliers are used in the RCS section; there the base is of 
+standard design, with a total resistance of 1.7 M$\Omega$; with an applied 
+voltage of -1300 V the power dissipated is 1 W per base. The total heat 
+dissipation in the black-box is then 
+1034$\times$0.18+720$\times$1=185 + 720=900 W. The black-box can be 
+ventilated by two external turbofans.  
+
+\begin{figure}[h]
+%\begin{minipage}[b]{0.45\linewidth}
+\begin{center}
+
+\epsfig{file=/home/perdrisa/PS/LP_Base_and_booster.eps,height=3.0in}
+\caption[]{\it{Wiring of the Protvino PM bases with the 4 booster voltage supplies and corresponding load resistors.}}
+\label{fig:PMHV}
+\end{center}
+\end{figure}
+
+\subsection{Electronics}
+\label{electronics}
+\subsubsection{First level summing}
+
+\begin{figure}[h]
+%\begin{minipage}[b]{0.45\linewidth}
+\begin{center}
+%\epsfig{file=/home/perdrisa/PS/multiplex_firstlevel_rev.eps,height=5.0in,angle%=-90}
+\epsfig{file=/home/perdrisa/PS/multiplex_firstlevel_rev.eps,height=7.4in}
+\caption[]{\it{}}
+\label{fig:firstlevel}
+\end{center}
+\end{figure}
+
+\small{
+\begin{table}[h]
+\caption[]{\it Content of the 14 NIM bins housing the 128 ``adder'' modules, 
+each with two input octets. This is to be correlated with Fig.~ 
+\ref{fig:firstlevel} which shows
+only the first pair of NIM bins (left and right) for the Protvino (PROT) and 
+RCS/Yerevan (RCS) parts of BigCal.}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+\it NIM & & & & & & \it NIM & & & & &  \\ \hline
+\it bin&\it Left  & & & & & \it bin & \it Right & & & & \\ \hline
+ & \it slot & \it 1,2 &\it 3,4 &\it 8,9 & \it 10,11 & & \it slot&\it 1,2 &\it 3,4 &
+\it 8,9 &\it 10,11 \\ \hline
+\it 1& &6 & 5 & 2 & 1 & & \it 5 & 3 & 4 & 7 & 8 \\
+
+\it 2 & &14 & 13 & 10 & 9 & & \it 6 & 11 & 12 & 15 & 16 \\
+
+\it 3 & &22 & 21 & 18 & 17 & & \it 7 & 19 & 20 & 23 & 24 \\
+
+\it 4 & &30 & 29 & 26 & 25 & & \it 8 & 27 & 28 & 31 & 32 \\ \hline
+
+\it bin & \it Left & & & & & \it bin & \it Right & & & & \\ \hline
+
+ & \it slot & \it 1,2 &\it 3,4 &\it 8,9 & \it 10,11 & & \it slot&\it 1,2 &\it 3,4 &
+\it 8,9 &\it 10,11 \\ \hline
+
+\it 1 & & 39,40 & 37,38 & 35,36 &34,33 &\it 4 & & 33,34 & 35,36 & 37,38 & 39,40 \\       
+
+\it 2 & & 47,48 & 45,46 & 44,43 & 42,41 &\it 5 & & 41,42 & 43,44 & 45,46 & 47,48 \\ 
+
+\it 3 & & 56,55 & 54,53 & 52,51 & 50,49 &\it 6 & & 49,50 & 51,52 & 53,54 & 55,56 \\
+\hline \hline
+\end{tabular}
+\end{center}
+\label{tab:firstdetail}
+\end{table}
+}
+
+\begin{table}[!]
+\caption[]{\it Correspondence between the 6 regions of the glass, and the
+trigger units, 1 thru 4.}
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+\hline
+area & A+B & C+D & section \\ \hline
+row & 1-31 & 1-31 & Protvino L and R\\
+trigger & 1 & 2 & \\ \hline
+row & 31-34 & 31-34 & boundary L and R\\
+trigger & 1 & 2 & \\ \hline
+row & 34-56 & 34-56 & RCS L and R \\
+trigger & 3 & 4 & \\ \hline
+\end{tabular}
+\end{center}
+\label{tab:triggerscheme}
+\end{table}
+
+
+The electronics located on the calorimeter platform include 224,   
+{\bf first level} summing modules, each with 8 inputs, contained 
+in 112 single width NIM modules, with analog output 
+through 34-conductor flat cables in the back, amplified by a factor 
+of 4.2, going to the 1792 ADC channels (48 are unused, and could 
+become spares if needed). 
+The first level summing modules also provide 4 amplified analog ``summed'' 
+outputs with the same gain of 4.2, reducing the signals from each 
+horizontal group of 8 PMs called A, B, C and D in Fig. \ref{fig:firstlevel}, 
+to 1. Figure~\ref{fig:firstlevel} shows only the first two NIM bins for the 
+lowest group of 
+Protvino bars (rows 1,2,5,6) on the top left, then rows of 3,4,7,8 on the 
+right. 
+At the bottom the corresponding configuration for the RCS section is shown;
+because each row in the RCS group is divided equally left and right the left 
+NIM bin contains rows 33 to 40 left half, and the right NIM bin contains 
+rows 33 to
+40 right half. A complete scheme for all 1744 physical bars or 1792
+electronic channels is found in Table \ref{tab:firstdetail}.
+ 
+One of the four
+parallel analog ``summed'' outputs goes to a discriminator located in the
+same NIM bin, and then to a TDC, for a total of 224 TDCs. Another output 
+(or two, as will be explained below) goes to the second level of summing 
+modules where the ``summed'' output with gain of 1 are used, to further reduce the number
+of analog channels by a factor of 8.
+Both TDCs and ADCs 
+are located on the separate electronic platform through 50 $\Omega$ cables, 
+100 m long and 50 m long, respectively. 
+
+\subsubsection{Second level summing}
+
+The configuration of the {\bf second level summing modules} is explained in 
+Fig. ~\ref{fig:secondlevel}. The
+wiring is such that groups of 64 bars are added together, either $A+B$, or 
+$C+D$,rows 1 
+thru 4, and then the next group of 64 is made to overlap with the previous 
+one by 1 row, as illustrated by the overlapping colors in Fig. 
+\ref{fig:glassback}: the first group of 
+64 bars in the lower left corner is reduced to 1 analog signal by the second 
+level summing modules in the NIM bin located in the lower left hand 
+corner of Fig. \ref{fig:secondlevel}: L, 1A,B thru 4A,B.
+The overlap is obtained by repeating the first row (4A,B), in the next octet 
+and then adding 
+the next three rows: 4A,B thru 7A,B, an so on. All channels of the second 
+level summing modules are shown in Fig. \ref{tab:firstdetail}.
+
+
+\begin{figure}[h]
+\begin{center}
+\epsfig{file=/home/perdrisa/PS/calo_second_level_rev.eps,height=6.0in}
+\caption[]{\it{Consists of 19 adders, with gain of 1; the front lemo 
+provide analog AC and DC outputs. The wiring is such as to produce the 
+overlap pattern shown in Fig. \ref{fig:glassback}. The concept involved is 
+also illustrated in Fig. \ref{fig:idea}. Successive blocs of 64 bars left 
+and rift are made to over lap by 1 row, left and right separately (hence 
+no overlap between the two columns, A+B and C+D)}}.
+\label{fig:secondlevel}
+\end{center}
+\end{figure}
+Because of the vertical overlap scheme, a total of 38 summing octets (i.e. 19
+NIM modules, each with 2 octets)
+are required to achieve complete coverage. The second level adders send 
+analog signals to the 4 trigger discriminator NIM units at the 
+{\bf third level}. 
+
+\begin{figure}[h]
+\begin{center}
+\epsfig{file=/home/perdrisa/PS/calo_third_level_rev.eps,height=6.0in}
+\caption[]{\it{At third level of the trigger the 38 outputs form the 
+second level ``adders'' are passed through discriminators with remotely 
+adjustable threshold; these define the BC trigger level. The 38 logic 
+outputs of the discriminators are then OR'ed to 1 in two steps, four fanin/Fanout's, followed by four logic OR's.. The wiring 
+is such that the left- and right half of the calorimeter are grouped, 
+allowing a different trigger level for the two vertical halves of BigCal.  }}
+\label{fig:secondlevel}
+\end{center}
+\end{figure}
+
+\subsubsection{Third level and trigger}
+
+The schematics of the {\bf third level} is 
+shown in Table \ref{tab:triggerscheme}. The 38 analog output signals from the second level summing
+modules are sent to 4 discriminators modules numbered D1 thru D3, each with 16 inputs. D1 
+receives the 11 sums of 64 for
+rows 1 thru 34 A+B (i.e. left half), and D2 the 8 rows 34 thru 56 A+B. D3 receives the sums of 
+64 for the 11
+rows 1 thru 34 C+D (i.e. right half), and D4 the  8 rows 34 thru 56 C+D. The threshold of these 
+discriminators is remotely adjustable, separately for each of the 4 modules (but not for each input).
+One might choose a different threshold for the left and right halves of BigCal.
+The logical output signal of the 38 discriminators circuits are then OR'd in 4 Fanin/Fanout 
+NIM units, using 11 inputs in the first unit, 8 in the second, both for A+B. And similarly
+11 inputs and 8 inputs for the third and fourth unit, both for C+D. The 4 outputs of the Fi/Fo 
+are then OR'd in one logic AND unit in the mode
+``any one of 4''.  Figure \ref{fig:thirdlevel} illustrated the above description.
+
+\begin{figure}[h]
+\begin{center}
+\epsfig{file=/home/perdrisa/PS/calo_blockdiagram_full.eps,height=6.5in}
+\caption[]{\it{Schematic representation of the electronics on the BigCal 
+platform. }}
+\label{fig:blockdiagram}
+\end{center}
+\end{figure}
+
+\begin{figure}[h]
+\begin{center}
+\epsfig{file=/home/perdrisa/PS/calo_logic_idea_plus.eps,height=7.0in}
+\caption[]{\it{Principle of the overlapping scheme at the second level: every 
+third row has two first level output going into separate second level 
+summing modules
+represented by the black squares (the same black squares as in 
+Fig. \ref{fig:glassback}, each representing an summing octet). }}
+\label{fig:idea}
+\end{center}
+\end{figure}
+
+
+\subsection{Important Procedures}
+
+Always turn off BOTH: 1)HV supplies, and 2)Booster supplies BEFORE enetering the 
+detector black box, or before working at the labirint openings, or before working 
+on the monitoring system.
+
+Avoid having booster supplies "ON" when the HV on any of the Protvino channel is "OFF".
+
+Avoid having for a long time (days) the HV "ON" when the booster supply is "OFF" on 
+the Protvino part.
+
+Never use the monitoring system with more than 1KHz rate.
+
+Be careful when connecting/disconnecting long signal RCS cables, never apply 
+more than 2kg tension on the BNC connectors. The cylindrical HV connectors on 
+the long HV cables are very fragile, always buble wrap them when disconnecting 
+from the boxes and keep the connector in hand when running/laying the cable.
+
+When transporting/moving the calorimeter tighten SLIGHTLY the bolts on the 
+right (downstream) side of the glass frame. These bolts apply pressure on the 
+glass. BE GENTLE, YOU CAN BREAK THE GLASS even using a small screw driver, instead 
+of wrench. There are two bolts per 4 rows for the Protvino part (16 total) and 
+two bolts per each row for the RCS part (48 total). Mount the 5 U-beams on the 
+front calorimeter plane when transporting the detector.  
+
+\subsection{Safety Issues}
+
+The power supplies of the two FASTBUS crates at the electronics platform have currents up to 24A. 
+Always turn the power down when working on the back side of the crates. Do not remove the safety 
+covers on the back of the crates. If it is needed for the job, put them back right after the job is done.
+
+Always turn off BOTH: 1)ALL HV supplies, and 2)ALL Booster supplies when working with any part 
+of the HV circuit: HV crates and cards, short HV cables at the electronics side, HV boxes at the 
+electronics side, long HV cables, HV boxes at the detector side, individual HV cables, bases, 
+and PMTs. Always turn off BOTH: 1)ALL HV supplies, and the 2)ALL Booster supplies BEFORE 
+enetering the detector black box. Each booster supply unit is capable of 1A current.
+
+Be aware that in the Protvino part you may have voltage on channels even the HV is OFF for 
+these channels, and the booster suplies are OFF. This is because the HV from other Protvino 
+channels is connected to all the channels through the booster curcuit. The easiest way to be 
+sure that there is no HV, is to turn OFF ALL the Protvino HV supplies.
+
+When in the Hall, you are allowed to step on the calorimeter platform without harmed 
+ONLY IF the (removable) fence all around the platform is in place.
+
+The cooling system blows air inside the black box with a rate of 0.1m3 / sec which is a 
+significant fire hazard. The interock system includes 4 thermosensors inside the black box, 
+but it is supposed to turn off only the HV supplies. We do not intend to use the cooling 
+system during the operation of the detector, since the tempreture increase when switching 
+on the HVs ia about 100C. Therfore, if you have used the cooling system when working inside 
+the detector, turn it OFF after the work.
+
+Laser safety issues (expect Hamlet's contribution): we may actually use LED's. 
+
+
+\end{document}

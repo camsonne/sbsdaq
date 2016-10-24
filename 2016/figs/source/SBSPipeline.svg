@@ -1,0 +1,3460 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="573.60773"
+   height="387.6879"
+   viewBox="0 0 573.60773 387.6879"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="TriggerPipeline.svg">
+  <metadata
+     id="metadata688">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>
+TriggerPipeline.svg
+</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1196"
+     inkscape:window-height="1594"
+     id="namedview686"
+     showgrid="false"
+     inkscape:zoom="3.0793651"
+     inkscape:cx="67.955953"
+     inkscape:cy="199.5583"
+     inkscape:window-x="0"
+     inkscape:window-y="136"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2" />
+  <title
+     id="title4">
+TriggerPipeline.svg
+</title>
+  <desc
+     id="desc6">
+Creator: ROOT Version 5.34/05
+CreationDate: Mon Apr 15 22:42:03 2013</desc>
+  <defs
+     id="defs8">
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend"
+       style="overflow:visible">
+      <path
+         id="path6604"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6,-0.6)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Send"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Send"
+       style="overflow:visible">
+      <path
+         id="path6592"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend"
+       style="overflow:visible">
+      <path
+         id="path6586"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lstart"
+       style="overflow:visible">
+      <path
+         id="path6577"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(0.8,0,0,0.8,10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend"
+       style="overflow:visible">
+      <path
+         id="path6580"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 193 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="567 : 193 : 1"
+       inkscape:persp3d-origin="283.5 : 128.66667 : 1"
+       id="perspective690" />
+    <inkscape:perspective
+       id="perspective3941"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5723"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5723-2"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective6532"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective6554"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective9516"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective10528"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective10967"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend-2"
+       style="overflow:visible">
+      <path
+         id="path6586-1"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+  </defs>
+  <rect
+     style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.06118977;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     id="rect4270-70"
+     width="262.6712"
+     height="93.494102"
+     x="11.066008"
+     y="17.434418" />
+  <g
+     id="g3496"
+     transform="translate(11.548301,-4.8704052)">
+    <rect
+       id="rect238"
+       height="64"
+       width="9"
+       y="32"
+       x="6"
+       style="fill:none;stroke:#000000" />
+    <path
+       id="path240"
+       d="m 11,96 v 4 h 7 V 37 h -3 v 59 z"
+       style="fill:#000000" />
+    <path
+       id="path242"
+       d="M 6,96 V 32 h 9 V 96 H 6 z"
+       style="fill:none;stroke:#000000" />
+    <g
+       id="g244"
+       transform="matrix(0,-1,1,0,-70,100)">
+      <text
+         id="text246"
+         font-weight="bold"
+         font-size="9"
+         y="85"
+         x="15"
+         style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica">VME CPU</text>
+    </g>
+    <rect
+       id="rect248"
+       height="64"
+       width="9"
+       y="32"
+       x="18"
+       style="fill:none;stroke:#000000" />
+    <path
+       id="path250"
+       d="m 23,96 v 4 h 7 V 37 h -3 v 59 z"
+       style="fill:#000000" />
+    <path
+       id="path252"
+       d="M 18,96 V 32 h 9 v 64 h -9 z"
+       style="fill:none;stroke:#000000" />
+    <g
+       id="g254"
+       transform="matrix(0,-1,1,0,-47,99)">
+      <text
+         id="text256"
+         font-weight="bold"
+         font-size="9"
+         y="73"
+         x="26"
+         style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica">SSP</text>
+    </g>
+    <rect
+       id="rect258"
+       height="64"
+       width="9"
+       y="32"
+       x="30"
+       style="fill:none;stroke:#000000" />
+    <path
+       id="path260"
+       d="m 35,96 v 4 h 7 V 37 h -3 v 59 z"
+       style="fill:#000000" />
+    <path
+       id="path262"
+       d="M 30,96 V 32 h 9 v 64 h -9 z"
+       style="fill:none;stroke:#000000" />
+    <g
+       id="g264"
+       transform="matrix(0,-1,1,0,-35,111)">
+      <text
+         id="text266"
+         font-weight="bold"
+         font-size="9"
+         y="73"
+         x="38"
+         style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica">SSP</text>
+    </g>
+    <rect
+       id="rect268"
+       height="64"
+       width="9"
+       y="32"
+       x="42"
+       style="fill:none;stroke:#000000" />
+    <path
+       id="path270"
+       d="m 46,96 v 4 h 8 V 37 h -3 v 59 z"
+       style="fill:#000000" />
+    <path
+       id="path272"
+       d="M 42,96 V 32 h 9 v 64 h -9 z"
+       style="fill:none;stroke:#000000" />
+    <g
+       id="g274"
+       transform="matrix(0,-1,1,0,-23,123)">
+      <text
+         id="text276"
+         font-weight="bold"
+         font-size="9"
+         y="73"
+         x="50"
+         style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica">SSP</text>
+    </g>
+    <rect
+       id="rect278"
+       height="64"
+       width="9"
+       y="32"
+       x="53"
+       style="fill:none;stroke:#000000" />
+    <path
+       id="path280"
+       d="m 58,96 v 4 h 8 V 37 h -4 v 59 z"
+       style="fill:#000000" />
+    <path
+       id="path282"
+       d="M 53,96 V 32 h 9 v 64 h -9 z"
+       style="fill:none;stroke:#000000" />
+    <g
+       id="g284"
+       transform="matrix(0,-1,1,0,-11,135)">
+      <text
+         id="text286"
+         font-weight="bold"
+         font-size="9"
+         y="73"
+         x="62"
+         style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica">SSP</text>
+    </g>
+    <rect
+       id="rect288"
+       height="64"
+       width="9"
+       y="32"
+       x="65"
+       style="fill:none;stroke:#000000" />
+    <path
+       id="path290"
+       d="m 70,96 v 4 h 7 V 37 h -3 v 59 z"
+       style="fill:#000000" />
+    <path
+       id="path292"
+       d="M 65,96 V 32 h 9 v 64 h -9 z"
+       style="fill:none;stroke:#000000" />
+    <g
+       id="g294"
+       transform="matrix(0,-1,1,0,0,146)">
+      <text
+         id="text296"
+         font-weight="bold"
+         font-size="9"
+         y="73"
+         x="73"
+         style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica">SSP</text>
+    </g>
+    <rect
+       id="rect298"
+       height="64"
+       width="9"
+       y="32"
+       x="77"
+       style="fill:none;stroke:#000000" />
+    <path
+       id="path300"
+       d="m 82,96 v 4 h 7 V 37 h -3 v 59 z"
+       style="fill:#000000" />
+    <path
+       id="path302"
+       d="M 77,96 V 32 h 9 v 64 h -9 z"
+       style="fill:none;stroke:#000000" />
+    <g
+       id="g304"
+       transform="matrix(0,-1,1,0,13,159)">
+      <text
+         id="text306"
+         font-weight="bold"
+         font-size="9"
+         y="73"
+         x="86"
+         style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica">SSP</text>
+    </g>
+    <rect
+       id="rect308"
+       height="64"
+       width="9"
+       y="32"
+       x="89"
+       style="fill:none;stroke:#000000" />
+    <path
+       id="path310"
+       d="m 94,96 v 4 h 7 V 37 h -3 v 59 z"
+       style="fill:#000000" />
+    <path
+       id="path312"
+       d="M 89,96 V 32 h 9 v 64 h -9 z"
+       style="fill:none;stroke:#000000" />
+    <g
+       id="g314"
+       transform="matrix(0,-1,1,0,24,170)">
+      <text
+         id="text316"
+         font-weight="bold"
+         font-size="9"
+         y="73"
+         x="97"
+         style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica">SSP</text>
+    </g>
+    <rect
+       id="rect318"
+       height="64"
+       width="9"
+       y="32"
+       x="101"
+       style="fill:none;stroke:#000000" />
+    <path
+       id="path320"
+       d="m 106,96 v 4 h 7 V 37 h -3 v 59 z"
+       style="fill:#000000" />
+    <path
+       id="path322"
+       d="M 101,96 V 32 h 9 v 64 h -9 z"
+       style="fill:none;stroke:#000000" />
+    <g
+       id="g324"
+       transform="matrix(0,-1,1,0,36,182)">
+      <text
+         id="text326"
+         font-weight="bold"
+         font-size="9"
+         y="73"
+         x="109"
+         style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica">SSP</text>
+    </g>
+    <rect
+       id="rect328"
+       height="64"
+       width="9"
+       y="32"
+       x="112"
+       style="fill:none;stroke:#000000" />
+    <path
+       id="path330"
+       d="m 117,96 v 4 h 8 V 37 h -4 v 59 z"
+       style="fill:#000000" />
+    <path
+       id="path332"
+       d="M 112,96 V 32 h 9 v 64 h -9 z"
+       style="fill:none;stroke:#000000" />
+    <g
+       id="g334"
+       transform="matrix(0,-1,1,0,48,194)">
+      <text
+         id="text336"
+         font-weight="bold"
+         font-size="9"
+         y="73"
+         x="121"
+         style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica">SSP</text>
+    </g>
+    <rect
+       id="rect338"
+       height="64"
+       width="9"
+       y="32"
+       x="124"
+       style="fill:none;stroke:#000000" />
+    <path
+       id="path340"
+       d="m 129,96 v 4 h 7 V 37 h -3 v 59 z"
+       style="fill:#000000" />
+    <path
+       id="path342"
+       d="M 124,96 V 32 h 9 v 64 h -9 z"
+       style="fill:none;stroke:#000000" />
+    <g
+       id="g344"
+       transform="matrix(0,-1,1,0,60,206)">
+      <text
+         id="text346"
+         font-weight="bold"
+         font-size="9"
+         y="73"
+         x="133"
+         style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica">GTP</text>
+    </g>
+    <rect
+       id="rect348"
+       height="64"
+       width="9"
+       y="32"
+       x="136"
+       style="fill:none;stroke:#000000" />
+    <path
+       id="path350"
+       d="m 141,96 v 4 h 7 V 37 h -3 v 59 z"
+       style="fill:#000000" />
+    <path
+       id="path352"
+       d="M 136,96 V 32 h 9 v 64 h -9 z"
+       style="fill:none;stroke:#000000" />
+    <g
+       id="g354"
+       transform="matrix(0,-1,1,0,71,217)">
+      <text
+         id="text356"
+         font-weight="bold"
+         font-size="9"
+         y="73"
+         x="144"
+         style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica">GTP</text>
+    </g>
+    <rect
+       id="rect358"
+       height="64"
+       width="9"
+       y="32"
+       x="148"
+       style="fill:none;stroke:#000000" />
+    <path
+       id="path360"
+       d="m 153,96 v 4 h 7 V 37 h -3 v 59 z"
+       style="fill:#000000" />
+    <path
+       id="path362"
+       d="M 148,96 V 32 h 9 v 64 h -9 z"
+       style="fill:none;stroke:#000000" />
+    <g
+       id="g364"
+       transform="matrix(0,-1,1,0,83,229)">
+      <text
+         id="text366"
+         font-weight="bold"
+         font-size="9"
+         y="73"
+         x="156"
+         style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica">SSP</text>
+    </g>
+    <rect
+       id="rect368"
+       height="64"
+       width="9"
+       y="32"
+       x="160"
+       style="fill:none;stroke:#000000" />
+    <path
+       id="path370"
+       d="m 165,96 v 4 h 7 V 37 h -3 v 59 z"
+       style="fill:#000000" />
+    <path
+       id="path372"
+       d="M 160,96 V 32 h 9 v 64 h -9 z"
+       style="fill:none;stroke:#000000" />
+    <g
+       id="g374"
+       transform="matrix(0,-1,1,0,95,241)">
+      <text
+         id="text376"
+         font-weight="bold"
+         font-size="9"
+         y="73"
+         x="168"
+         style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica">SSP</text>
+    </g>
+    <rect
+       id="rect378"
+       height="64"
+       width="9"
+       y="32"
+       x="171"
+       style="fill:none;stroke:#000000" />
+    <path
+       id="path380"
+       d="m 176,96 v 4 h 8 V 37 h -4 v 59 z"
+       style="fill:#000000" />
+    <path
+       id="path382"
+       d="M 171,96 V 32 h 9 v 64 h -9 z"
+       style="fill:none;stroke:#000000" />
+    <g
+       id="g384"
+       transform="matrix(0,-1,1,0,107,253)">
+      <text
+         id="text386"
+         font-weight="bold"
+         font-size="9"
+         y="73"
+         x="180"
+         style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica">SSP</text>
+    </g>
+    <rect
+       id="rect388"
+       height="64"
+       width="9"
+       y="32"
+       x="183"
+       style="fill:none;stroke:#000000" />
+    <path
+       id="path390"
+       d="m 188,96 v 4 h 8 V 37 h -4 v 59 z"
+       style="fill:#000000" />
+    <path
+       id="path392"
+       d="M 183,96 V 32 h 9 v 64 h -9 z"
+       style="fill:none;stroke:#000000" />
+    <g
+       id="g394"
+       transform="matrix(0,-1,1,0,118,264)">
+      <text
+         id="text396"
+         font-weight="bold"
+         font-size="9"
+         y="73"
+         x="191"
+         style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica">SSP</text>
+    </g>
+    <rect
+       id="rect398"
+       height="64"
+       width="9"
+       y="32"
+       x="195"
+       style="fill:none;stroke:#000000" />
+    <path
+       id="path400"
+       d="m 200,96 v 4 h 7 V 37 h -3 v 59 z"
+       style="fill:#000000" />
+    <path
+       id="path402"
+       d="M 195,96 V 32 h 9 v 64 h -9 z"
+       style="fill:none;stroke:#000000" />
+    <g
+       id="g404"
+       transform="matrix(0,-1,1,0,131,277)">
+      <text
+         id="text406"
+         font-weight="bold"
+         font-size="9"
+         y="73"
+         x="204"
+         style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica">SSP</text>
+    </g>
+    <rect
+       id="rect408"
+       height="64"
+       width="9"
+       y="32"
+       x="207"
+       style="fill:none;stroke:#000000" />
+    <path
+       id="path410"
+       d="m 212,96 v 4 h 7 V 37 h -3 v 59 z"
+       style="fill:#000000" />
+    <path
+       id="path412"
+       d="M 207,96 V 32 h 9 v 64 h -9 z"
+       style="fill:none;stroke:#000000" />
+    <g
+       id="g414"
+       transform="matrix(0,-1,1,0,142,288)">
+      <text
+         id="text416"
+         font-weight="bold"
+         font-size="9"
+         y="73"
+         x="215"
+         style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica">SSP</text>
+    </g>
+    <rect
+       id="rect418"
+       height="64"
+       width="9"
+       y="32"
+       x="219"
+       style="fill:none;stroke:#000000" />
+    <path
+       id="path420"
+       d="m 224,96 v 4 h 7 V 37 h -3 v 59 z"
+       style="fill:#000000" />
+    <path
+       id="path422"
+       d="M 219,96 V 32 h 9 v 64 h -9 z"
+       style="fill:none;stroke:#000000" />
+    <g
+       id="g424"
+       transform="matrix(0,-1,1,0,154,300)">
+      <text
+         id="text426"
+         font-weight="bold"
+         font-size="9"
+         y="73"
+         x="227"
+         style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica">SSP</text>
+    </g>
+    <rect
+       id="rect428"
+       height="64"
+       width="9"
+       y="32"
+       x="231"
+       style="fill:none;stroke:#000000" />
+    <path
+       id="path430"
+       d="m 235,96 v 4 h 8 V 37 h -3 v 59 z"
+       style="fill:#000000" />
+    <path
+       id="path432"
+       d="M 231,96 V 32 h 9 v 64 h -9 z"
+       style="fill:none;stroke:#000000" />
+    <g
+       id="g434"
+       transform="matrix(0,-1,1,0,166,312)">
+      <text
+         id="text436"
+         font-weight="bold"
+         font-size="9"
+         y="73"
+         x="239"
+         style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica">SSP</text>
+    </g>
+    <rect
+       id="rect438"
+       height="64"
+       width="9"
+       y="32"
+       x="242"
+       style="fill:none;stroke:#000000" />
+    <path
+       id="path440"
+       d="m 247,96 v 4 h 8 V 37 h -4 v 59 z"
+       style="fill:#000000" />
+    <path
+       id="path442"
+       d="M 242,96 V 32 h 9 v 64 h -9 z"
+       style="fill:none;stroke:#000000" />
+    <g
+       id="g444"
+       transform="matrix(0,-1,1,0,183,319)">
+      <text
+         id="text446"
+         font-weight="bold"
+         font-size="9"
+         y="68"
+         x="251"
+         style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica">TI</text>
+    </g>
+  </g>
+  <rect
+     style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.06118977;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     id="rect4270-70-3"
+     width="262.6712"
+     height="93.494102"
+     x="310.40591"
+     y="13.63657" />
+  <g
+     id="g3603"
+     transform="translate(11.548301,-4.8704052)">
+    <rect
+       id="rect464"
+       height="64"
+       width="8"
+       y="32"
+       x="309"
+       style="fill:none;stroke:#000000" />
+    <path
+       id="path466"
+       d="m 313,96 v 4 h 8 V 37 h -4 v 59 z"
+       style="fill:#000000" />
+    <path
+       id="path468"
+       d="M 309,96 V 32 h 8 v 64 h -8 z"
+       style="fill:none;stroke:#000000" />
+    <g
+       id="g470"
+       transform="matrix(0,-1,1,0,232,402)">
+      <text
+         id="text472"
+         font-weight="bold"
+         font-size="9"
+         y="85"
+         x="317"
+         style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica">VME CPU</text>
+    </g>
+    <rect
+       id="rect474"
+       height="64"
+       width="9"
+       y="32"
+       x="320"
+       style="fill:none;stroke:#000000" />
+    <path
+       id="path476"
+       d="m 325,96 v 4 h 8 V 37 h -4 v 59 z"
+       style="fill:#000000" />
+    <path
+       id="path478"
+       d="M 320,96 V 32 h 9 v 64 h -9 z"
+       style="fill:none;stroke:#000000" />
+    <g
+       id="g480"
+       transform="matrix(0,-1,1,0,258,398)">
+      <text
+         id="text482"
+         font-weight="bold"
+         font-size="9"
+         y="70"
+         x="328"
+         style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica">TD</text>
+    </g>
+    <rect
+       id="rect484"
+       height="64"
+       width="9"
+       y="32"
+       x="332"
+       style="fill:none;stroke:#000000" />
+    <path
+       id="path486"
+       d="m 337,96 v 4 h 7 V 37 h -3 v 59 z"
+       style="fill:#000000" />
+    <path
+       id="path488"
+       d="M 332,96 V 32 h 9 v 64 h -9 z"
+       style="fill:none;stroke:#000000" />
+    <g
+       id="g490"
+       transform="matrix(0,-1,1,0,270,410)">
+      <text
+         id="text492"
+         font-weight="bold"
+         font-size="9"
+         y="70"
+         x="340"
+         style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica">TD</text>
+    </g>
+    <rect
+       id="rect494"
+       height="64"
+       width="9"
+       y="32"
+       x="344"
+       style="fill:none;stroke:#000000" />
+    <path
+       id="path496"
+       d="m 349,96 v 4 h 7 V 37 h -3 v 59 z"
+       style="fill:#000000" />
+    <path
+       id="path498"
+       d="M 344,96 V 32 h 9 v 64 h -9 z"
+       style="fill:none;stroke:#000000" />
+    <g
+       id="g500"
+       transform="matrix(0,-1,1,0,282,422)">
+      <text
+         id="text502"
+         font-weight="bold"
+         font-size="9"
+         y="70"
+         x="352"
+         style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica">TD</text>
+    </g>
+    <rect
+       id="rect504"
+       height="64"
+       width="9"
+       y="32"
+       x="356"
+       style="fill:none;stroke:#000000" />
+    <path
+       id="path506"
+       d="m 361,96 v 4 h 7 V 37 h -3 v 59 z"
+       style="fill:#000000" />
+    <path
+       id="path508"
+       d="M 356,96 V 32 h 9 v 64 h -9 z"
+       style="fill:none;stroke:#000000" />
+    <g
+       id="g510"
+       transform="matrix(0,-1,1,0,294,434)">
+      <text
+         id="text512"
+         font-weight="bold"
+         font-size="9"
+         y="70"
+         x="364"
+         style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica">TD</text>
+    </g>
+    <rect
+       id="rect514"
+       height="64"
+       width="9"
+       y="32"
+       x="368"
+       style="fill:none;stroke:#000000" />
+    <path
+       id="path516"
+       d="m 372,96 v 4 h 8 V 37 h -3 v 59 z"
+       style="fill:#000000" />
+    <path
+       id="path518"
+       d="M 368,96 V 32 h 9 v 64 h -9 z"
+       style="fill:none;stroke:#000000" />
+    <g
+       id="g520"
+       transform="matrix(0,-1,1,0,306,446)">
+      <text
+         id="text522"
+         font-weight="bold"
+         font-size="9"
+         y="70"
+         x="376"
+         style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica">TD</text>
+    </g>
+    <rect
+       id="rect524"
+       height="64"
+       width="9"
+       y="32"
+       x="379"
+       style="fill:none;stroke:#000000" />
+    <path
+       id="path526"
+       d="m 384,96 v 4 h 8 V 37 h -4 v 59 z"
+       style="fill:#000000" />
+    <path
+       id="path528"
+       d="M 379,96 V 32 h 9 v 64 h -9 z"
+       style="fill:none;stroke:#000000" />
+    <g
+       id="g530"
+       transform="matrix(0,-1,1,0,318,458)">
+      <text
+         id="text532"
+         font-weight="bold"
+         font-size="9"
+         y="70"
+         x="388"
+         style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica">TD</text>
+    </g>
+    <rect
+       id="rect534"
+       height="64"
+       width="9"
+       y="32"
+       x="391"
+       style="fill:none;stroke:#000000" />
+    <path
+       id="path536"
+       d="m 396,96 v 4 h 7 V 37 h -3 v 59 z"
+       style="fill:#000000" />
+    <path
+       id="path538"
+       d="M 391,96 V 32 h 9 v 64 h -9 z"
+       style="fill:none;stroke:#000000" />
+    <g
+       id="g540"
+       transform="matrix(0,-1,1,0,329,469)">
+      <text
+         id="text542"
+         font-weight="bold"
+         font-size="9"
+         y="70"
+         x="399"
+         style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica">TD</text>
+    </g>
+    <rect
+       id="rect544"
+       height="64"
+       width="9"
+       y="32"
+       x="403"
+       style="fill:none;stroke:#000000" />
+    <path
+       id="path546"
+       d="m 408,96 v 4 h 7 V 37 h -3 v 59 z"
+       style="fill:#000000" />
+    <path
+       id="path548"
+       d="M 403,96 V 32 h 9 v 64 h -9 z"
+       style="fill:none;stroke:#000000" />
+    <g
+       id="g550"
+       transform="matrix(0,-1,1,0,341,481)">
+      <text
+         id="text552"
+         font-weight="bold"
+         font-size="9"
+         y="70"
+         x="411"
+         style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica">TD</text>
+    </g>
+    <rect
+       id="rect554"
+       height="64"
+       width="9"
+       y="32"
+       x="415"
+       style="fill:none;stroke:#000000" />
+    <path
+       id="path556"
+       d="m 420,96 v 4 h 7 V 37 h -3 v 59 z"
+       style="fill:#000000" />
+    <path
+       id="path558"
+       d="M 415,96 V 32 h 9 v 64 h -9 z"
+       style="fill:none;stroke:#000000" />
+    <g
+       id="g560"
+       transform="matrix(0,-1,1,0,353,493)">
+      <text
+         id="text562"
+         font-weight="bold"
+         font-size="9"
+         y="70"
+         x="423"
+         style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica">TD</text>
+    </g>
+    <rect
+       id="rect564"
+       height="64"
+       width="9"
+       y="32"
+       x="427"
+       style="fill:none;stroke:#000000" />
+    <path
+       id="path566"
+       d="m 432,96 v 4 h 7 V 37 h -3 v 59 z"
+       style="fill:#000000" />
+    <path
+       id="path568"
+       d="M 427,96 V 32 h 9 v 64 h -9 z"
+       style="fill:none;stroke:#000000" />
+    <rect
+       id="rect570"
+       height="64"
+       width="9"
+       y="32"
+       x="438"
+       style="fill:none;stroke:#000000" />
+    <path
+       id="path572"
+       d="m 443,96 v 4 h 8 V 37 h -4 v 59 z"
+       style="fill:#000000" />
+    <path
+       id="path574"
+       d="M 438,96 V 32 h 9 v 64 h -9 z"
+       style="fill:none;stroke:#000000" />
+    <g
+       id="g576"
+       transform="matrix(0,-1,1,0,376,516)">
+      <text
+         id="text578"
+         font-weight="bold"
+         font-size="9"
+         y="70"
+         x="446"
+         style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica">SD</text>
+    </g>
+    <rect
+       id="rect580"
+       height="64"
+       width="9"
+       y="32"
+       x="450"
+       style="fill:none;stroke:#000000" />
+    <path
+       id="path582"
+       d="m 455,96 v 4 h 7 V 37 h -3 v 59 z"
+       style="fill:#000000" />
+    <path
+       id="path584"
+       d="M 450,96 V 32 h 9 v 64 h -9 z"
+       style="fill:none;stroke:#000000" />
+    <g
+       id="g586"
+       transform="matrix(0,-1,1,0,389,529)">
+      <text
+         id="text588"
+         font-weight="bold"
+         font-size="9"
+         y="70"
+         x="459"
+         style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica">TD</text>
+    </g>
+    <rect
+       id="rect590"
+       height="64"
+       width="9"
+       y="32"
+       x="462"
+       style="fill:none;stroke:#000000" />
+    <path
+       id="path592"
+       d="m 467,96 v 4 h 7 V 37 h -3 v 59 z"
+       style="fill:#000000" />
+    <path
+       id="path594"
+       d="M 462,96 V 32 h 9 v 64 h -9 z"
+       style="fill:none;stroke:#000000" />
+    <g
+       id="g596"
+       transform="matrix(0,-1,1,0,400,540)">
+      <text
+         id="text598"
+         font-weight="bold"
+         font-size="9"
+         y="70"
+         x="470"
+         style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica">TD</text>
+    </g>
+    <rect
+       id="rect600"
+       height="64"
+       width="9"
+       y="32"
+       x="474"
+       style="fill:none;stroke:#000000" />
+    <path
+       id="path602"
+       d="m 479,96 v 4 h 7 V 37 h -3 v 59 z"
+       style="fill:#000000" />
+    <path
+       id="path604"
+       d="M 474,96 V 32 h 9 v 64 h -9 z"
+       style="fill:none;stroke:#000000" />
+    <g
+       id="g606"
+       transform="matrix(0,-1,1,0,412,552)">
+      <text
+         id="text608"
+         font-weight="bold"
+         font-size="9"
+         y="70"
+         x="482"
+         style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica">TD</text>
+    </g>
+    <rect
+       id="rect610"
+       height="64"
+       width="9"
+       y="32"
+       x="486"
+       style="fill:none;stroke:#000000" />
+    <path
+       id="path612"
+       d="m 491,96 v 4 h 7 V 37 h -3 v 59 z"
+       style="fill:#000000" />
+    <path
+       id="path614"
+       d="M 486,96 V 32 h 9 v 64 h -9 z"
+       style="fill:none;stroke:#000000" />
+    <g
+       id="g616"
+       transform="matrix(0,-1,1,0,424,564)">
+      <text
+         id="text618"
+         font-weight="bold"
+         font-size="9"
+         y="70"
+         x="494"
+         style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica">TD</text>
+    </g>
+    <rect
+       id="rect620"
+       height="64"
+       width="9"
+       y="32"
+       x="497"
+       style="fill:none;stroke:#000000" />
+    <path
+       id="path622"
+       d="m 502,96 v 4 h 8 V 37 h -4 v 59 z"
+       style="fill:#000000" />
+    <path
+       id="path624"
+       d="M 497,96 V 32 h 9 v 64 h -9 z"
+       style="fill:none;stroke:#000000" />
+    <g
+       id="g626"
+       transform="matrix(0,-1,1,0,436,576)">
+      <text
+         id="text628"
+         font-weight="bold"
+         font-size="9"
+         y="70"
+         x="506"
+         style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica">TD</text>
+    </g>
+    <rect
+       id="rect630"
+       height="64"
+       width="9"
+       y="32"
+       x="509"
+       style="fill:none;stroke:#000000" />
+    <path
+       id="path632"
+       d="m 514,96 v 4 h 8 V 37 h -4 v 59 z"
+       style="fill:#000000" />
+    <path
+       id="path634"
+       d="M 509,96 V 32 h 9 v 64 h -9 z"
+       style="fill:none;stroke:#000000" />
+    <g
+       id="g636"
+       transform="matrix(0,-1,1,0,447,587)">
+      <text
+         id="text638"
+         font-weight="bold"
+         font-size="9"
+         y="70"
+         x="517"
+         style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica">TD</text>
+    </g>
+    <rect
+       id="rect640"
+       height="64"
+       width="9"
+       y="32"
+       x="521"
+       style="fill:none;stroke:#000000" />
+    <path
+       id="path642"
+       d="m 526,96 v 4 h 7 V 37 h -3 v 59 z"
+       style="fill:#000000" />
+    <path
+       id="path644"
+       d="M 521,96 V 32 h 9 v 64 h -9 z"
+       style="fill:none;stroke:#000000" />
+    <g
+       id="g646"
+       transform="matrix(0,-1,1,0,459,599)">
+      <text
+         id="text648"
+         font-weight="bold"
+         font-size="9"
+         y="70"
+         x="529"
+         style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica">TD</text>
+    </g>
+    <rect
+       id="rect650"
+       height="64"
+       width="9"
+       y="32"
+       x="533"
+       style="fill:none;stroke:#000000" />
+    <path
+       id="path652"
+       d="m 538,96 v 4 h 7 V 37 h -3 v 59 z"
+       style="fill:#000000" />
+    <path
+       id="path654"
+       d="M 533,96 V 32 h 9 v 64 h -9 z"
+       style="fill:none;stroke:#000000" />
+    <g
+       id="g656"
+       transform="matrix(0,-1,1,0,471,611)">
+      <text
+         id="text658"
+         font-weight="bold"
+         font-size="9"
+         y="70"
+         x="541"
+         style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica">TD</text>
+    </g>
+    <rect
+       id="rect660"
+       height="64"
+       width="9"
+       y="32"
+       x="545"
+       style="fill:none;stroke:#000000" />
+    <path
+       id="path662"
+       d="m 550,96 v 4 h 7 V 37 h -3 v 59 z"
+       style="fill:#000000" />
+    <path
+       id="path664"
+       d="M 545,96 V 32 h 9 v 64 h -9 z"
+       style="fill:none;stroke:#000000" />
+    <g
+       id="g666"
+       transform="matrix(0,-1,1,0,483,623)">
+      <text
+         id="text668"
+         font-weight="bold"
+         font-size="9"
+         y="70"
+         x="553"
+         style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica">TS</text>
+    </g>
+  </g>
+  <g
+     transform="matrix(0,-1,1,0,-374.4517,381.12959)"
+     id="g674">
+    <text
+       x="0"
+       y="386"
+       font-size="9"
+       font-style="italic"
+       id="text676"
+       style="font-size:9px;font-style:italic;fill:#ffffff;font-family:Times" />
+  </g>
+  <rect
+     style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.06118977;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     id="rect4270"
+     width="262.6712"
+     height="93.494102"
+     x="22.632196"
+     y="184.36734" />
+  <g
+     id="g3708"
+     transform="translate(23.977639,-90.149475)">
+    <rect
+       id="rect12"
+       height="65"
+       width="9"
+       y="289"
+       x="6"
+       style="fill:none;stroke:#000000" />
+    <path
+       id="path14"
+       d="m 11,354 v 3 h 7 v -63 h -3 v 60 z"
+       style="fill:#000000" />
+    <path
+       id="path16"
+       d="m 6,354 v -65 h 9 v 65 H 6 z"
+       style="fill:none;stroke:#000000" />
+    <g
+       id="g18"
+       transform="matrix(0,-1,1,0,-327,357)">
+      <text
+         id="text20"
+         font-weight="bold"
+         font-size="9"
+         y="342"
+         x="15"
+         style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica">VME CPU</text>
+    </g>
+    <rect
+       id="rect22"
+       height="65"
+       width="9"
+       y="289"
+       x="18"
+       style="fill:none;stroke:#000000" />
+    <path
+       id="path24"
+       d="m 23,354 v 3 h 7 v -63 h -3 v 60 z"
+       style="fill:#000000" />
+    <path
+       id="path26"
+       d="m 18,354 v -65 h 9 v 65 h -9 z"
+       style="fill:none;stroke:#000000" />
+    <g
+       id="g28"
+       transform="matrix(0,-1,1,0,-315,367)">
+      <text
+         id="text30"
+         font-weight="bold"
+         font-size="9"
+         y="341"
+         x="26"
+         style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica">FADC250</text>
+    </g>
+    <rect
+       id="rect32"
+       height="65"
+       width="9"
+       y="289"
+       x="30"
+       style="fill:none;stroke:#000000" />
+    <path
+       id="path34"
+       d="m 35,354 v 3 h 7 v -63 h -3 v 60 z"
+       style="fill:#000000" />
+    <path
+       id="path36"
+       d="m 30,354 v -65 h 9 v 65 h -9 z"
+       style="fill:none;stroke:#000000" />
+    <g
+       id="g38"
+       transform="matrix(0,-1,1,0,-303,379)">
+      <text
+         id="text40"
+         font-weight="bold"
+         font-size="9"
+         y="341"
+         x="38"
+         style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica">FADC250</text>
+    </g>
+    <rect
+       id="rect42"
+       height="65"
+       width="9"
+       y="289"
+       x="42"
+       style="fill:none;stroke:#000000" />
+    <path
+       id="path44"
+       d="m 46,354 v 3 h 8 v -63 h -3 v 60 z"
+       style="fill:#000000" />
+    <path
+       id="path46"
+       d="m 42,354 v -65 h 9 v 65 h -9 z"
+       style="fill:none;stroke:#000000" />
+    <g
+       id="g48"
+       transform="matrix(0,-1,1,0,-291,391)">
+      <text
+         id="text50"
+         font-weight="bold"
+         font-size="9"
+         y="341"
+         x="50"
+         style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica">FADC250</text>
+    </g>
+    <rect
+       id="rect52"
+       height="65"
+       width="9"
+       y="289"
+       x="53"
+       style="fill:none;stroke:#000000" />
+    <path
+       id="path54"
+       d="m 58,354 v 3 h 8 v -63 h -4 v 60 z"
+       style="fill:#000000" />
+    <path
+       id="path56"
+       d="m 53,354 v -65 h 9 v 65 h -9 z"
+       style="fill:none;stroke:#000000" />
+    <g
+       id="g58"
+       transform="matrix(0,-1,1,0,-279,403)">
+      <text
+         id="text60"
+         font-weight="bold"
+         font-size="9"
+         y="341"
+         x="62"
+         style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica">FADC250</text>
+    </g>
+    <rect
+       id="rect62"
+       height="65"
+       width="9"
+       y="289"
+       x="65"
+       style="fill:none;stroke:#000000" />
+    <path
+       id="path64"
+       d="m 70,354 v 3 h 7 v -63 h -3 v 60 z"
+       style="fill:#000000" />
+    <path
+       id="path66"
+       d="m 65,354 v -65 h 9 v 65 h -9 z"
+       style="fill:none;stroke:#000000" />
+    <g
+       id="g68"
+       transform="matrix(0,-1,1,0,-268,414)">
+      <text
+         id="text70"
+         font-weight="bold"
+         font-size="9"
+         y="341"
+         x="73"
+         style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica">FADC250</text>
+    </g>
+    <rect
+       id="rect72"
+       height="65"
+       width="9"
+       y="289"
+       x="77"
+       style="fill:none;stroke:#000000" />
+    <path
+       id="path74"
+       d="m 82,354 v 3 h 7 v -63 h -3 v 60 z"
+       style="fill:#000000" />
+    <path
+       id="path76"
+       d="m 77,354 v -65 h 9 v 65 h -9 z"
+       style="fill:none;stroke:#000000" />
+    <g
+       id="g78"
+       transform="matrix(0,-1,1,0,-255,427)">
+      <text
+         id="text80"
+         font-weight="bold"
+         font-size="9"
+         y="341"
+         x="86"
+         style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica">FADC250</text>
+    </g>
+    <rect
+       id="rect82"
+       height="65"
+       width="9"
+       y="289"
+       x="89"
+       style="fill:none;stroke:#000000" />
+    <path
+       id="path84"
+       d="m 94,354 v 3 h 7 v -63 h -3 v 60 z"
+       style="fill:#000000" />
+    <path
+       id="path86"
+       d="m 89,354 v -65 h 9 v 65 h -9 z"
+       style="fill:none;stroke:#000000" />
+    <g
+       id="g88"
+       transform="matrix(0,-1,1,0,-244,438)">
+      <text
+         id="text90"
+         font-weight="bold"
+         font-size="9"
+         y="341"
+         x="97"
+         style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica">FADC250</text>
+    </g>
+    <rect
+       id="rect92"
+       height="65"
+       width="9"
+       y="289"
+       x="101"
+       style="fill:none;stroke:#000000" />
+    <path
+       id="path94"
+       d="m 106,354 v 3 h 7 v -63 h -3 v 60 z"
+       style="fill:#000000" />
+    <path
+       id="path96"
+       d="m 101,354 v -65 h 9 v 65 h -9 z"
+       style="fill:none;stroke:#000000" />
+    <g
+       id="g98"
+       transform="matrix(0,-1,1,0,-232,450)">
+      <text
+         id="text100"
+         font-weight="bold"
+         font-size="9"
+         y="341"
+         x="109"
+         style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica">FADC250</text>
+    </g>
+    <rect
+       id="rect102"
+       height="65"
+       width="9"
+       y="289"
+       x="112"
+       style="fill:none;stroke:#000000" />
+    <path
+       id="path104"
+       d="m 117,354 v 3 h 8 v -63 h -4 v 60 z"
+       style="fill:#000000" />
+    <path
+       id="path106"
+       d="m 112,354 v -65 h 9 v 65 h -9 z"
+       style="fill:none;stroke:#000000" />
+    <g
+       id="g108"
+       transform="matrix(0,-1,1,0,-220,462)">
+      <text
+         id="text110"
+         font-weight="bold"
+         font-size="9"
+         y="341"
+         x="121"
+         style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica">FADC250</text>
+    </g>
+    <rect
+       id="rect112"
+       height="65"
+       width="9"
+       y="289"
+       x="124"
+       style="fill:none;stroke:#000000" />
+    <path
+       id="path114"
+       d="m 129,354 v 3 h 7 v -63 h -3 v 60 z"
+       style="fill:#000000" />
+    <path
+       id="path116"
+       d="m 124,354 v -65 h 9 v 65 h -9 z"
+       style="fill:none;stroke:#000000" />
+    <g
+       id="g118"
+       transform="matrix(0,-1,1,0,-198,464)">
+      <text
+         id="text120"
+         font-weight="bold"
+         font-size="9"
+         y="331"
+         x="133"
+         style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica">CTP</text>
+    </g>
+    <rect
+       id="rect122"
+       height="65"
+       width="9"
+       y="289"
+       x="136"
+       style="fill:none;stroke:#000000" />
+    <path
+       id="path124"
+       d="m 141,354 v 3 h 7 v -63 h -3 v 60 z"
+       style="fill:#000000" />
+    <path
+       id="path126"
+       d="m 136,354 v -65 h 9 v 65 h -9 z"
+       style="fill:none;stroke:#000000" />
+    <g
+       id="g128"
+       transform="matrix(0,-1,1,0,-183,471)">
+      <text
+         id="text130"
+         font-weight="bold"
+         font-size="9"
+         y="327"
+         x="144"
+         style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica">SD</text>
+    </g>
+    <rect
+       id="rect132"
+       height="65"
+       width="9"
+       y="289"
+       x="148"
+       style="fill:none;stroke:#000000" />
+    <path
+       id="path134"
+       d="m 153,354 v 3 h 7 v -63 h -3 v 60 z"
+       style="fill:#000000" />
+    <path
+       id="path136"
+       d="m 148,354 v -65 h 9 v 65 h -9 z"
+       style="fill:none;stroke:#000000" />
+    <g
+       id="g138"
+       transform="matrix(0,-1,1,0,-185,497)">
+      <text
+         id="text140"
+         font-weight="bold"
+         font-size="9"
+         y="341"
+         x="156"
+         style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica">FADC250</text>
+    </g>
+    <rect
+       id="rect142"
+       height="65"
+       width="9"
+       y="289"
+       x="160"
+       style="fill:none;stroke:#000000" />
+    <path
+       id="path144"
+       d="m 165,354 v 3 h 7 v -63 h -3 v 60 z"
+       style="fill:#000000" />
+    <path
+       id="path146"
+       d="m 160,354 v -65 h 9 v 65 h -9 z"
+       style="fill:none;stroke:#000000" />
+    <g
+       id="g148"
+       transform="matrix(0,-1,1,0,-173,509)">
+      <text
+         id="text150"
+         font-weight="bold"
+         font-size="9"
+         y="341"
+         x="168"
+         style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica">FADC250</text>
+    </g>
+    <rect
+       id="rect152"
+       height="65"
+       width="9"
+       y="289"
+       x="171"
+       style="fill:none;stroke:#000000" />
+    <path
+       id="path154"
+       d="m 176,354 v 3 h 8 v -63 h -4 v 60 z"
+       style="fill:#000000" />
+    <path
+       id="path156"
+       d="m 171,354 v -65 h 9 v 65 h -9 z"
+       style="fill:none;stroke:#000000" />
+    <g
+       id="g158"
+       transform="matrix(0,-1,1,0,-161,521)">
+      <text
+         id="text160"
+         font-weight="bold"
+         font-size="9"
+         y="341"
+         x="180"
+         style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica">FADC250</text>
+    </g>
+    <rect
+       id="rect162"
+       height="65"
+       width="9"
+       y="289"
+       x="183"
+       style="fill:none;stroke:#000000" />
+    <path
+       id="path164"
+       d="m 188,354 v 3 h 8 v -63 h -4 v 60 z"
+       style="fill:#000000" />
+    <path
+       id="path166"
+       d="m 183,354 v -65 h 9 v 65 h -9 z"
+       style="fill:none;stroke:#000000" />
+    <g
+       id="g168"
+       transform="matrix(0,-1,1,0,-150,532)">
+      <text
+         id="text170"
+         font-weight="bold"
+         font-size="9"
+         y="341"
+         x="191"
+         style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica">FADC250</text>
+    </g>
+    <rect
+       id="rect172"
+       height="65"
+       width="9"
+       y="289"
+       x="195"
+       style="fill:none;stroke:#000000" />
+    <path
+       id="path174"
+       d="m 200,354 v 3 h 7 v -63 h -3 v 60 z"
+       style="fill:#000000" />
+    <path
+       id="path176"
+       d="m 195,354 v -65 h 9 v 65 h -9 z"
+       style="fill:none;stroke:#000000" />
+    <g
+       id="g178"
+       transform="matrix(0,-1,1,0,-137,545)">
+      <text
+         id="text180"
+         font-weight="bold"
+         font-size="9"
+         y="341"
+         x="204"
+         style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica">FADC250</text>
+    </g>
+    <rect
+       id="rect182"
+       height="65"
+       width="9"
+       y="289"
+       x="207"
+       style="fill:none;stroke:#000000" />
+    <path
+       id="path184"
+       d="m 212,354 v 3 h 7 v -63 h -3 v 60 z"
+       style="fill:#000000" />
+    <path
+       id="path186"
+       d="m 207,354 v -65 h 9 v 65 h -9 z"
+       style="fill:none;stroke:#000000" />
+    <g
+       id="g188"
+       transform="matrix(0,-1,1,0,-126,556)">
+      <text
+         id="text190"
+         font-weight="bold"
+         font-size="9"
+         y="341"
+         x="215"
+         style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica">FADC250</text>
+    </g>
+    <rect
+       id="rect192"
+       height="65"
+       width="9"
+       y="289"
+       x="219"
+       style="fill:none;stroke:#000000" />
+    <path
+       id="path194"
+       d="m 224,354 v 3 h 7 v -63 h -3 v 60 z"
+       style="fill:#000000" />
+    <path
+       id="path196"
+       d="m 219,354 v -65 h 9 v 65 h -9 z"
+       style="fill:none;stroke:#000000" />
+    <g
+       id="g198"
+       transform="matrix(0,-1,1,0,-114,568)">
+      <text
+         id="text200"
+         font-weight="bold"
+         font-size="9"
+         y="341"
+         x="227"
+         style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica">FADC250</text>
+    </g>
+    <rect
+       id="rect202"
+       height="65"
+       width="9"
+       y="289"
+       x="231"
+       style="fill:none;stroke:#000000" />
+    <path
+       id="path204"
+       d="m 235,354 v 3 h 8 v -63 h -3 v 60 z"
+       style="fill:#000000" />
+    <path
+       id="path206"
+       d="m 231,354 v -65 h 9 v 65 h -9 z"
+       style="fill:none;stroke:#000000" />
+    <g
+       id="g208"
+       transform="matrix(0,-1,1,0,-102,580)">
+      <text
+         id="text210"
+         font-weight="bold"
+         font-size="9"
+         y="341"
+         x="239"
+         style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica">FADC250</text>
+    </g>
+    <rect
+       id="rect212"
+       height="65"
+       width="9"
+       y="289"
+       x="242"
+       style="fill:none;stroke:#000000" />
+    <path
+       id="path214"
+       d="m 247,354 v 3 h 8 v -63 h -4 v 60 z"
+       style="fill:#000000" />
+    <path
+       id="path216"
+       d="m 242,354 v -65 h 9 v 65 h -9 z"
+       style="fill:none;stroke:#000000" />
+    <g
+       id="g218"
+       transform="matrix(0,-1,1,0,-75,577)">
+      <text
+         id="text220"
+         font-weight="bold"
+         font-size="9"
+         y="326"
+         x="251"
+         style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica">TI</text>
+    </g>
+  </g>
+  <g
+     transform="matrix(0,-1,1,0,-366.51073,288.94534)"
+     id="g222">
+    <text
+       x="0"
+       y="386"
+       font-size="9"
+       font-style="italic"
+       id="text224"
+       style="font-size:9px;font-style:italic;fill:#ffffff;font-family:Times">VME CPU</text>
+  </g>
+  <g
+     transform="matrix(0,-1,1,0,-366.51073,288.94534)"
+     id="g226">
+    <text
+       x="0"
+       y="386"
+       font-size="9"
+       font-style="italic"
+       id="text228"
+       style="font-size:9px;font-style:italic;fill:#ffffff;font-family:Times">CTP</text>
+  </g>
+  <g
+     transform="matrix(0,-1,1,0,-366.51073,288.94534)"
+     id="g230">
+    <text
+       x="0"
+       y="386"
+       font-size="9"
+       font-style="italic"
+       id="text232"
+       style="font-size:9px;font-style:italic;fill:#ffffff;font-family:Times">SD</text>
+  </g>
+  <g
+     transform="matrix(0,-1,1,0,-366.51073,288.94534)"
+     id="g234">
+    <text
+       x="0"
+       y="386"
+       font-size="9"
+       font-style="italic"
+       id="text236"
+       style="font-size:9px;font-style:italic;fill:#ffffff;font-family:Times">TI</text>
+  </g>
+  <g
+     transform="matrix(0,-1,1,0,-366.51073,288.94534)"
+     id="g448">
+    <text
+       x="0"
+       y="386"
+       font-size="9"
+       font-style="italic"
+       id="text450"
+       style="font-size:9px;font-style:italic;fill:#ffffff;font-family:Times">VME CPU</text>
+  </g>
+  <g
+     transform="matrix(0,-1,1,0,-366.51073,288.94534)"
+     id="g452">
+    <text
+       x="0"
+       y="386"
+       font-size="9"
+       font-style="italic"
+       id="text454"
+       style="font-size:9px;font-style:italic;fill:#ffffff;font-family:Times">GTP</text>
+  </g>
+  <g
+     transform="matrix(0,-1,1,0,-366.51073,288.94534)"
+     id="g456">
+    <text
+       x="0"
+       y="386"
+       font-size="9"
+       font-style="italic"
+       id="text458"
+       style="font-size:9px;font-style:italic;fill:#ffffff;font-family:Times">GTP</text>
+  </g>
+  <g
+     transform="matrix(0,-1,1,0,-366.51073,288.94534)"
+     id="g460">
+    <text
+       x="0"
+       y="386"
+       font-size="9"
+       font-style="italic"
+       id="text462"
+       style="font-size:9px;font-style:italic;fill:#ffffff;font-family:Times">TI</text>
+  </g>
+  <g
+     transform="matrix(0,-1,1,0,-366.51073,288.94534)"
+     id="g670">
+    <text
+       x="0"
+       y="386"
+       font-size="9"
+       font-style="italic"
+       id="text672"
+       style="font-size:9px;font-style:italic;fill:#ffffff;font-family:Times">VME CPU</text>
+  </g>
+  <g
+     transform="matrix(0,-1,1,0,-366.51073,288.94534)"
+     id="g678">
+    <text
+       x="0"
+       y="386"
+       font-size="9"
+       font-style="italic"
+       id="text680"
+       style="font-size:9px;font-style:italic;fill:#ffffff;font-family:Times">SD</text>
+  </g>
+  <g
+     transform="matrix(0,-1,1,0,-366.51073,288.94534)"
+     id="g682">
+    <text
+       x="0"
+       y="386"
+       font-size="9"
+       font-style="italic"
+       id="text684"
+       style="font-size:9px;font-style:italic;fill:#ffffff;font-family:Times">TS</text>
+  </g>
+  <g
+     transform="translate(37.43468,42.926755)"
+     id="g5584-6">
+    <rect
+       y="189.23775"
+       x="11.083896"
+       height="93.494102"
+       width="262.6712"
+       id="rect4270-7"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.06118977;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <g
+       transform="translate(12.429338,-85.27907)"
+       id="g3708-9">
+      <rect
+         style="fill:none;stroke:#000000"
+         x="6"
+         y="289"
+         width="9"
+         height="65"
+         id="rect12-1" />
+      <path
+         style="fill:#000000"
+         d="m 11,354 v 3 h 7 v -63 h -3 v 60 z"
+         id="path14-8" />
+      <path
+         style="fill:none;stroke:#000000"
+         d="m 6,354 v -65 h 9 v 65 H 6 z"
+         id="path16-8" />
+      <g
+         transform="matrix(0,-1,1,0,-327,357)"
+         id="g18-7">
+        <text
+           style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica"
+           x="15"
+           y="342"
+           font-size="9"
+           font-weight="bold"
+           id="text20-2">VME CPU</text>
+      </g>
+      <rect
+         style="fill:none;stroke:#000000"
+         x="18"
+         y="289"
+         width="9"
+         height="65"
+         id="rect22-6" />
+      <path
+         style="fill:#000000"
+         d="m 23,354 v 3 h 7 v -63 h -3 v 60 z"
+         id="path24-3" />
+      <path
+         style="fill:none;stroke:#000000"
+         d="m 18,354 v -65 h 9 v 65 h -9 z"
+         id="path26-5" />
+      <g
+         transform="matrix(0,-1,1,0,-315,367)"
+         id="g28-2">
+        <text
+           style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica"
+           x="26"
+           y="341"
+           font-size="9"
+           font-weight="bold"
+           id="text30-4">FADC250</text>
+      </g>
+      <rect
+         style="fill:none;stroke:#000000"
+         x="30"
+         y="289"
+         width="9"
+         height="65"
+         id="rect32-0" />
+      <path
+         style="fill:#000000"
+         d="m 35,354 v 3 h 7 v -63 h -3 v 60 z"
+         id="path34-0" />
+      <path
+         style="fill:none;stroke:#000000"
+         d="m 30,354 v -65 h 9 v 65 h -9 z"
+         id="path36-0" />
+      <g
+         transform="matrix(0,-1,1,0,-303,379)"
+         id="g38-6">
+        <text
+           style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica"
+           x="38"
+           y="341"
+           font-size="9"
+           font-weight="bold"
+           id="text40-3">FADC250</text>
+      </g>
+      <rect
+         style="fill:none;stroke:#000000"
+         x="42"
+         y="289"
+         width="9"
+         height="65"
+         id="rect42-6" />
+      <path
+         style="fill:#000000"
+         d="m 46,354 v 3 h 8 v -63 h -3 v 60 z"
+         id="path44-7" />
+      <path
+         style="fill:none;stroke:#000000"
+         d="m 42,354 v -65 h 9 v 65 h -9 z"
+         id="path46-8" />
+      <g
+         transform="matrix(0,-1,1,0,-291,391)"
+         id="g48-0">
+        <text
+           style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica"
+           x="50"
+           y="341"
+           font-size="9"
+           font-weight="bold"
+           id="text50-4">FADC250</text>
+      </g>
+      <rect
+         style="fill:none;stroke:#000000"
+         x="53"
+         y="289"
+         width="9"
+         height="65"
+         id="rect52-9" />
+      <path
+         style="fill:#000000"
+         d="m 58,354 v 3 h 8 v -63 h -4 v 60 z"
+         id="path54-6" />
+      <path
+         style="fill:none;stroke:#000000"
+         d="m 53,354 v -65 h 9 v 65 h -9 z"
+         id="path56-0" />
+      <g
+         transform="matrix(0,-1,1,0,-279,403)"
+         id="g58-5">
+        <text
+           style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica"
+           x="62"
+           y="341"
+           font-size="9"
+           font-weight="bold"
+           id="text60-2">FADC250</text>
+      </g>
+      <rect
+         style="fill:none;stroke:#000000"
+         x="65"
+         y="289"
+         width="9"
+         height="65"
+         id="rect62-3" />
+      <path
+         style="fill:#000000"
+         d="m 70,354 v 3 h 7 v -63 h -3 v 60 z"
+         id="path64-2" />
+      <path
+         style="fill:none;stroke:#000000"
+         d="m 65,354 v -65 h 9 v 65 h -9 z"
+         id="path66-3" />
+      <g
+         transform="matrix(0,-1,1,0,-268,414)"
+         id="g68-2">
+        <text
+           style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica"
+           x="73"
+           y="341"
+           font-size="9"
+           font-weight="bold"
+           id="text70-1">FADC250</text>
+      </g>
+      <rect
+         style="fill:none;stroke:#000000"
+         x="77"
+         y="289"
+         width="9"
+         height="65"
+         id="rect72-4" />
+      <path
+         style="fill:#000000"
+         d="m 82,354 v 3 h 7 v -63 h -3 v 60 z"
+         id="path74-3" />
+      <path
+         style="fill:none;stroke:#000000"
+         d="m 77,354 v -65 h 9 v 65 h -9 z"
+         id="path76-0" />
+      <g
+         transform="matrix(0,-1,1,0,-255,427)"
+         id="g78-4">
+        <text
+           style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica"
+           x="86"
+           y="341"
+           font-size="9"
+           font-weight="bold"
+           id="text80-0">FADC250</text>
+      </g>
+      <rect
+         style="fill:none;stroke:#000000"
+         x="89"
+         y="289"
+         width="9"
+         height="65"
+         id="rect82-2" />
+      <path
+         style="fill:#000000"
+         d="m 94,354 v 3 h 7 v -63 h -3 v 60 z"
+         id="path84-0" />
+      <path
+         style="fill:none;stroke:#000000"
+         d="m 89,354 v -65 h 9 v 65 h -9 z"
+         id="path86-4" />
+      <g
+         transform="matrix(0,-1,1,0,-244,438)"
+         id="g88-8">
+        <text
+           style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica"
+           x="97"
+           y="341"
+           font-size="9"
+           font-weight="bold"
+           id="text90-4">FADC250</text>
+      </g>
+      <rect
+         style="fill:none;stroke:#000000"
+         x="101"
+         y="289"
+         width="9"
+         height="65"
+         id="rect92-8" />
+      <path
+         style="fill:#000000"
+         d="m 106,354 v 3 h 7 v -63 h -3 v 60 z"
+         id="path94-0" />
+      <path
+         style="fill:none;stroke:#000000"
+         d="m 101,354 v -65 h 9 v 65 h -9 z"
+         id="path96-6" />
+      <g
+         transform="matrix(0,-1,1,0,-232,450)"
+         id="g98-0">
+        <text
+           style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica"
+           x="109"
+           y="341"
+           font-size="9"
+           font-weight="bold"
+           id="text100-7">FADC250</text>
+      </g>
+      <rect
+         style="fill:none;stroke:#000000"
+         x="112"
+         y="289"
+         width="9"
+         height="65"
+         id="rect102-1" />
+      <path
+         style="fill:#000000"
+         d="m 117,354 v 3 h 8 v -63 h -4 v 60 z"
+         id="path104-6" />
+      <path
+         style="fill:none;stroke:#000000"
+         d="m 112,354 v -65 h 9 v 65 h -9 z"
+         id="path106-6" />
+      <g
+         transform="matrix(0,-1,1,0,-220,462)"
+         id="g108-9">
+        <text
+           style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica"
+           x="121"
+           y="341"
+           font-size="9"
+           font-weight="bold"
+           id="text110-6">FADC250</text>
+      </g>
+      <rect
+         style="fill:none;stroke:#000000"
+         x="124"
+         y="289"
+         width="9"
+         height="65"
+         id="rect112-2" />
+      <path
+         style="fill:#000000"
+         d="m 129,354 v 3 h 7 v -63 h -3 v 60 z"
+         id="path114-1" />
+      <path
+         style="fill:none;stroke:#000000"
+         d="m 124,354 v -65 h 9 v 65 h -9 z"
+         id="path116-5" />
+      <g
+         transform="matrix(0,-1,1,0,-198,464)"
+         id="g118-5">
+        <text
+           style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica"
+           x="133"
+           y="331"
+           font-size="9"
+           font-weight="bold"
+           id="text120-6">CTP</text>
+      </g>
+      <rect
+         style="fill:none;stroke:#000000"
+         x="136"
+         y="289"
+         width="9"
+         height="65"
+         id="rect122-9" />
+      <path
+         style="fill:#000000"
+         d="m 141,354 v 3 h 7 v -63 h -3 v 60 z"
+         id="path124-0" />
+      <path
+         style="fill:none;stroke:#000000"
+         d="m 136,354 v -65 h 9 v 65 h -9 z"
+         id="path126-0" />
+      <g
+         transform="matrix(0,-1,1,0,-183,471)"
+         id="g128-2">
+        <text
+           style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica"
+           x="144"
+           y="327"
+           font-size="9"
+           font-weight="bold"
+           id="text130-2">SD</text>
+      </g>
+      <rect
+         style="fill:none;stroke:#000000"
+         x="148"
+         y="289"
+         width="9"
+         height="65"
+         id="rect132-2" />
+      <path
+         style="fill:#000000"
+         d="m 153,354 v 3 h 7 v -63 h -3 v 60 z"
+         id="path134-9" />
+      <path
+         style="fill:none;stroke:#000000"
+         d="m 148,354 v -65 h 9 v 65 h -9 z"
+         id="path136-5" />
+      <g
+         transform="matrix(0,-1,1,0,-185,497)"
+         id="g138-4">
+        <text
+           style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica"
+           x="156"
+           y="341"
+           font-size="9"
+           font-weight="bold"
+           id="text140-3">FADC250</text>
+      </g>
+      <rect
+         style="fill:none;stroke:#000000"
+         x="160"
+         y="289"
+         width="9"
+         height="65"
+         id="rect142-8" />
+      <path
+         style="fill:#000000"
+         d="m 165,354 v 3 h 7 v -63 h -3 v 60 z"
+         id="path144-8" />
+      <path
+         style="fill:none;stroke:#000000"
+         d="m 160,354 v -65 h 9 v 65 h -9 z"
+         id="path146-6" />
+      <g
+         transform="matrix(0,-1,1,0,-173,509)"
+         id="g148-4">
+        <text
+           style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica"
+           x="168"
+           y="341"
+           font-size="9"
+           font-weight="bold"
+           id="text150-8">FADC250</text>
+      </g>
+      <rect
+         style="fill:none;stroke:#000000"
+         x="171"
+         y="289"
+         width="9"
+         height="65"
+         id="rect152-2" />
+      <path
+         style="fill:#000000"
+         d="m 176,354 v 3 h 8 v -63 h -4 v 60 z"
+         id="path154-2" />
+      <path
+         style="fill:none;stroke:#000000"
+         d="m 171,354 v -65 h 9 v 65 h -9 z"
+         id="path156-1" />
+      <g
+         transform="matrix(0,-1,1,0,-161,521)"
+         id="g158-1">
+        <text
+           style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica"
+           x="180"
+           y="341"
+           font-size="9"
+           font-weight="bold"
+           id="text160-4">FADC250</text>
+      </g>
+      <rect
+         style="fill:none;stroke:#000000"
+         x="183"
+         y="289"
+         width="9"
+         height="65"
+         id="rect162-0" />
+      <path
+         style="fill:#000000"
+         d="m 188,354 v 3 h 8 v -63 h -4 v 60 z"
+         id="path164-2" />
+      <path
+         style="fill:none;stroke:#000000"
+         d="m 183,354 v -65 h 9 v 65 h -9 z"
+         id="path166-0" />
+      <g
+         transform="matrix(0,-1,1,0,-150,532)"
+         id="g168-6">
+        <text
+           style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica"
+           x="191"
+           y="341"
+           font-size="9"
+           font-weight="bold"
+           id="text170-4">FADC250</text>
+      </g>
+      <rect
+         style="fill:none;stroke:#000000"
+         x="195"
+         y="289"
+         width="9"
+         height="65"
+         id="rect172-8" />
+      <path
+         style="fill:#000000"
+         d="m 200,354 v 3 h 7 v -63 h -3 v 60 z"
+         id="path174-0" />
+      <path
+         style="fill:none;stroke:#000000"
+         d="m 195,354 v -65 h 9 v 65 h -9 z"
+         id="path176-5" />
+      <g
+         transform="matrix(0,-1,1,0,-137,545)"
+         id="g178-3">
+        <text
+           style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica"
+           x="204"
+           y="341"
+           font-size="9"
+           font-weight="bold"
+           id="text180-5">FADC250</text>
+      </g>
+      <rect
+         style="fill:none;stroke:#000000"
+         x="207"
+         y="289"
+         width="9"
+         height="65"
+         id="rect182-3" />
+      <path
+         style="fill:#000000"
+         d="m 212,354 v 3 h 7 v -63 h -3 v 60 z"
+         id="path184-2" />
+      <path
+         style="fill:none;stroke:#000000"
+         d="m 207,354 v -65 h 9 v 65 h -9 z"
+         id="path186-8" />
+      <g
+         transform="matrix(0,-1,1,0,-126,556)"
+         id="g188-6">
+        <text
+           style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica"
+           x="215"
+           y="341"
+           font-size="9"
+           font-weight="bold"
+           id="text190-7">FADC250</text>
+      </g>
+      <rect
+         style="fill:none;stroke:#000000"
+         x="219"
+         y="289"
+         width="9"
+         height="65"
+         id="rect192-0" />
+      <path
+         style="fill:#000000"
+         d="m 224,354 v 3 h 7 v -63 h -3 v 60 z"
+         id="path194-0" />
+      <path
+         style="fill:none;stroke:#000000"
+         d="m 219,354 v -65 h 9 v 65 h -9 z"
+         id="path196-8" />
+      <g
+         transform="matrix(0,-1,1,0,-114,568)"
+         id="g198-8">
+        <text
+           style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica"
+           x="227"
+           y="341"
+           font-size="9"
+           font-weight="bold"
+           id="text200-4">FADC250</text>
+      </g>
+      <rect
+         style="fill:none;stroke:#000000"
+         x="231"
+         y="289"
+         width="9"
+         height="65"
+         id="rect202-1" />
+      <path
+         style="fill:#000000"
+         d="m 235,354 v 3 h 8 v -63 h -3 v 60 z"
+         id="path204-6" />
+      <path
+         style="fill:none;stroke:#000000"
+         d="m 231,354 v -65 h 9 v 65 h -9 z"
+         id="path206-4" />
+      <g
+         transform="matrix(0,-1,1,0,-102,580)"
+         id="g208-9">
+        <text
+           style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica"
+           x="239"
+           y="341"
+           font-size="9"
+           font-weight="bold"
+           id="text210-0">FADC250</text>
+      </g>
+      <rect
+         style="fill:none;stroke:#000000"
+         x="242"
+         y="289"
+         width="9"
+         height="65"
+         id="rect212-3" />
+      <path
+         style="fill:#000000"
+         d="m 247,354 v 3 h 8 v -63 h -4 v 60 z"
+         id="path214-4" />
+      <path
+         style="fill:none;stroke:#000000"
+         d="m 242,354 v -65 h 9 v 65 h -9 z"
+         id="path216-4" />
+      <g
+         transform="matrix(0,-1,1,0,-75,577)"
+         id="g218-4">
+        <text
+           style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica"
+           x="251"
+           y="326"
+           font-size="9"
+           font-weight="bold"
+           id="text220-5">TI</text>
+      </g>
+    </g>
+    <g
+       id="g222-8"
+       transform="matrix(0,-1,1,0,-378.05903,293.81575)">
+      <text
+         style="font-size:9px;font-style:italic;fill:#ffffff;font-family:Times"
+         id="text224-4"
+         font-style="italic"
+         font-size="9"
+         y="386"
+         x="0">VME CPU</text>
+    </g>
+    <g
+       id="g226-9"
+       transform="matrix(0,-1,1,0,-378.05903,293.81575)">
+      <text
+         style="font-size:9px;font-style:italic;fill:#ffffff;font-family:Times"
+         id="text228-0"
+         font-style="italic"
+         font-size="9"
+         y="386"
+         x="0">CTP</text>
+    </g>
+    <g
+       id="g230-2"
+       transform="matrix(0,-1,1,0,-378.05903,293.81575)">
+      <text
+         style="font-size:9px;font-style:italic;fill:#ffffff;font-family:Times"
+         id="text232-5"
+         font-style="italic"
+         font-size="9"
+         y="386"
+         x="0">SD</text>
+    </g>
+    <g
+       id="g234-0"
+       transform="matrix(0,-1,1,0,-378.05903,293.81575)">
+      <text
+         style="font-size:9px;font-style:italic;fill:#ffffff;font-family:Times"
+         id="text236-4"
+         font-style="italic"
+         font-size="9"
+         y="386"
+         x="0">TI</text>
+    </g>
+    <g
+       id="g448-0"
+       transform="matrix(0,-1,1,0,-378.05903,293.81575)">
+      <text
+         style="font-size:9px;font-style:italic;fill:#ffffff;font-family:Times"
+         id="text450-4"
+         font-style="italic"
+         font-size="9"
+         y="386"
+         x="0">VME CPU</text>
+    </g>
+    <g
+       id="g452-2"
+       transform="matrix(0,-1,1,0,-378.05903,293.81575)">
+      <text
+         style="font-size:9px;font-style:italic;fill:#ffffff;font-family:Times"
+         id="text454-6"
+         font-style="italic"
+         font-size="9"
+         y="386"
+         x="0">GTP</text>
+    </g>
+    <g
+       id="g456-8"
+       transform="matrix(0,-1,1,0,-378.05903,293.81575)">
+      <text
+         style="font-size:9px;font-style:italic;fill:#ffffff;font-family:Times"
+         id="text458-0"
+         font-style="italic"
+         font-size="9"
+         y="386"
+         x="0">GTP</text>
+    </g>
+    <g
+       id="g460-2"
+       transform="matrix(0,-1,1,0,-378.05903,293.81575)">
+      <text
+         style="font-size:9px;font-style:italic;fill:#ffffff;font-family:Times"
+         id="text462-7"
+         font-style="italic"
+         font-size="9"
+         y="386"
+         x="0">TI</text>
+    </g>
+    <g
+       id="g670-0"
+       transform="matrix(0,-1,1,0,-378.05903,293.81575)">
+      <text
+         style="font-size:9px;font-style:italic;fill:#ffffff;font-family:Times"
+         id="text672-2"
+         font-style="italic"
+         font-size="9"
+         y="386"
+         x="0">VME CPU</text>
+    </g>
+    <g
+       id="g678-5"
+       transform="matrix(0,-1,1,0,-378.05903,293.81575)">
+      <text
+         style="font-size:9px;font-style:italic;fill:#ffffff;font-family:Times"
+         id="text680-0"
+         font-style="italic"
+         font-size="9"
+         y="386"
+         x="0">SD</text>
+    </g>
+    <g
+       id="g682-8"
+       transform="matrix(0,-1,1,0,-378.05903,293.81575)">
+      <text
+         style="font-size:9px;font-style:italic;fill:#ffffff;font-family:Times"
+         id="text684-9"
+         font-style="italic"
+         font-size="9"
+         y="386"
+         x="0">TS</text>
+    </g>
+  </g>
+  <g
+     transform="translate(76.103731,94.025145)"
+     id="g5584-0">
+    <rect
+       y="189.23775"
+       x="11.083896"
+       height="93.494102"
+       width="262.6712"
+       id="rect4270-8"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.06118977;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <g
+       transform="translate(12.429338,-85.27907)"
+       id="g3708-7">
+      <rect
+         style="fill:none;stroke:#000000"
+         x="6"
+         y="289"
+         width="9"
+         height="65"
+         id="rect12-4" />
+      <path
+         style="fill:#000000"
+         d="m 11,354 v 3 h 7 v -63 h -3 v 60 z"
+         id="path14-4" />
+      <path
+         style="fill:none;stroke:#000000"
+         d="m 6,354 v -65 h 9 v 65 H 6 z"
+         id="path16-3" />
+      <g
+         transform="matrix(0,-1,1,0,-327,357)"
+         id="g18-1">
+        <text
+           style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica"
+           x="15"
+           y="342"
+           font-size="9"
+           font-weight="bold"
+           id="text20-4">VME CPU</text>
+      </g>
+      <rect
+         style="fill:none;stroke:#000000"
+         x="18"
+         y="289"
+         width="9"
+         height="65"
+         id="rect22-9" />
+      <path
+         style="fill:#000000"
+         d="m 23,354 v 3 h 7 v -63 h -3 v 60 z"
+         id="path24-36" />
+      <path
+         style="fill:none;stroke:#000000"
+         d="m 18,354 v -65 h 9 v 65 h -9 z"
+         id="path26-1" />
+      <g
+         transform="matrix(0,-1,1,0,-315,367)"
+         id="g28-8">
+        <text
+           style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica"
+           x="26"
+           y="341"
+           font-size="9"
+           font-weight="bold"
+           id="text30-7">FADC250</text>
+      </g>
+      <rect
+         style="fill:none;stroke:#000000"
+         x="30"
+         y="289"
+         width="9"
+         height="65"
+         id="rect32-8" />
+      <path
+         style="fill:#000000"
+         d="m 35,354 v 3 h 7 v -63 h -3 v 60 z"
+         id="path34-1" />
+      <path
+         style="fill:none;stroke:#000000"
+         d="m 30,354 v -65 h 9 v 65 h -9 z"
+         id="path36-3" />
+      <g
+         transform="matrix(0,-1,1,0,-303,379)"
+         id="g38-0">
+        <text
+           style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica"
+           x="38"
+           y="341"
+           font-size="9"
+           font-weight="bold"
+           id="text40-7">FADC250</text>
+      </g>
+      <rect
+         style="fill:none;stroke:#000000"
+         x="42"
+         y="289"
+         width="9"
+         height="65"
+         id="rect42-1" />
+      <path
+         style="fill:#000000"
+         d="m 46,354 v 3 h 8 v -63 h -3 v 60 z"
+         id="path44-0" />
+      <path
+         style="fill:none;stroke:#000000"
+         d="m 42,354 v -65 h 9 v 65 h -9 z"
+         id="path46-9" />
+      <g
+         transform="matrix(0,-1,1,0,-291,391)"
+         id="g48-1">
+        <text
+           style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica"
+           x="50"
+           y="341"
+           font-size="9"
+           font-weight="bold"
+           id="text50-2">FADC250</text>
+      </g>
+      <rect
+         style="fill:none;stroke:#000000"
+         x="53"
+         y="289"
+         width="9"
+         height="65"
+         id="rect52-3" />
+      <path
+         style="fill:#000000"
+         d="m 58,354 v 3 h 8 v -63 h -4 v 60 z"
+         id="path54-63" />
+      <path
+         style="fill:none;stroke:#000000"
+         d="m 53,354 v -65 h 9 v 65 h -9 z"
+         id="path56-1" />
+      <g
+         transform="matrix(0,-1,1,0,-279,403)"
+         id="g58-7">
+        <text
+           style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica"
+           x="62"
+           y="341"
+           font-size="9"
+           font-weight="bold"
+           id="text60-1">FADC250</text>
+      </g>
+      <rect
+         style="fill:none;stroke:#000000"
+         x="65"
+         y="289"
+         width="9"
+         height="65"
+         id="rect62-5" />
+      <path
+         style="fill:#000000"
+         d="m 70,354 v 3 h 7 v -63 h -3 v 60 z"
+         id="path64-8" />
+      <path
+         style="fill:none;stroke:#000000"
+         d="m 65,354 v -65 h 9 v 65 h -9 z"
+         id="path66-0" />
+      <g
+         transform="matrix(0,-1,1,0,-268,414)"
+         id="g68-3">
+        <text
+           style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica"
+           x="73"
+           y="341"
+           font-size="9"
+           font-weight="bold"
+           id="text70-4">FADC250</text>
+      </g>
+      <rect
+         style="fill:none;stroke:#000000"
+         x="77"
+         y="289"
+         width="9"
+         height="65"
+         id="rect72-6" />
+      <path
+         style="fill:#000000"
+         d="m 82,354 v 3 h 7 v -63 h -3 v 60 z"
+         id="path74-6" />
+      <path
+         style="fill:none;stroke:#000000"
+         d="m 77,354 v -65 h 9 v 65 h -9 z"
+         id="path76-8" />
+      <g
+         transform="matrix(0,-1,1,0,-255,427)"
+         id="g78-1">
+        <text
+           style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica"
+           x="86"
+           y="341"
+           font-size="9"
+           font-weight="bold"
+           id="text80-6">FADC250</text>
+      </g>
+      <rect
+         style="fill:none;stroke:#000000"
+         x="89"
+         y="289"
+         width="9"
+         height="65"
+         id="rect82-1" />
+      <path
+         style="fill:#000000"
+         d="m 94,354 v 3 h 7 v -63 h -3 v 60 z"
+         id="path84-7" />
+      <path
+         style="fill:none;stroke:#000000"
+         d="m 89,354 v -65 h 9 v 65 h -9 z"
+         id="path86-9" />
+      <g
+         transform="matrix(0,-1,1,0,-244,438)"
+         id="g88-1">
+        <text
+           style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica"
+           x="97"
+           y="341"
+           font-size="9"
+           font-weight="bold"
+           id="text90-47">FADC250</text>
+      </g>
+      <rect
+         style="fill:none;stroke:#000000"
+         x="101"
+         y="289"
+         width="9"
+         height="65"
+         id="rect92-2" />
+      <path
+         style="fill:#000000"
+         d="m 106,354 v 3 h 7 v -63 h -3 v 60 z"
+         id="path94-7" />
+      <path
+         style="fill:none;stroke:#000000"
+         d="m 101,354 v -65 h 9 v 65 h -9 z"
+         id="path96-9" />
+      <g
+         transform="matrix(0,-1,1,0,-232,450)"
+         id="g98-1">
+        <text
+           style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica"
+           x="109"
+           y="341"
+           font-size="9"
+           font-weight="bold"
+           id="text100-1">FADC250</text>
+      </g>
+      <rect
+         style="fill:none;stroke:#000000"
+         x="112"
+         y="289"
+         width="9"
+         height="65"
+         id="rect102-12" />
+      <path
+         style="fill:#000000"
+         d="m 117,354 v 3 h 8 v -63 h -4 v 60 z"
+         id="path104-4" />
+      <path
+         style="fill:none;stroke:#000000"
+         d="m 112,354 v -65 h 9 v 65 h -9 z"
+         id="path106-4" />
+      <g
+         transform="matrix(0,-1,1,0,-220,462)"
+         id="g108-5">
+        <text
+           style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica"
+           x="121"
+           y="341"
+           font-size="9"
+           font-weight="bold"
+           id="text110-0">FADC250</text>
+      </g>
+      <rect
+         style="fill:none;stroke:#000000"
+         x="124"
+         y="289"
+         width="9"
+         height="65"
+         id="rect112-9" />
+      <path
+         style="fill:#000000"
+         d="m 129,354 v 3 h 7 v -63 h -3 v 60 z"
+         id="path114-8" />
+      <path
+         style="fill:none;stroke:#000000"
+         d="m 124,354 v -65 h 9 v 65 h -9 z"
+         id="path116-0" />
+      <g
+         transform="matrix(0,-1,1,0,-198,464)"
+         id="g118-0">
+        <text
+           style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica"
+           x="133"
+           y="331"
+           font-size="9"
+           font-weight="bold"
+           id="text120-4">CTP</text>
+      </g>
+      <rect
+         style="fill:none;stroke:#000000"
+         x="136"
+         y="289"
+         width="9"
+         height="65"
+         id="rect122-0" />
+      <path
+         style="fill:#000000"
+         d="m 141,354 v 3 h 7 v -63 h -3 v 60 z"
+         id="path124-2" />
+      <path
+         style="fill:none;stroke:#000000"
+         d="m 136,354 v -65 h 9 v 65 h -9 z"
+         id="path126-7" />
+      <g
+         transform="matrix(0,-1,1,0,-183,471)"
+         id="g128-4">
+        <text
+           style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica"
+           x="144"
+           y="327"
+           font-size="9"
+           font-weight="bold"
+           id="text130-9">SD</text>
+      </g>
+      <rect
+         style="fill:none;stroke:#000000"
+         x="148"
+         y="289"
+         width="9"
+         height="65"
+         id="rect132-5" />
+      <path
+         style="fill:#000000"
+         d="m 153,354 v 3 h 7 v -63 h -3 v 60 z"
+         id="path134-2" />
+      <path
+         style="fill:none;stroke:#000000"
+         d="m 148,354 v -65 h 9 v 65 h -9 z"
+         id="path136-2" />
+      <g
+         transform="matrix(0,-1,1,0,-185,497)"
+         id="g138-1">
+        <text
+           style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica"
+           x="156"
+           y="341"
+           font-size="9"
+           font-weight="bold"
+           id="text140-5">FADC250</text>
+      </g>
+      <rect
+         style="fill:none;stroke:#000000"
+         x="160"
+         y="289"
+         width="9"
+         height="65"
+         id="rect142-1" />
+      <path
+         style="fill:#000000"
+         d="m 165,354 v 3 h 7 v -63 h -3 v 60 z"
+         id="path144-3" />
+      <path
+         style="fill:none;stroke:#000000"
+         d="m 160,354 v -65 h 9 v 65 h -9 z"
+         id="path146-7" />
+      <g
+         transform="matrix(0,-1,1,0,-173,509)"
+         id="g148-6">
+        <text
+           style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica"
+           x="168"
+           y="341"
+           font-size="9"
+           font-weight="bold"
+           id="text150-0">FADC250</text>
+      </g>
+      <rect
+         style="fill:none;stroke:#000000"
+         x="171"
+         y="289"
+         width="9"
+         height="65"
+         id="rect152-1" />
+      <path
+         style="fill:#000000"
+         d="m 176,354 v 3 h 8 v -63 h -4 v 60 z"
+         id="path154-5" />
+      <path
+         style="fill:none;stroke:#000000"
+         d="m 171,354 v -65 h 9 v 65 h -9 z"
+         id="path156-0" />
+      <g
+         transform="matrix(0,-1,1,0,-161,521)"
+         id="g158-3">
+        <text
+           style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica"
+           x="180"
+           y="341"
+           font-size="9"
+           font-weight="bold"
+           id="text160-8">FADC250</text>
+      </g>
+      <rect
+         style="fill:none;stroke:#000000"
+         x="183"
+         y="289"
+         width="9"
+         height="65"
+         id="rect162-1" />
+      <path
+         style="fill:#000000"
+         d="m 188,354 v 3 h 8 v -63 h -4 v 60 z"
+         id="path164-7" />
+      <path
+         style="fill:none;stroke:#000000"
+         d="m 183,354 v -65 h 9 v 65 h -9 z"
+         id="path166-2" />
+      <g
+         transform="matrix(0,-1,1,0,-150,532)"
+         id="g168-7">
+        <text
+           style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica"
+           x="191"
+           y="341"
+           font-size="9"
+           font-weight="bold"
+           id="text170-5">FADC250</text>
+      </g>
+      <rect
+         style="fill:none;stroke:#000000"
+         x="195"
+         y="289"
+         width="9"
+         height="65"
+         id="rect172-5" />
+      <path
+         style="fill:#000000"
+         d="m 200,354 v 3 h 7 v -63 h -3 v 60 z"
+         id="path174-8" />
+      <path
+         style="fill:none;stroke:#000000"
+         d="m 195,354 v -65 h 9 v 65 h -9 z"
+         id="path176-3" />
+      <g
+         transform="matrix(0,-1,1,0,-137,545)"
+         id="g178-5">
+        <text
+           style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica"
+           x="204"
+           y="341"
+           font-size="9"
+           font-weight="bold"
+           id="text180-9">FADC250</text>
+      </g>
+      <rect
+         style="fill:none;stroke:#000000"
+         x="207"
+         y="289"
+         width="9"
+         height="65"
+         id="rect182-9" />
+      <path
+         style="fill:#000000"
+         d="m 212,354 v 3 h 7 v -63 h -3 v 60 z"
+         id="path184-5" />
+      <path
+         style="fill:none;stroke:#000000"
+         d="m 207,354 v -65 h 9 v 65 h -9 z"
+         id="path186-3" />
+      <g
+         transform="matrix(0,-1,1,0,-126,556)"
+         id="g188-69">
+        <text
+           style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica"
+           x="215"
+           y="341"
+           font-size="9"
+           font-weight="bold"
+           id="text190-4">FADC250</text>
+      </g>
+      <rect
+         style="fill:none;stroke:#000000"
+         x="219"
+         y="289"
+         width="9"
+         height="65"
+         id="rect192-4" />
+      <path
+         style="fill:#000000"
+         d="m 224,354 v 3 h 7 v -63 h -3 v 60 z"
+         id="path194-4" />
+      <path
+         style="fill:none;stroke:#000000"
+         d="m 219,354 v -65 h 9 v 65 h -9 z"
+         id="path196-6" />
+      <g
+         transform="matrix(0,-1,1,0,-114,568)"
+         id="g198-5">
+        <text
+           style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica"
+           x="227"
+           y="341"
+           font-size="9"
+           font-weight="bold"
+           id="text200-9">FADC250</text>
+      </g>
+      <rect
+         style="fill:none;stroke:#000000"
+         x="231"
+         y="289"
+         width="9"
+         height="65"
+         id="rect202-8" />
+      <path
+         style="fill:#000000"
+         d="m 235,354 v 3 h 8 v -63 h -3 v 60 z"
+         id="path204-0" />
+      <path
+         style="fill:none;stroke:#000000"
+         d="m 231,354 v -65 h 9 v 65 h -9 z"
+         id="path206-8" />
+      <g
+         transform="matrix(0,-1,1,0,-102,580)"
+         id="g208-6">
+        <text
+           style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica"
+           x="239"
+           y="341"
+           font-size="9"
+           font-weight="bold"
+           id="text210-1">FADC250</text>
+      </g>
+      <rect
+         style="fill:none;stroke:#000000"
+         x="242"
+         y="289"
+         width="9"
+         height="65"
+         id="rect212-0" />
+      <path
+         style="fill:#000000"
+         d="m 247,354 v 3 h 8 v -63 h -4 v 60 z"
+         id="path214-1" />
+      <path
+         style="fill:none;stroke:#000000"
+         d="m 242,354 v -65 h 9 v 65 h -9 z"
+         id="path216-3" />
+      <g
+         transform="matrix(0,-1,1,0,-75,577)"
+         id="g218-5">
+        <text
+           style="font-size:9px;font-weight:bold;fill:#000000;font-family:Helvetica"
+           x="251"
+           y="326"
+           font-size="9"
+           font-weight="bold"
+           id="text220-2">TI</text>
+      </g>
+    </g>
+    <g
+       id="g222-6"
+       transform="matrix(0,-1,1,0,-378.05903,293.81575)">
+      <text
+         style="font-size:9px;font-style:italic;fill:#ffffff;font-family:Times"
+         id="text224-2"
+         font-style="italic"
+         font-size="9"
+         y="386"
+         x="0">VME CPU</text>
+    </g>
+    <g
+       id="g226-4"
+       transform="matrix(0,-1,1,0,-378.05903,293.81575)">
+      <text
+         style="font-size:9px;font-style:italic;fill:#ffffff;font-family:Times"
+         id="text228-6"
+         font-style="italic"
+         font-size="9"
+         y="386"
+         x="0">CTP</text>
+    </g>
+    <g
+       id="g230-7"
+       transform="matrix(0,-1,1,0,-378.05903,293.81575)">
+      <text
+         style="font-size:9px;font-style:italic;fill:#ffffff;font-family:Times"
+         id="text232-9"
+         font-style="italic"
+         font-size="9"
+         y="386"
+         x="0">SD</text>
+    </g>
+    <g
+       id="g234-4"
+       transform="matrix(0,-1,1,0,-378.05903,293.81575)">
+      <text
+         style="font-size:9px;font-style:italic;fill:#ffffff;font-family:Times"
+         id="text236-3"
+         font-style="italic"
+         font-size="9"
+         y="386"
+         x="0">TI</text>
+    </g>
+    <g
+       id="g448-4"
+       transform="matrix(0,-1,1,0,-378.05903,293.81575)">
+      <text
+         style="font-size:9px;font-style:italic;fill:#ffffff;font-family:Times"
+         id="text450-5"
+         font-style="italic"
+         font-size="9"
+         y="386"
+         x="0">VME CPU</text>
+    </g>
+    <g
+       id="g452-21"
+       transform="matrix(0,-1,1,0,-378.05903,293.81575)">
+      <text
+         style="font-size:9px;font-style:italic;fill:#ffffff;font-family:Times"
+         id="text454-9"
+         font-style="italic"
+         font-size="9"
+         y="386"
+         x="0">GTP</text>
+    </g>
+    <g
+       id="g456-1"
+       transform="matrix(0,-1,1,0,-378.05903,293.81575)">
+      <text
+         style="font-size:9px;font-style:italic;fill:#ffffff;font-family:Times"
+         id="text458-1"
+         font-style="italic"
+         font-size="9"
+         y="386"
+         x="0">GTP</text>
+    </g>
+    <g
+       id="g460-5"
+       transform="matrix(0,-1,1,0,-378.05903,293.81575)">
+      <text
+         style="font-size:9px;font-style:italic;fill:#ffffff;font-family:Times"
+         id="text462-5"
+         font-style="italic"
+         font-size="9"
+         y="386"
+         x="0">TI</text>
+    </g>
+    <g
+       id="g670-7"
+       transform="matrix(0,-1,1,0,-378.05903,293.81575)">
+      <text
+         style="font-size:9px;font-style:italic;fill:#ffffff;font-family:Times"
+         id="text672-22"
+         font-style="italic"
+         font-size="9"
+         y="386"
+         x="0">VME CPU</text>
+    </g>
+    <g
+       id="g678-6"
+       transform="matrix(0,-1,1,0,-378.05903,293.81575)">
+      <text
+         style="font-size:9px;font-style:italic;fill:#ffffff;font-family:Times"
+         id="text680-2"
+         font-style="italic"
+         font-size="9"
+         y="386"
+         x="0">SD</text>
+    </g>
+    <g
+       id="g682-3"
+       transform="matrix(0,-1,1,0,-378.05903,293.81575)">
+      <text
+         style="font-size:9px;font-style:italic;fill:#ffffff;font-family:Times"
+         id="text684-7"
+         font-style="italic"
+         font-size="9"
+         y="386"
+         x="0">TS</text>
+    </g>
+  </g>
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Send)"
+     d="m 153.10465,215.75034 0,-44.88372 -152.60465,0 0,-136.377454 33.490161,0"
+     id="path6568" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-mid:none;marker-end:url(#Arrow1Send)"
+     d="m 177.61807,255.10991 -0.0416,-93.1979 -45.74709,-0.0221 -126.8205205,0 0.3247424,-118.76923 28.8786871,0"
+     id="path6570"
+     sodipodi:nodetypes="cccccc" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1.08244491;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2.16488975, 1.08244487;stroke-dashoffset:0;marker-end:url(#Arrow1Mend)"
+     d="m 304.46948,247.65543 30.10039,32.5172 1.33714,1.51155"
+     id="path6572"
+     sodipodi:nodetypes="ccc" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+     d="m 216.78541,313.25846 0,-163.34536 69.81959,0 0,-67.871134 -39.61856,0"
+     id="path8346" />
+  <text
+     xml:space="preserve"
+     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Abyssinica SIL;-inkscape-font-specification:Abyssinica SIL"
+     x="318.10501"
+     y="249.93372"
+     id="text9500"
+     sodipodi:linespacing="100%"><tspan
+       sodipodi:role="line"
+       id="tspan9502"
+       x="318.10501"
+       y="249.93372">Up go 128 FADC crates</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+     x="80.718407"
+     y="154.45949"
+     id="text9504"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan9506"
+       x="80.718407"
+       y="154.45949"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Abyssinica SIL;-inkscape-font-specification:Abyssinica SIL">10 Gb/s optical link</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+     x="37.479057"
+     y="8.8417969"
+     id="text9504-7"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan9506-4"
+       x="37.479057"
+       y="8.8417969"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Abyssinica SIL;-inkscape-font-specification:Abyssinica SIL">8 CTP inputs per SSP and up to 16 SSP</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+     x="40.401733"
+     y="138.73868"
+     id="text9504-0"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       x="40.401733"
+       y="138.73868"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Abyssinica SIL;-inkscape-font-specification:Abyssinica SIL"
+       id="tspan10563">32 bit word every 4 ns ( sum or pattern )</tspan><tspan
+       sodipodi:role="line"
+       x="40.401733"
+       y="153.73868"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Abyssinica SIL;-inkscape-font-specification:Abyssinica SIL"
+       id="tspan10559" /><tspan
+       sodipodi:role="line"
+       x="40.401733"
+       y="168.73868"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Abyssinica SIL;-inkscape-font-specification:Abyssinica SIL"
+       id="tspan10561" /></text>
+  <text
+     xml:space="preserve"
+     style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+     x="314.2081"
+     y="142.76877"
+     id="text10545"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       x="314.2081"
+       y="142.76877"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Abyssinica SIL;-inkscape-font-specification:Abyssinica SIL"
+       id="tspan10553">SSP gathers information</tspan><tspan
+       sodipodi:role="line"
+       x="314.2081"
+       y="155.26877"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Abyssinica SIL;-inkscape-font-specification:Abyssinica SIL"
+       id="tspan10557">from up to 8 FADC crates CTP</tspan><tspan
+       sodipodi:role="line"
+       x="314.2081"
+       y="167.76877"
+       id="tspan10549"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Abyssinica SIL;-inkscape-font-specification:Abyssinica SIL">and sends</tspan></text>
+  <path
+     style="fill:none;stroke:#0000e8;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+     d="m 151.51222,33.330626 -0.64949,-21.757732 412.09794,0 0,25.329897"
+     id="path10571" />
+</svg>
