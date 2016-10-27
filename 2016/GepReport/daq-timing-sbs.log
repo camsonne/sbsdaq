@@ -1,0 +1,316 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2016/dev) (preloaded format=pdflatex 2016.8.24)  17 OCT 2016 14:55
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**daq-timing-sbs.tex
+(./daq-timing-sbs.tex
+LaTeX2e <2015/01/01> patch level 2
+Babel <3.9m> and hyphenation patterns for 79 languages loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2014/10/28 v2.10 `tabularx' package (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen105
+\extrarowheight=\dimen106
+\NC@list=\toks15
+\extratabsurround=\skip43
+\backup@length=\skip44
+)
+\TX@col@width=\dimen107
+\TX@old@table=\dimen108
+\TX@old@col=\dimen109
+\TX@target=\dimen110
+\TX@delta=\dimen111
+\TX@cols=\count88
+\TX@ftn=\toks16
+)
+(/usr/share/texlive/texmf-dist/tex/latex/appendix/appendix.sty
+Package: appendix 2009/09/02 v1.2b extra appendix facilities
+\c@@pps=\count89
+\c@@ppsavesec=\count90
+\c@@ppsaveapp=\count91
+)
+(./daq-timing-sbs.aux)
+\openout1 = `daq-timing-sbs.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count92
+\scratchdimen=\dimen112
+\scratchbox=\box26
+\nofMPsegments=\count93
+\nofMParguments=\count94
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count95
+\MPscratchDim=\dimen113
+\MPnumerator=\count96
+\makeMPintoPDFobject=\count97
+\everyMPtoPDFconversion=\toks18
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 12.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 12.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 12.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 29.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 29.
+
+<figs/TS.pdf, id=1, 598.235pt x 845.55902pt>
+File: figs/TS.pdf Graphic file (type pdf)
+ <use figs/TS.pdf>
+Package pdftex.def Info: figs/TS.pdf used on input line 43.
+(pdftex.def)             Requested size: 329.03026pt x 465.0589pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--44
+
+ []
+
+[1
+
+{/usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}] [2]
+[3 <./figs/TS.pdf>] [4] <figs/OldMPD.pdf, id=31, 464.13399pt x 467.34601pt>
+File: figs/OldMPD.pdf Graphic file (type pdf)
+
+<use figs/OldMPD.pdf>
+Package pdftex.def Info: figs/OldMPD.pdf used on input line 74.
+(pdftex.def)             Requested size: 255.27448pt x 257.04109pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
+
+ []
+
+<figs/NewMPD.pdf, id=32, 794.97pt x 614.295pt>
+File: figs/NewMPD.pdf Graphic file (type pdf)
+ <use figs/NewMPD.pdf>
+Package pdftex.def Info: figs/NewMPD.pdf used on input line 87.
+(pdftex.def)             Requested size: 437.23485pt x 337.86328pt.
+
+Overfull \hbox (107.23485pt too wide) in paragraph at lines 87--88
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
+
+ []
+
+[5 <./figs/OldMPD.pdf>] <figs/NewMPDDetailed.pdf, id=46, 614.295pt x 794.97pt>
+File: figs/NewMPDDetailed.pdf Graphic file (type pdf)
+
+<use figs/NewMPDDetailed.pdf>
+Package pdftex.def Info: figs/NewMPDDetailed.pdf used on input line 89.
+(pdftex.def)             Requested size: 337.86328pt x 437.23485pt.
+
+Overfull \hbox (7.86328pt too wide) in paragraph at lines 89--90
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
+
+ []
+
+[6 <./figs/NewMPD.pdf>]
+<figs/MPD4_UserManual.pdf, id=59, 437.635pt x 392.667pt>
+File: figs/MPD4_UserManual.pdf Graphic file (type pdf)
+
+<use figs/MPD4_UserManual.pdf>
+Package pdftex.def Info: figs/MPD4_UserManual.pdf used on input line 91.
+(pdftex.def)             Requested size: 240.69998pt x 215.96751pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
+
+ []
+
+[7 <./figs/NewMPDDetailed.pdf>]
+Missing character: There is no Â in font cmr10!
+Missing character: There is no µ in font cmr10!
+
+Overfull \hbox (15.08179pt too wide) in paragraph at lines 100--114
+\OT1/cmr/m/n/10 BUS Slot 500 psec LSB Pro-grammable Full Scale up to 32 sec Up 
+to 16 Hits/Channel
+ []
+
+[8 <./figs/MPD4_UserManual.pdf>]
+Overfull \hbox (5.41168pt too wide) in paragraph at lines 116--117
+\OT1/cmr/m/n/10 1881M FAST CON-VERT-ING, 13-BIT CHARGE ANALOG-TO-DIGITAL CON-
+ []
+
+Missing character: There is no Â in font cmr10!
+Missing character: There is no µ in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no µ in font cmr10!
+[9]
+Overfull \hbox (60.06186pt too wide) in paragraph at lines 177--195
+[][] 
+ []
+
+<cfpbox.pdf, id=102, 528.97626pt x 739.76375pt>
+File: cfpbox.pdf Graphic file (type pdf)
+ <use cfpbox.pdf>
+Package pdftex.def Info: cfpbox.pdf used on input line 203.
+(pdftex.def)             Requested size: 103.50105pt x 144.74437pt.
+
+<cfpc.pdf, id=103, 528.97626pt x 739.76375pt>
+File: cfpc.pdf Graphic file (type pdf)
+ <use cfpc.pdf>
+Package pdftex.def Info: cfpc.pdf used on input line 204.
+(pdftex.def)             Requested size: 103.50105pt x 144.74437pt.
+
+<cgr32.pdf, id=104, 528.97626pt x 739.76375pt>
+File: cgr32.pdf Graphic file (type pdf)
+ <use cgr32.pdf>
+Package pdftex.def Info: cgr32.pdf used on input line 205.
+(pdftex.def)             Requested size: 103.50105pt x 144.74437pt.
+
+<figs/BBETrig3D.pdf, id=105, 794.97pt x 614.295pt>
+File: figs/BBETrig3D.pdf Graphic file (type pdf)
+ <use figs/BBETrig3D.pdf>
+Package pdftex.def Info: figs/BBETrig3D.pdf used on input line 217.
+(pdftex.def)             Requested size: 103.50105pt x 79.97363pt.
+
+Overfull \hbox (60.06186pt too wide) in paragraph at lines 220--238
+[][] 
+ []
+
+[10 <./cfpbox.pdf> <./cfpc.pdf> <./cgr32.pdf>] [11 <./figs/BBETrig3D.pdf>]
+[12] (./daq-timing-sbs.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 1732 strings out of 493096
+ 24706 string characters out of 6137367
+ 90962 words of memory out of 5000000
+ 5212 multiletter control sequences out of 15000+600000
+ 7895 words of font info for 28 fonts, out of 8000000 for 9000
+ 1137 hyphenation exceptions out of 8191
+ 38i,8n,23p,1067b,220s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on daq-timing-sbs.pdf (12 pages, 2881817 bytes).
+PDF statistics:
+ 317 PDF objects out of 1000 (max. 8388607)
+ 180 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+
